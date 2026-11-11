@@ -1,0 +1,138 @@
+[
+  {
+    "rotulo": "milho_cercosporiose",
+    "classePlantVillage": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "cultura": "MILHO",
+    "nome": "Cercosporiose",
+    "nomeCientifico": "Cercospora zeae-maydis",
+    "saudavel": false
+  },
+  {
+    "rotulo": "milho_ferrugem_comum",
+    "classePlantVillage": "Corn_(maize)___Common_rust_",
+    "cultura": "MILHO",
+    "nome": "Ferrugem-comum",
+    "nomeCientifico": "Puccinia sorghi",
+    "saudavel": false
+  },
+  {
+    "rotulo": "milho_helmintosporiose",
+    "classePlantVillage": "Corn_(maize)___Northern_Leaf_Blight",
+    "cultura": "MILHO",
+    "nome": "Helmintosporiose",
+    "nomeCientifico": "Exserohilum turcicum",
+    "saudavel": false
+  },
+  {
+    "rotulo": "milho_saudavel",
+    "classePlantVillage": "Corn_(maize)___healthy",
+    "cultura": "MILHO",
+    "nome": "Folha saudável",
+    "nomeCientifico": null,
+    "saudavel": true
+  },
+  {
+    "rotulo": "batata_pinta_preta",
+    "classePlantVillage": "Potato___Early_blight",
+    "cultura": "BATATA",
+    "nome": "Pinta-preta",
+    "nomeCientifico": "Alternaria spp.",
+    "saudavel": false
+  },
+  {
+    "rotulo": "batata_requeima",
+    "classePlantVillage": "Potato___Late_blight",
+    "cultura": "BATATA",
+    "nome": "Requeima",
+    "nomeCientifico": "Phytophthora infestans",
+    "saudavel": false
+  },
+  {
+    "rotulo": "batata_saudavel",
+    "classePlantVillage": "Potato___healthy",
+    "cultura": "BATATA",
+    "nome": "Folha saudável",
+    "nomeCientifico": null,
+    "saudavel": true
+  },
+  {
+    "rotulo": "tomate_mancha_bacteriana",
+    "classePlantVillage": "Tomato___Bacterial_spot",
+    "cultura": "TOMATE",
+    "nome": "Mancha-bacteriana",
+    "nomeCientifico": "Xanthomonas spp. (X. vesicatoria, X. euvesicatoria, X. hortorum pv. gardneri)",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_pinta_preta",
+    "classePlantVillage": "Tomato___Early_blight",
+    "cultura": "TOMATE",
+    "nome": "Pinta-preta",
+    "nomeCientifico": "Alternaria solani",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_requeima",
+    "classePlantVillage": "Tomato___Late_blight",
+    "cultura": "TOMATE",
+    "nome": "Requeima",
+    "nomeCientifico": "Phytophthora infestans",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_mofo_das_folhas",
+    "classePlantVillage": "Tomato___Leaf_Mold",
+    "cultura": "TOMATE",
+    "nome": "Mancha-de-cladospório (mofo-das-folhas)",
+    "nomeCientifico": "Passalora fulva (sin. Fulvia fulva, Cladosporium fulvum)",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_septoriose",
+    "classePlantVillage": "Tomato___Septoria_leaf_spot",
+    "cultura": "TOMATE",
+    "nome": "Septoriose",
+    "nomeCientifico": "Septoria lycopersici",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_acaro_rajado",
+    "classePlantVillage": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "cultura": "TOMATE",
+    "nome": "Ácaro-rajado",
+    "nomeCientifico": "Tetranychus urticae",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_mancha_alvo",
+    "classePlantVillage": "Tomato___Target_Spot",
+    "cultura": "TOMATE",
+    "nome": "Mancha-alvo",
+    "nomeCientifico": "Corynespora cassiicola",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_virus_enrolamento_amarelo",
+    "classePlantVillage": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "cultura": "TOMATE",
+    "nome": "Begomovirose (enrolamento-amarelo)",
+    "nomeCientifico": "Tomato yellow leaf curl virus (TYLCV)",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_virus_mosaico",
+    "classePlantVillage": "Tomato___Tomato_mosaic_virus",
+    "cultura": "TOMATE",
+    "nome": "Mosaico-do-tomateiro",
+    "nomeCientifico": "Tomato mosaic virus (ToMV)",
+    "saudavel": false
+  },
+  {
+    "rotulo": "tomate_saudavel",
+    "classePlantVillage": "Tomato___healthy",
+    "cultura": "TOMATE",
+    "nome": "Folha saudável",
+    "nomeCientifico": null,
+    "saudavel": true
+  }
+]
