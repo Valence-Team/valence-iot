@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Protocol
 
 from PIL.Image import Image
@@ -12,9 +12,16 @@ class VereditoPortao:
     cultura_detectada: Cultura | None
 
 
+@dataclass(frozen=True)
+class ResultadoClassificacao:
+    motivo: MotivoRecusa | None
+    cultura_detectada: Cultura | None
+    classes: list[ClassePrevista] = field(default_factory=list)
+
+
 class Portao(Protocol):
     def verificar(self, imagem: Image, cultura: Cultura) -> VereditoPortao: ...
 
 
 class Classificador(Protocol):
-    def classificar(self, imagem: Image, cultura: Cultura) -> list[ClassePrevista]: ...
+    def classificar(self, imagem: Image, cultura: Cultura) -> ResultadoClassificacao: ...
