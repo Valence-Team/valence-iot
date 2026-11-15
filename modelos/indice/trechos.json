@@ -1,0 +1,1582 @@
+{
+  "modelo": "intfloat/multilingual-e5-small",
+  "dimensao": 384,
+  "prefixoE5": true,
+  "geradoEm": "2026-11-15T16:07:12Z",
+  "quantidade": 117,
+  "trechos": [
+    {
+      "texto": "Canela-preta e podridão-mole da batata. Sintomas: O primeiro sinal da canela-preta é a murcha e o amarelecimento da haste, que evolui até a murcha total e a morte da planta. Na base da haste, a partir do solo, aparece uma podridão mole e escura que sobe pelo caule, o que dá nome à doença. Com solo muito úmido e quente, a batata-semente e os brotos podem apodrecer antes de nascer, deixando falhas na linha. Os tubérculos também podem apodrecer, ficando amolecidos, antes ou depois da colheita.",
+      "titulo": "Canela-preta e podridão-mole da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Sintomas",
+      "ficha": "batata-canela-preta"
+    },
+    {
+      "texto": "Canela-preta e podridão-mole da batata. Condições favoráveis: A doença é mais frequente e causa mais perdas nos plantios de outubro a março, quando calor e umidade alta acontecem juntos. Solos encharcados, compactados e argilosos favorecem as bactérias. Adubação em excesso, que deixa a folhagem muito densa e úmida e as ramas quebradiças, também aumenta o risco. Ventos fortes, granizo e máquinas que ferem as hastes abrem portas de entrada.",
+      "titulo": "Canela-preta e podridão-mole da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "batata-canela-preta"
+    },
+    {
+      "texto": "Canela-preta e podridão-mole da batata. Disseminação: As bactérias são muito comuns nos solos brasileiros e atacam também tomate, pimentão, repolho, brócolis, couve-flor, cenoura e mandioquinha-salsa. Elas entram na planta por ferimentos mecânicos ou causados por insetos. A batata-semente contaminada e a água de irrigação podem levar as bactérias para áreas novas. Nos tubérculos, a podridão começa por ferimentos, gemas ou pequenos poros da casca.",
+      "titulo": "Canela-preta e podridão-mole da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Disseminação",
+      "ficha": "batata-canela-preta"
+    },
+    {
+      "texto": "Canela-preta e podridão-mole da batata. Manejo cultural e preventivo: Não há medida, nem química, que controle sozinha a doença; a prevenção é o caminho. Evite plantar em época quente e úmida e em solos encharcados, compactados ou argilosos. Plante batata-semente inspecionada e certificada. Faça rotação com gramíneas como milho, arroz ou pastagem. Não exagere na adubação. Evite ferir as hastes com máquinas, principalmente em período chuvoso. Confira se a água de irrigação é limpa e, nos primeiros sintomas, aumente o intervalo entre as irrigações sem prejudicar as plantas.",
+      "titulo": "Canela-preta e podridão-mole da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "batata-canela-preta"
+    },
+    {
+      "texto": "Canela-preta e podridão-mole da batata. Quando chamar o agrônomo: Procure o agrônomo ao ver plantas murchas com a base da haste escura e mole, falhas de nascimento na linha ou tubérculos apodrecendo. Ele diferencia a canela-preta da murcha-bacteriana e de outros problemas, ajuda a identificar a origem da contaminação, como semente ou água, e orienta o manejo da área para as próximas safras.",
+      "titulo": "Canela-preta e podridão-mole da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "batata-canela-preta"
+    },
+    {
+      "texto": "Monitoramento da lavoura de batata e folha saudável. Sintomas: Uma folha de batata saudável é verde por igual, sem manchas escuras com anéis, sem manchas pardas com mofo branco e sem murcha. O resultado de folha saudável vale só para a parte fotografada; outras plantas, as hastes e os tubérculos podem ter problemas que não aparecem na foto. Por isso, mesmo com a folha saudável, a lavoura precisa ser vistoriada por inteiro, olhando também a base das hastes e as falhas de nascimento.",
+      "titulo": "Monitoramento da lavoura de batata e folha saudável",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_saudavel"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Sintomas",
+      "ficha": "batata-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de batata e folha saudável. Condições favoráveis: As principais doenças da batata no Sul do Brasil são a requeima, a pinta-preta, a sarna comum, a murcha-bacteriana, a canela-preta com a podridão-mole, os nematoides e o vírus Y. Tempo frio e úmido favorece a requeima; calor com umidade favorece a pinta-preta e as doenças causadas por bactérias. Granizo e vento forte ferem as plantas e abrem portas de entrada para doenças.",
+      "titulo": "Monitoramento da lavoura de batata e folha saudável",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_saudavel"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "batata-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de batata e folha saudável. Disseminação: Muitas doenças chegam pela batata-semente, pelo solo, pela água de irrigação e por implementos e caixas de colheita mal lavados. Outras vêm pelo vento a partir de lavouras vizinhas de batata e tomate. Plantas de batata que nascem de tubérculos esquecidos no solo (soqueira) mantêm doenças de uma safra para outra. Por isso o que acontece nas áreas próximas também importa.",
+      "titulo": "Monitoramento da lavoura de batata e folha saudável",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_saudavel"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Disseminação",
+      "ficha": "batata-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de batata e folha saudável. Manejo cultural e preventivo: Faça o monitoramento frequente da lavoura, principalmente depois de chuva com vento, granizo e períodos de alta umidade com temperatura amena. Plante batata-semente sadia e certificada, faça rotação de culturas, adube conforme a análise de solo e evite solos encharcados. Elimine a soqueira e as plantas hospedeiras. Lave e desinfete implementos e caixas de colheita que tiveram contato com solo suspeito.",
+      "titulo": "Monitoramento da lavoura de batata e folha saudável",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_saudavel"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "batata-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de batata e folha saudável. Quando chamar o agrônomo: Mesmo com a folha saudável, procure o agrônomo se notar plantas murchando, hastes escuras na base, falhas de nascimento ou manchas em outras partes da lavoura. Em caso de suspeita de nematoides ou de bactérias, ele orienta o envio de amostras para laboratório. Qualquer produto de proteção, inclusive os permitidos no cultivo orgânico, deve ser usado com orientação técnica.",
+      "titulo": "Monitoramento da lavoura de batata e folha saudável",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_saudavel"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "batata-monitoramento"
+    },
+    {
+      "texto": "Pinta-preta da batata. Sintomas: A pinta-preta é a principal doença causada por fungo na parte aérea da batata. Os primeiros sinais são manchas pequenas e escuras nas folhas de baixo, as mais velhas. As manchas crescem, ficam redondas, escuras e com anéis concêntricos. Com muitas manchas, elas se juntam, a folha queima e cai. Hastes e pecíolos mostram lesões parecidas. Nos tubérculos podem surgir manchas redondas, escuras e afundadas, mas isso é raro. As perdas variam de 5% a 50% da produção.",
+      "titulo": "Pinta-preta da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_pinta_preta"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Sintomas",
+      "ficha": "batata-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta da batata. Condições favoráveis: A doença é favorecida por temperaturas acima de 25 °C, umidade do ar entre 90% e 100% e períodos longos de chuva. A alternância entre dias secos e úmidos aumenta a produção de esporos do fungo. Plantas estressadas por adubação desequilibrada ou falta de água ficam mais sensíveis. Lavouras em baixadas e perto de outras plantas da família da batata correm mais risco.",
+      "titulo": "Pinta-preta da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_pinta_preta"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "batata-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta da batata. Disseminação: O fungo sobrevive nos restos de cultura que ficam na área quando não há batata plantada. Dali e de lavouras vizinhas de batata e tomate, os esporos do fungo chegam às folhas novas. Irrigação em excesso, que mantém a lavoura úmida, ajuda a doença a se espalhar dentro da área. Plantar batata seguidamente no mesmo lugar acumula o fungo.",
+      "titulo": "Pinta-preta da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_pinta_preta"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Disseminação",
+      "ficha": "batata-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta da batata. Manejo cultural e preventivo: Prefira cultivares com resistência parcial à pinta-preta. Faça rotação de culturas por pelo menos dois anos, de preferência com gramíneas ou plantas de outra família. Maneje a irrigação para não deixar a lavoura úmida demais. Adube de forma equilibrada, conforme a análise de solo, para evitar estresse nas plantas. Destrua ou incorpore os restos de cultura. Evite plantar perto de outras lavouras da família da batata e em baixadas úmidas.",
+      "titulo": "Pinta-preta da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_pinta_preta"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "batata-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta da batata. Quando chamar o agrônomo: Procure o agrônomo quando as manchas com anéis estiverem subindo das folhas de baixo para o meio da planta, quando muitas folhas estiverem caindo ou se houver dúvida entre pinta-preta e requeima, que exigem cuidados diferentes. Ele confirma o diagnóstico e indica a proteção adequada para o seu sistema de cultivo, sempre com receita agronômica.",
+      "titulo": "Pinta-preta da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_pinta_preta"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "batata-pinta-preta"
+    },
+    {
+      "texto": "Requeima da batata. Sintomas: A requeima, também chamada de mela ou chocolate, ataca folhas, hastes e tubérculos em qualquer fase da cultura. Nos folíolos e nas hastes aparecem manchas pardo-esverdeadas, de cor de oliva, e nas bordas delas forma-se um mofo branco, que é o próprio patógeno crescendo sobre a lesão. Em ataques fortes, os tubérculos ficam com uma podridão seca de cor marrom-avermelhada por fora e por dentro. A doença pode destruir uma lavoura inteira em até 72 horas e causar perda total.",
+      "titulo": "Requeima da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_requeima"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Sintomas",
+      "ficha": "batata-requeima"
+    },
+    {
+      "texto": "Requeima da batata. Condições favoráveis: O patógeno é favorecido por longos períodos de orvalho ou chuva, com umidade acima de 90% e temperaturas entre 12 e 20 °C. Como ele tem grande variação genética, adaptou-se a climas diferentes e ocorre em todas as regiões produtoras de batata do Brasil. Lavouras em baixadas, mais expostas à neblina, e plantios em épocas frias e úmidas correm mais risco.",
+      "titulo": "Requeima da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_requeima"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "batata-requeima"
+    },
+    {
+      "texto": "Requeima da batata. Disseminação: Entre uma safra e outra o patógeno sobrevive em outras plantas da família da batata, como tomate, pimentão, berinjela, joá-de-capote e maria-pretinha, e em plantas espontâneas como figueira-do-inferno, picão-branco, corda-de-viola e maravilha. Dessas fontes os esporos chegam à lavoura com o vento e infectam as folhas molhadas. Lavouras de tomate e de batata doentes por perto aumentam muito o risco.",
+      "titulo": "Requeima da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_requeima"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Disseminação",
+      "ficha": "batata-requeima"
+    },
+    {
+      "texto": "Requeima da batata. Manejo cultural e preventivo: Plante cultivares com boa resistência à requeima em campo, lembrando que em clima muito favorável só a cultivar não basta. Evite baixadas com neblina e escolha épocas de plantio menos favoráveis à doença. Elimine as plantas hospedeiras ao redor da lavoura e as batatas que rebrotam de tubérculos esquecidos no solo. Mantenha o monitoramento frequente, principalmente depois de dias frios e úmidos, de granizo ou de vento forte.",
+      "titulo": "Requeima da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_requeima"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "batata-requeima"
+    },
+    {
+      "texto": "Requeima da batata. Quando chamar o agrônomo: A requeima avança em horas. Procure o agrônomo imediatamente ao ver manchas escuras com mofo branco nas bordas, principalmente em tempo frio e úmido. Ele confirma o diagnóstico e indica a medida de proteção adequada para o seu sistema de cultivo, convencional ou orgânico, sempre com receita agronômica. Avise os vizinhos que plantam batata ou tomate.",
+      "titulo": "Requeima da batata",
+      "cultura": [
+        "BATATA"
+      ],
+      "rotulos": [
+        "batata_requeima"
+      ],
+      "fonte": "Embrapa Clima Temperado. Cultivo orgânico de batata na região Sul (Sistemas de Produção 27), capítulo Doenças e medidas de controle, 2024",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1172842/1/Doencas-e-medidas-de-controle.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "batata-requeima"
+    },
+    {
+      "texto": "Cercosporiose do milho. Sintomas: A cercosporiose aparece nas folhas como manchas cinzentas, de forma retangular ou irregular, que crescem no sentido das nervuras, como se ficassem presas entre elas. Com o tempo as manchas se juntam e a folha seca por áreas inteiras. Quando o ataque é muito forte, a planta perde folhagem, enfraquece e pode tombar antes da colheita. Em cultivares sensíveis a perda de produção pode passar de 80%, por isso a mancha cinza alongada e paralela às nervuras merece atenção logo que aparece.",
+      "titulo": "Cercosporiose do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_cercosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Sintomas",
+      "ficha": "milho-cercosporiose"
+    },
+    {
+      "texto": "Cercosporiose do milho. Condições favoráveis: A doença ficou conhecida no Brasil a partir de 2000, no sudoeste de Goiás, e hoje está presente em quase todo o milho do Centro-Sul. Ela ganha força quando o milho é plantado depois de milho na mesma área, porque a palha da lavoura anterior guarda o fungo. Adubação desequilibrada, principalmente com pouco potássio em relação ao nitrogênio, deixa a planta mais sensível. Lavouras com uma única cultivar em grandes áreas também facilitam a doença.",
+      "titulo": "Cercosporiose do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_cercosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "milho-cercosporiose"
+    },
+    {
+      "texto": "Cercosporiose do milho. Disseminação: O fungo sobrevive nos restos de milho que ficam no campo depois da colheita. Os esporos produzidos nessa palha são levados pelo vento e pelos respingos de chuva para as folhas da nova lavoura. Por isso a palha doente é ao mesmo tempo fonte de doença para a própria área e para as áreas vizinhas. Como o milho é o único hospedeiro desse fungo, a presença contínua de milho na região mantém o problema de uma safra para outra.",
+      "titulo": "Cercosporiose do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_cercosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Disseminação",
+      "ficha": "milho-cercosporiose"
+    },
+    {
+      "texto": "Cercosporiose do milho. Manejo cultural e preventivo: A medida mais eficaz é plantar cultivares com resistência à cercosporiose. Evite plantar milho logo depois de milho na mesma área e faça rotação com culturas que não são hospedeiras, como soja, sorgo, girassol ou algodão. Onde a doença foi forte, não deixe a palha de milho acumulada sem manejo. Plantar cultivares diferentes na mesma propriedade e em cada época ajuda a não depender de uma só. Siga a adubação indicada pela análise de solo. Essas medidas funcionam melhor quando os vizinhos também adotam.",
+      "titulo": "Cercosporiose do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_cercosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "milho-cercosporiose"
+    },
+    {
+      "texto": "Cercosporiose do milho. Quando chamar o agrônomo: Procure o agrônomo ou o técnico da assistência rural quando as manchas cinzentas aparecerem nas folhas do meio para cima antes do pendoamento, quando muitas plantas da lavoura tiverem lesões ou quando houver dúvida entre cercosporiose e outras manchas foliares. Só o profissional pode confirmar o diagnóstico e decidir se alguma medida de controle além das práticas culturais é necessária. Não aplique nenhum produto por conta própria; a escolha e o uso dependem de receita agronômica.",
+      "titulo": "Cercosporiose do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_cercosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "milho-cercosporiose"
+    },
+    {
+      "texto": "Cigarrinha-do-milho e enfezamentos. Sintomas: Os enfezamentos aparecem na fase de enchimento de grãos, embora a infecção tenha acontecido quando a planta era pequena. No enfezamento-pálido surgem listras esbranquiçadas que começam na base da folha e sobem em direção à ponta. No enfezamento-vermelho as folhas ficam avermelhadas, principalmente nas pontas e margens. Nos dois casos a planta fica baixa, com entrenós curtos, pode soltar várias espigas pequenas ou brotos na base e produzir poucos grãos, pequenos e frouxos. A planta pode secar antes do tempo.",
+      "titulo": "Cigarrinha-do-milho e enfezamentos",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo do risco de enfezamentos e da cigarrinha no milho (Comunicado Técnico 226), 2018",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1091746/1/ct226.pdf",
+      "secao": "Sintomas",
+      "ficha": "milho-cigarrinha-enfezamentos"
+    },
+    {
+      "texto": "Cigarrinha-do-milho e enfezamentos. Condições favoráveis: Os enfezamentos são causados por microrganismos chamados molicutes, levados de planta a planta pela cigarrinha-do-milho, um inseto pequeno, de cerca de 4 milímetros, cor de palha, com duas manchas escuras na cabeça, que fica no cartucho. O problema cresce com calor, principalmente noites acima de 17 °C e dias acima de 27 °C, com milho plantado em várias épocas na mesma região e com muito milho tiguera nas estradas, no meio da soja e em áreas paradas.",
+      "titulo": "Cigarrinha-do-milho e enfezamentos",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo do risco de enfezamentos e da cigarrinha no milho (Comunicado Técnico 226), 2018",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1091746/1/ct226.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "milho-cigarrinha-enfezamentos"
+    },
+    {
+      "texto": "Cigarrinha-do-milho e enfezamentos. Disseminação: A cigarrinha adquire os molicutes ao sugar plantas doentes e, depois de três a quatro semanas, passa a transmiti-los pelo resto da vida, bastando cerca de uma hora de alimentação numa plântula. Ela prefere plântulas novas e migra das lavouras em colheita para as recém-semeadas. No Brasil só o milho hospeda esse inseto, por isso o milho tiguera e os plantios em sequência garantem a sobrevivência da cigarrinha e da doença entre safras.",
+      "titulo": "Cigarrinha-do-milho e enfezamentos",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo do risco de enfezamentos e da cigarrinha no milho (Comunicado Técnico 226), 2018",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1091746/1/ct226.pdf",
+      "secao": "Disseminação",
+      "ficha": "milho-cigarrinha-enfezamentos"
+    },
+    {
+      "texto": "Cigarrinha-do-milho e enfezamentos. Manejo cultural e preventivo: Não existe cura para a planta infectada; o manejo é preventivo e funciona melhor quando feito por toda a região. Colha bem para não deixar grãos e espigas no campo e elimine o milho tiguera da área e dos arredores pelo menos duas semanas antes de semear. Não semeie ao lado de lavouras adultas com plantas doentes. Combine com os vizinhos uma janela curta de semeadura. Use cultivares com resistência aos enfezamentos e alterne cultivares entre plantios. Uso excessivo de inseticida mata os inimigos naturais da cigarrinha.",
+      "titulo": "Cigarrinha-do-milho e enfezamentos",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo do risco de enfezamentos e da cigarrinha no milho (Comunicado Técnico 226), 2018",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1091746/1/ct226.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "milho-cigarrinha-enfezamentos"
+    },
+    {
+      "texto": "Cigarrinha-do-milho e enfezamentos. Quando chamar o agrônomo: Chame o agrônomo assim que notar muitas cigarrinhas no cartucho das plântulas, plantas avermelhadas ou com listras brancas, ou espigas pequenas e mal granadas em várias plantas. Ele ajuda a confirmar o problema, a planejar a próxima safra e a decidir sobre tratamento de sementes ou outras medidas, que exigem receita agronômica. Em áreas com enfezamento alto e contínuo, a orientação pode ser interromper o plantio de milho por um período.",
+      "titulo": "Cigarrinha-do-milho e enfezamentos",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo do risco de enfezamentos e da cigarrinha no milho (Comunicado Técnico 226), 2018",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1091746/1/ct226.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "milho-cigarrinha-enfezamentos"
+    },
+    {
+      "texto": "Ferrugem-comum do milho. Sintomas: A ferrugem-comum forma pequenas pústulas, que são bolinhas salientes de cor marrom-ferrugem, espalhadas pelas folhas. Diferente da ferrugem-polissora, as pústulas da ferrugem-comum aparecem nas duas faces da folha, em cima e embaixo, têm formato redondo a alongado e se rompem logo, soltando um pó cor de ferrugem que suja os dedos quando se passa a mão. As folhas são a parte mais atingida, mas as pústulas podem surgir em outras partes verdes da planta.",
+      "titulo": "Ferrugem-comum do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_ferrugem_comum"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Sintomas",
+      "ficha": "milho-ferrugem-comum"
+    },
+    {
+      "texto": "Ferrugem-comum do milho. Condições favoráveis: A doença gosta de tempo fresco e muito úmido. Temperaturas entre 16 e 23 °C com umidade do ar perto de 100%, como nas manhãs com orvalho e neblina, são as mais favoráveis. Por isso ela costuma ser mais severa nos estados do Sul e em regiões altas ou em plantios feitos em épocas mais frias. Em boa parte do Brasil a severidade é moderada, mas em anos frios e chuvosos as perdas podem aumentar.",
+      "titulo": "Ferrugem-comum do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_ferrugem_comum"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "milho-ferrugem-comum"
+    },
+    {
+      "texto": "Ferrugem-comum do milho. Disseminação: Os esporos que saem das pústulas são muito leves e viajam com o vento por longas distâncias, de uma lavoura para outra. Como as pústulas se rompem logo, cada folha doente libera esporos por vários dias. Em clima fresco e úmido a doença pode se espalhar depressa pela área, começando em plantas isoladas e logo aparecendo em muitas plantas da mesma lavoura e das lavouras vizinhas.",
+      "titulo": "Ferrugem-comum do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_ferrugem_comum"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Disseminação",
+      "ficha": "milho-ferrugem-comum"
+    },
+    {
+      "texto": "Ferrugem-comum do milho. Manejo cultural e preventivo: A principal forma de manejo é escolher cultivares resistentes à ferrugem-comum, principalmente em regiões frias e úmidas, onde a doença é mais severa. Planeje a época de semeadura para que a fase mais sensível da planta não coincida com o período mais frio e úmido. Mantenha a adubação equilibrada, conforme a análise de solo, e faça vistorias frequentes nas folhas para perceber o início do ataque.",
+      "titulo": "Ferrugem-comum do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_ferrugem_comum"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "milho-ferrugem-comum"
+    },
+    {
+      "texto": "Ferrugem-comum do milho. Quando chamar o agrônomo: Chame o agrônomo quando as pústulas aparecerem em muitas plantas antes do pendoamento ou quando estiverem subindo para as folhas de cima, que são as mais importantes para encher a espiga. Também procure ajuda se houver dúvida entre ferrugem-comum, ferrugem-polissora ou ferrugem-branca, porque o manejo muda. Qualquer decisão sobre controle além das práticas culturais deve ser tomada pelo profissional, com receita agronômica.",
+      "titulo": "Ferrugem-comum do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_ferrugem_comum"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "milho-ferrugem-comum"
+    },
+    {
+      "texto": "Helmintosporiose do milho (mancha-de-turcicum). Sintomas: A helmintosporiose causa manchas compridas, em forma de charuto ou de elipse, de cor cinza ou marrom, que podem medir de 2,5 a 15 centímetros. As primeiras lesões surgem nas folhas de baixo e, com o tempo, a doença sobe para as folhas de cima. Quando muitas manchas se juntam, a folha seca e a planta perde área verde para encher os grãos. Se o ataque forte acontece antes da floração, a perda de produção pode chegar à metade.",
+      "titulo": "Helmintosporiose do milho (mancha-de-turcicum)",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_helmintosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Sintomas",
+      "ficha": "milho-helmintosporiose"
+    },
+    {
+      "texto": "Helmintosporiose do milho (mancha-de-turcicum). Condições favoráveis: A doença é favorecida por temperaturas moderadas, mais ou menos entre 18 e 27 °C, e pela presença de orvalho nas folhas por várias horas. No Brasil ela tem sido mais comum no milho de safrinha, plantado depois da safra de verão, quando as noites são mais frescas e úmidas. Áreas com muita palha de milho doente da safra anterior começam a temporada com mais fungo e tendem a ter ataque mais cedo.",
+      "titulo": "Helmintosporiose do milho (mancha-de-turcicum)",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_helmintosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "milho-helmintosporiose"
+    },
+    {
+      "texto": "Helmintosporiose do milho (mancha-de-turcicum). Disseminação: O fungo sobrevive em folhas e colmos doentes que ficam na lavoura depois da colheita. Dali, os esporos são carregados pelo vento, às vezes a longas distâncias, até as folhas de milho novo. O mesmo fungo ataca sorgo, capim-sudão, capim-massambará e teosinto, que podem manter o inóculo perto da lavoura. Por isso tanto a palha de milho quanto essas plantas próximas devem ser consideradas fontes da doença.",
+      "titulo": "Helmintosporiose do milho (mancha-de-turcicum)",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_helmintosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Disseminação",
+      "ficha": "milho-helmintosporiose"
+    },
+    {
+      "texto": "Helmintosporiose do milho (mancha-de-turcicum). Manejo cultural e preventivo: Plante cultivares com resistência genética à helmintosporiose, que é a medida mais importante. Faça rotação de culturas para não repetir milho sobre a palha doente. Atenção maior com o milho de safrinha em regiões onde a doença já apareceu. Controle sorgo e capins hospedeiros nas bordas da lavoura quando for possível. Visite a lavoura com frequência, olhando primeiro as folhas de baixo, para perceber o começo da doença.",
+      "titulo": "Helmintosporiose do milho (mancha-de-turcicum)",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_helmintosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "milho-helmintosporiose"
+    },
+    {
+      "texto": "Helmintosporiose do milho (mancha-de-turcicum). Quando chamar o agrônomo: Procure o agrônomo quando as manchas compridas estiverem subindo para as folhas acima da espiga antes ou durante a floração, ou quando muitas plantas mostrarem lesões ao mesmo tempo. Ele pode diferenciar a helmintosporiose de outras manchas parecidas, como a mancha de diplodia, e decidir se algum controle além das práticas culturais é necessário. Não use produtos sem orientação e receita agronômica.",
+      "titulo": "Helmintosporiose do milho (mancha-de-turcicum)",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_helmintosporiose"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Doenças na cultura do milho (Circular Técnica 83), 2006",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/490415/1/Circ83.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "milho-helmintosporiose"
+    },
+    {
+      "texto": "Lagarta-do-cartucho do milho. Sintomas: A lagarta-do-cartucho se alimenta dentro do cartucho, a parte enrolada no alto da planta jovem. O primeiro sinal são folhas raspadas: as lagartas pequenas comem só a superfície e deixam áreas claras na folha. Com o crescimento das lagartas as folhas passam a ter furos, que ficam visíveis quando se abrem. Em ataques fortes o cartucho é muito danificado e a planta perde área de folha justamente na fase de crescimento. A praga também pode danificar as espigas.",
+      "titulo": "Lagarta-do-cartucho do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo de lagarta-do-cartucho em sistemas de produção integrados com braquiária (Comunicado Técnico 260), 2023",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1159228/1/Manejo-de-lagarta-do-cartucho-em-sistemas-de-producao-integrados.pdf",
+      "secao": "Sintomas",
+      "ficha": "milho-lagarta-do-cartucho"
+    },
+    {
+      "texto": "Lagarta-do-cartucho do milho. Condições favoráveis: É a principal praga do milho na América do Sul e aparece tanto na primeira safra quanto na safrinha. O ciclo completo dura cerca de 25 dias, com uns 15 dias como lagarta e 10 dias como pupa enterrada no solo, por isso várias gerações se sucedem na mesma safra. Pastagens de braquiária e outras gramíneas por perto são hospedeiras e mantêm a praga. O período de maior risco vai da emergência até a planta ter oito ou nove folhas.",
+      "titulo": "Lagarta-do-cartucho do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo de lagarta-do-cartucho em sistemas de produção integrados com braquiária (Comunicado Técnico 260), 2023",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1159228/1/Manejo-de-lagarta-do-cartucho-em-sistemas-de-producao-integrados.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "milho-lagarta-do-cartucho"
+    },
+    {
+      "texto": "Lagarta-do-cartucho do milho. Disseminação: As mariposas adultas saem do solo ao fim do ciclo, colocam ovos nas plantas e reiniciam o ataque na mesma lavoura ou nas lavouras próximas. As lagartas, depois de se alimentar, descem ao solo para virar pupa. Como as mariposas se deslocam bem, lavouras e pastagens da região funcionam como uma só área. O controle fica muito difícil quando as lagartas passam de 1,5 centímetro, então o momento de agir é curto.",
+      "titulo": "Lagarta-do-cartucho do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo de lagarta-do-cartucho em sistemas de produção integrados com braquiária (Comunicado Técnico 260), 2023",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1159228/1/Manejo-de-lagarta-do-cartucho-em-sistemas-de-producao-integrados.pdf",
+      "secao": "Disseminação",
+      "ficha": "milho-lagarta-do-cartucho"
+    },
+    {
+      "texto": "Lagarta-do-cartucho do milho. Manejo cultural e preventivo: O centro do manejo é o monitoramento: instale armadilhas com feromônio antes da semeadura para saber quando as mariposas chegam e vistorie o cartucho das plantas toda semana até oito ou nove folhas. Observe também os inimigos naturais, como vespinhas que parasitam os ovos e insetos predadores; a presença deles pode indicar que a praga está sendo controlada naturalmente. Quem usa milho com tecnologia de resistência a lagartas deve plantar a área de refúgio exigida por lei, de pelo menos 10% da área.",
+      "titulo": "Lagarta-do-cartucho do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo de lagarta-do-cartucho em sistemas de produção integrados com braquiária (Comunicado Técnico 260), 2023",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1159228/1/Manejo-de-lagarta-do-cartucho-em-sistemas-de-producao-integrados.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "milho-lagarta-do-cartucho"
+    },
+    {
+      "texto": "Lagarta-do-cartucho do milho. Quando chamar o agrônomo: Procure o agrônomo quando encontrar folhas raspadas em cerca de 20% das plantas vistoriadas, quando as armadilhas começarem a capturar várias mariposas ou quando as lagartas estiverem crescendo dentro do cartucho. Ele define o nível de controle para sua região e indica a medida certa, inclusive o uso de controle biológico. Qualquer aplicação depende de receita agronômica.",
+      "titulo": "Lagarta-do-cartucho do milho",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Milho e Sorgo. Manejo de lagarta-do-cartucho em sistemas de produção integrados com braquiária (Comunicado Técnico 260), 2023",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1159228/1/Manejo-de-lagarta-do-cartucho-em-sistemas-de-producao-integrados.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "milho-lagarta-do-cartucho"
+    },
+    {
+      "texto": "Monitoramento da lavoura de milho e folha saudável. Sintomas: Uma folha de milho saudável é verde por igual, sem manchas cinzentas, pústulas cor de ferrugem, listras brancas ou avermelhamento. O cartucho fica limpo, sem raspagens nem sujeira de lagarta. Pequenas diferenças de cor podem vir de falta de nutrientes ou de seca, e não de doença. Quando o resultado da foto indica folha saudável, isso vale só para a parte fotografada: outras plantas da lavoura podem estar diferentes, por isso a vistoria continua importante.",
+      "titulo": "Monitoramento da lavoura de milho e folha saudável",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_saudavel"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Monitoramento e manejo de pragas na fase agrícola do sistema de integração lavoura-pecuária (capítulo 8)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1167572/1/Monitoramento-e-manejo-de-pragas-na-fase-agricola-do-sistema-ILP.pdf",
+      "secao": "Sintomas",
+      "ficha": "milho-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de milho e folha saudável. Condições favoráveis: O milho precisa de atenção antes, durante e depois da implantação da lavoura. Calor e umidade favorecem várias doenças foliares, e lavouras próximas de pastagens ou de milho em outra fase servem de abrigo para pragas como a lagarta-do-cartucho e a cigarrinha. As plantas jovens, até oito ou nove folhas, são as que mais sofrem com o ataque da lagarta no cartucho. Em sistemas que integram lavoura e pecuária, o que acontece na área durante todo o ano influencia o milho.",
+      "titulo": "Monitoramento da lavoura de milho e folha saudável",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_saudavel"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Monitoramento e manejo de pragas na fase agrícola do sistema de integração lavoura-pecuária (capítulo 8)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1167572/1/Monitoramento-e-manejo-de-pragas-na-fase-agricola-do-sistema-ILP.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "milho-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de milho e folha saudável. Disseminação: Pragas e doenças chegam de lavouras vizinhas, de plantas voluntárias e de restos de cultura. Monitorar significa percorrer a lavoura em vários pontos, olhando um número fixo de plantas em cada ponto, e anotar o que encontrou: pragas, danos, manchas nas folhas e inimigos naturais. Armadilhas com feromônio ajudam a saber quando as mariposas de lagartas chegam. Registrar as visitas permite ver se o problema está aumentando de uma semana para outra.",
+      "titulo": "Monitoramento da lavoura de milho e folha saudável",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_saudavel"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Monitoramento e manejo de pragas na fase agrícola do sistema de integração lavoura-pecuária (capítulo 8)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1167572/1/Monitoramento-e-manejo-de-pragas-na-fase-agricola-do-sistema-ILP.pdf",
+      "secao": "Disseminação",
+      "ficha": "milho-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de milho e folha saudável. Manejo cultural e preventivo: Faça vistorias semanais, principalmente na fase inicial, em pontos espalhados por toda a área e não só na beira. Instale armadilhas antes da semeadura. Mantenha a lavoura bem nutrida, siga a época de plantio recomendada para sua região e elimine milho tiguera. Valorize os inimigos naturais: a simples presença deles pode indicar que a praga está sob controle. Lembre que medidas de controle só se justificam quando a praga chega ao nível que causa prejuízo, e não pela simples presença dela.",
+      "titulo": "Monitoramento da lavoura de milho e folha saudável",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_saudavel"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Monitoramento e manejo de pragas na fase agrícola do sistema de integração lavoura-pecuária (capítulo 8)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1167572/1/Monitoramento-e-manejo-de-pragas-na-fase-agricola-do-sistema-ILP.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "milho-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de milho e folha saudável. Quando chamar o agrônomo: Mesmo com a folha saudável, procure o agrônomo se notar plantas com crescimento desigual, murcha, folhas manchadas em outras partes da lavoura ou aumento de pragas entre uma vistoria e outra. Ele ajuda a montar um plano de monitoramento e define os níveis de ação para sua região. Decisões de controle químico dependem sempre de receita agronômica.",
+      "titulo": "Monitoramento da lavoura de milho e folha saudável",
+      "cultura": [
+        "MILHO"
+      ],
+      "rotulos": [
+        "milho_saudavel"
+      ],
+      "fonte": "Embrapa Milho e Sorgo. Monitoramento e manejo de pragas na fase agrícola do sistema de integração lavoura-pecuária (capítulo 8)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1167572/1/Monitoramento-e-manejo-de-pragas-na-fase-agricola-do-sistema-ILP.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "milho-monitoramento"
+    },
+    {
+      "texto": "Murcha-bacteriana do tomateiro e da batata. Sintomas: Também chamada de murchadeira, começa com a murcha das folhas do alto da planta nas horas mais quentes do dia, muitas vezes no início da frutificação. No começo a planta parece se recuperar à noite, o que engana. Em poucos dias a murcha toma a planta inteira, que seca e morre. Os vasos do caule ficam escurecidos, principalmente na base. Na batata, os tubérculos também mostram escurecimento por dentro. As plantas doentes aparecem em grupos, as reboleiras, nas partes mais baixas e úmidas do terreno.",
+      "titulo": "Murcha-bacteriana do tomateiro e da batata",
+      "cultura": [
+        "TOMATE",
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "murcha-bacteriana"
+    },
+    {
+      "texto": "Murcha-bacteriana do tomateiro e da batata. Condições favoráveis: Calor e solo muito úmido são as condições que mais favorecem a doença. No tomate de mesa ela limita a produção no verão chuvoso do Sudeste e do Centro-Oeste e durante boa parte do ano no Norte e no Nordeste, e tem aumentado em cultivo protegido. Solos encharcados, compactados ou que recebem água escorrida de áreas doentes têm mais risco. Na batata, os plantios em época quente e úmida são os mais atingidos.",
+      "titulo": "Murcha-bacteriana do tomateiro e da batata",
+      "cultura": [
+        "TOMATE",
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "murcha-bacteriana"
+    },
+    {
+      "texto": "Murcha-bacteriana do tomateiro e da batata. Disseminação: A bactéria vive no solo por muito tempo e ataca centenas de espécies de plantas. Ela se espalha pela água de irrigação ou de enxurrada, por solo grudado em implementos, botas e caixas, e por mudas e batata-semente contaminadas. Plantas daninhas da família do tomate, como maria-pretinha, joá e jurubeba, mantêm a bactéria no solo mesmo sem mostrar sintomas. Ferimentos nas raízes causados por nematoides e insetos de solo facilitam a entrada.",
+      "titulo": "Murcha-bacteriana do tomateiro e da batata",
+      "cultura": [
+        "TOMATE",
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "murcha-bacteriana"
+    },
+    {
+      "texto": "Murcha-bacteriana do tomateiro e da batata. Manejo cultural e preventivo: Não existe uma medida única eficaz; é preciso somar várias. Evite plantar em época quente e úmida e em áreas onde houve tomate, batata ou outras hospedeiras nos últimos anos. Prefira solo bem drenado e não deixe a água de áreas doentes escorrer para a lavoura. Irrigue só o necessário. Use batata-semente certificada e mudas sadias. Elimine plantas daninhas hospedeiras. Em solo infestado, faça rotação longa, de pelo menos três anos, com gramíneas como milho, sorgo, milheto ou pastagem. Lave implementos e caixas que tocaram solo contaminado.",
+      "titulo": "Murcha-bacteriana do tomateiro e da batata",
+      "cultura": [
+        "TOMATE",
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "murcha-bacteriana"
+    },
+    {
+      "texto": "Murcha-bacteriana do tomateiro e da batata. Quando chamar o agrônomo: Procure o agrônomo ao ver plantas murchando nas horas quentes em reboleiras. Um teste simples ajuda: corte a base do caule, lave e mergulhe a ponta num copo de água limpa; se escorrer um fio leitoso em poucos minutos, a suspeita é forte, mas a confirmação é feita em laboratório. Ao notar as primeiras plantas doentes, reduza a irrigação, arranque as plantas e controle o trânsito de pessoas no local.",
+      "titulo": "Murcha-bacteriana do tomateiro e da batata",
+      "cultura": [
+        "TOMATE",
+        "BATATA"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "murcha-bacteriana"
+    },
+    {
+      "texto": "Ácaro-rajado no tomateiro. Sintomas: O ácaro-rajado é muito pequeno, com cerca de um milímetro, de cor verde-amarelada a verde-escura, com duas manchas escuras nas costas. Ele vive em grande número na face de baixo das folhas e tece teias finas para se proteger. Na parte de cima da folha atacada aparecem pontinhos e manchas amareladas que depois secam. No tomateiro o ataque deixa as folhas bronzeadas ou marrom-escuras, deformadas, e pode escurecer o caule. A planta perde capacidade de fazer fotossíntese e produz menos e frutos de pior qualidade.",
+      "titulo": "Ácaro-rajado no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_acaro_rajado"
+      ],
+      "fonte": "Agência Embrapa de Informação Tecnológica. Ácaro-rajado (Árvore do Conhecimento Morango), Botton e Nava; sintomas no tomateiro conferidos em Embrapa Hortaliças, Doenças do tomateiro, 2021",
+      "url": "https://ainfo.cnptia.embrapa.br/digital/bitstream/item/82227/1/BOTTON-Acaro-rajado.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-acaro-rajado"
+    },
+    {
+      "texto": "Ácaro-rajado no tomateiro. Condições favoráveis: O ácaro se desenvolve melhor com temperatura em torno de 25 °C e sem chuva. Por isso o ataque é mais frequente em tomate cultivado em estufa ou irrigado por gotejamento, onde as folhas não são lavadas pela chuva ou pela aspersão. Em tempo quente e seco o ciclo do ácaro fica curto, de 5 a 21 dias conforme a temperatura, e a população cresce rápido.",
+      "titulo": "Ácaro-rajado no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_acaro_rajado"
+      ],
+      "fonte": "Agência Embrapa de Informação Tecnológica. Ácaro-rajado (Árvore do Conhecimento Morango), Botton e Nava; sintomas no tomateiro conferidos em Embrapa Hortaliças, Doenças do tomateiro, 2021",
+      "url": "https://ainfo.cnptia.embrapa.br/digital/bitstream/item/82227/1/BOTTON-Acaro-rajado.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-acaro-rajado"
+    },
+    {
+      "texto": "Ácaro-rajado no tomateiro. Disseminação: As fêmeas colocam ovos redondos e amarelados entre os fios da teia, na face de baixo das folhas. A população aumenta de folha em folha e passa para plantas vizinhas, principalmente quando as plantas se tocam. Mudas já infestadas podem levar o ácaro para uma estufa limpa. Como ele é muito pequeno, costuma ser percebido só quando as folhas já estão bronzeadas.",
+      "titulo": "Ácaro-rajado no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_acaro_rajado"
+      ],
+      "fonte": "Agência Embrapa de Informação Tecnológica. Ácaro-rajado (Árvore do Conhecimento Morango), Botton e Nava; sintomas no tomateiro conferidos em Embrapa Hortaliças, Doenças do tomateiro, 2021",
+      "url": "https://ainfo.cnptia.embrapa.br/digital/bitstream/item/82227/1/BOTTON-Acaro-rajado.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-acaro-rajado"
+    },
+    {
+      "texto": "Ácaro-rajado no tomateiro. Manejo cultural e preventivo: Faça vistorias frequentes olhando a face de baixo das folhas, de preferência com uma lupa. Uma forma de monitorar é coletar folhas ao acaso numa área de mesma cultivar e data de plantio e contar os ácaros. Use mudas sem ácaros. Em estufa, observe as plantas próximas às portas e às laterais. Existem ácaros predadores criados comercialmente no Brasil que se alimentam do ácaro-rajado; peça orientação técnica para usar esse controle biológico.",
+      "titulo": "Ácaro-rajado no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_acaro_rajado"
+      ],
+      "fonte": "Agência Embrapa de Informação Tecnológica. Ácaro-rajado (Árvore do Conhecimento Morango), Botton e Nava; sintomas no tomateiro conferidos em Embrapa Hortaliças, Doenças do tomateiro, 2021",
+      "url": "https://ainfo.cnptia.embrapa.br/digital/bitstream/item/82227/1/BOTTON-Acaro-rajado.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-acaro-rajado"
+    },
+    {
+      "texto": "Ácaro-rajado no tomateiro. Quando chamar o agrônomo: Procure o agrônomo quando encontrar teias e muitos ácaros embaixo das folhas, ou folhas bronzeadas em várias plantas, principalmente em estufa e em tempo seco. Ele define o nível de ataque que justifica o controle na sua lavoura e escolhe a medida adequada, que depende de receita agronômica. Não aplique produtos por conta própria, porque o uso errado favorece o ácaro.",
+      "titulo": "Ácaro-rajado no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_acaro_rajado"
+      ],
+      "fonte": "Agência Embrapa de Informação Tecnológica. Ácaro-rajado (Árvore do Conhecimento Morango), Botton e Nava; sintomas no tomateiro conferidos em Embrapa Hortaliças, Doenças do tomateiro, 2021",
+      "url": "https://ainfo.cnptia.embrapa.br/digital/bitstream/item/82227/1/BOTTON-Acaro-rajado.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-acaro-rajado"
+    },
+    {
+      "texto": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo). Sintomas: Os sintomas ficam nas folhas: as nervuras clareiam, a área entre elas amarela, aparecem manchas amarelas, rugosidade, deformação e o típico mosaico amarelo ou dourado. Em infecções fortes as folhas se enrolam e a planta fica anã. A planta doente pode continuar produzindo, mas produz menos. O amadurecimento desigual dos frutos não é causado pelo vírus, e sim pelas toxinas da própria mosca-branca. No Brasil predominam os vírus ToSRV e ToMoLCV; o vírus do enrolamento-amarelo (TYLCV), comum em outros países, ainda não foi relatado aqui.",
+      "titulo": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_enrolamento_amarelo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-begomovirose"
+    },
+    {
+      "texto": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo). Condições favoráveis: É a virose mais séria do tomate hoje. Ela depende da mosca-branca, inseto que se alimenta de muitas plantas e é difícil de controlar. A doença piora em regiões com grandes áreas de soja, feijão e algodão, que multiplicam a mosca-branca, e onde há plantas daninhas hospedeiras como joá-de-capote, figueira-do-inferno, guanxuma e amendoim-bravo. Em partes do Distrito Federal, Goiás, Minas Gerais, São Paulo e Ceará não é possível plantar tomate sem resistência a esses vírus.",
+      "titulo": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_enrolamento_amarelo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-begomovirose"
+    },
+    {
+      "texto": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo). Disseminação: O vírus passa de planta para planta somente pela mosca-branca. Ao se alimentar de uma planta doente, o inseto adquire o vírus, que circula no corpo dele e depois é injetado com a saliva nas plantas sadias. As fontes podem estar perto ou longe: tomateiros doentes, lavouras velhas ou abandonadas, plantas daninhas e outras culturas. Plantas doentes não eliminadas continuam espalhando o vírus no campo, e plantios escalonados na mesma área facilitam a disseminação.",
+      "titulo": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_enrolamento_amarelo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-begomovirose"
+    },
+    {
+      "texto": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo). Manejo cultural e preventivo: Plante cultivares resistentes indicadas pelas empresas de sementes. Use mudas sadias e vigorosas, produzidas em local protegido. Não plante perto de lavouras velhas de tomate, soja e feijão, e evite plantios escalonados na mesma área. Elimine plantas daninhas hospedeiras. Não abandone a lavoura quando o preço do tomate cair. Destrua os restos logo depois da colheita, faça rotação com gramíneas e respeite o vazio sanitário definido para sua região. Essas medidas funcionam melhor quando adotadas por todos os produtores da região.",
+      "titulo": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_enrolamento_amarelo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-begomovirose"
+    },
+    {
+      "texto": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo). Quando chamar o agrônomo: Os sintomas podem ser confundidos com falta de nutrientes, diferença entre cultivares e outros vírus, como o mosaico-do-tomateiro, e a confirmação exige exame de laboratório. Procure o agrônomo ao ver folhas amareladas e enrugadas em plantas novas ou muitas moscas-brancas embaixo das folhas, principalmente nas mudas e logo depois do transplante, quando a infecção causa mais prejuízo. O controle do inseto vetor deve seguir receita agronômica.",
+      "titulo": "Begomovirose do tomateiro (mosaico-dourado e enrolamento-amarelo)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_enrolamento_amarelo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-begomovirose"
+    },
+    {
+      "texto": "Mancha-alvo do tomateiro. Sintomas: A mancha-alvo forma nas folhas lesões redondas, marrom-escuras, com anéis concêntricos como os de um alvo, muito parecidas com as da pinta-preta. Com o ataque intenso, os halos amarelos em volta das manchas deixam a folhagem amarelada e as manchas se juntam até secar as folhas. Lesões menores aparecem no caule e no cabinho das folhas. Nos frutos maduros surgem áreas secas e escuras, com rachaduras.",
+      "titulo": "Mancha-alvo do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_alvo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-mancha-alvo"
+    },
+    {
+      "texto": "Mancha-alvo do tomateiro. Condições favoráveis; Disseminação: É uma doença muito destrutiva com calor acima de 28 °C e umidade do ar acima de 90%. Essas condições são frequentes na Região Norte, em estufa e a céu aberto. Também há surtos em períodos quentes no Sudeste e no Centro-Oeste, em tomate de estufa e em tomate para indústria plantado sobre palha de soja. Locais sombreados e épocas muito úmidas mantêm a folha molhada por mais tempo e favorecem a doença. Disseminação: O vento leva os esporos produzidos nas manchas de tomateiros doentes e de outras plantas hospedeiras, como soja, algodão, feijão, feijão-caupi, mamão e seringueira. O fungo também pode ser transmitido pela semente. Lavouras velhas de tomate e plantações dessas outras espécies por perto, principalmente com sintomas, são fontes de esporos para a lavoura nova.",
+      "titulo": "Mancha-alvo do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_alvo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis; Disseminação",
+      "ficha": "tomate-mancha-alvo"
+    },
+    {
+      "texto": "Mancha-alvo do tomateiro. Manejo cultural e preventivo: Evite plantar em épocas de umidade muito alta e em locais sombreados. Use sementes de boa qualidade e mudas sadias, cuidando para que não se contaminem no transporte. Prefira cultivares resistentes quando houver. Não plante perto de lavouras velhas de tomate, feijão-caupi, mamão, seringueira ou outras hospedeiras com sintomas. Deixe espaço para o ar circular. Faça rotação com gramíneas e destrua os restos de cultura enterrando-os ou fazendo compostagem; evite queimar sem supervisão.",
+      "titulo": "Mancha-alvo do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_alvo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-mancha-alvo"
+    },
+    {
+      "texto": "Mancha-alvo do tomateiro. Quando chamar o agrônomo: Como a mancha-alvo se confunde com a pinta-preta, procure o agrônomo para confirmar o diagnóstico, principalmente em clima quente e muito úmido ou quando a lavoura estiver perto de soja ou outras hospedeiras. Chame também se a folhagem estiver amarelando por inteiro ou se os frutos tiverem rachaduras. O controle além das práticas culturais exige receita agronômica.",
+      "titulo": "Mancha-alvo do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_alvo"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-mancha-alvo"
+    },
+    {
+      "texto": "Mancha-bacteriana do tomateiro. Sintomas: A doença pode começar já nas mudas. Na planta adulta aparecem manchas marrons de formato irregular, muitas vezes ao longo das nervuras ou nas bordas das folhas. Com orvalho ou umidade alta, as manchas ficam com aspecto encharcado. Em ataque forte as manchas se juntam, a folha seca e os frutos ficam expostos ao sol. Algumas manchas ficam furadas no centro. No fruto surgem pontinhos esbranquiçados que crescem e ficam ásperos, com bordas levantadas. Lesões no cabinho das flores fazem flores e frutinhos caírem.",
+      "titulo": "Mancha-bacteriana do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_bacteriana"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-mancha-bacteriana"
+    },
+    {
+      "texto": "Mancha-bacteriana do tomateiro. Condições favoráveis: A mancha-bacteriana é explosiva em lavouras irrigadas por aspersão e em períodos de chuva, e também em viveiros de mudas com irrigação por cima das plantas. A folha molhada é essencial tanto para a bactéria entrar na planta quanto para passar de uma planta para outra. Uma das espécies predomina em temperaturas mais altas e outra em locais mais frios, por isso a doença ocorre em quase todas as regiões. Ainda não há cultivares com alta resistência.",
+      "titulo": "Mancha-bacteriana do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_bacteriana"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-mancha-bacteriana"
+    },
+    {
+      "texto": "Mancha-bacteriana do tomateiro. Disseminação: Na lavoura, a bactéria se espalha por respingos de água de chuva ou de irrigação. Ela entra pelas aberturas naturais da folha e por ferimentos causados por insetos como a traça-do-tomateiro e a vaquinha, por implementos e até por partículas de solo levadas pelo vento. A semente pode estar contaminada, e mudas, plantas voluntárias de tomate e plantas daninhas como joá-de-capote e maria-pretinha podem iniciar a epidemia. Lavouras velhas de tomate e pimentão por perto também são fontes.",
+      "titulo": "Mancha-bacteriana do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_bacteriana"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-mancha-bacteriana"
+    },
+    {
+      "texto": "Mancha-bacteriana do tomateiro. Manejo cultural e preventivo: Use sementes de boa qualidade e nunca tire semente de frutos com sintomas. Plante mudas sadias de viveiristas especializados. Prefira as cultivares mais tolerantes disponíveis. Não plante perto de lavouras velhas de tomate e pimentão. Prefira gotejamento; na aspersão, regue menos vezes com mais água. Não faça tratos culturais com as plantas molhadas e evite ferir as plantas. Mantenha sob controle insetos que ferem as folhas. Lave e desinfete ferramentas que tocaram plantas doentes. Incorpore os restos de cultura logo após a colheita e faça rotação com gramíneas.",
+      "titulo": "Mancha-bacteriana do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_bacteriana"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-mancha-bacteriana"
+    },
+    {
+      "texto": "Mancha-bacteriana do tomateiro. Quando chamar o agrônomo: Os sintomas iniciais se confundem com os da pinta-bacteriana, da pinta-preta, da septoriose e da mancha de stemphylium, por isso o diagnóstico seguro pede exame de laboratório. Procure o agrônomo ao ver manchas encharcadas que se espalham depressa depois de chuva ou irrigação, ou pontos ásperos nos frutos. Ele indica o exame e as medidas de controle, que dependem de receita agronômica.",
+      "titulo": "Mancha-bacteriana do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mancha_bacteriana"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-mancha-bacteriana"
+    },
+    {
+      "texto": "Mancha-de-cladospório do tomateiro (mofo-das-folhas). Sintomas: Os primeiros sinais aparecem nas folhas mais velhas. Na parte de cima da folha surgem manchas amareladas, de contorno pouco definido. Embaixo, no mesmo lugar, forma-se um mofo aveludado de cor verde-oliva, que é a massa de esporos do fungo. Esse mofo na face de baixo é o que diferencia a doença de outras manchas. Em ataques fortes as folhas secam e caem, e podem aparecer lesões no caule, nas flores e nos frutos.",
+      "titulo": "Mancha-de-cladospório do tomateiro (mofo-das-folhas)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mofo_das_folhas"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-mofo-das-folhas"
+    },
+    {
+      "texto": "Mancha-de-cladospório do tomateiro (mofo-das-folhas). Condições favoráveis: A doença precisa de longos períodos de umidade do ar alta, acima de 85%. Por isso é comum em regiões com neblina frequente e em cultivo protegido, dentro de estufas e sob plástico, onde o ar fica parado e úmido. Nessas condições pode causar grande desfolha. Lavouras muito adensadas, sem circulação de ar, e irrigação frequente por aspersão aumentam o risco.",
+      "titulo": "Mancha-de-cladospório do tomateiro (mofo-das-folhas)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mofo_das_folhas"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-mofo-das-folhas"
+    },
+    {
+      "texto": "Mancha-de-cladospório do tomateiro (mofo-das-folhas). Disseminação: Os esporos do fungo se espalham facilmente pelo vento dentro da lavoura e entre estufas próximas. A longas distâncias, o fungo viaja em sementes contaminadas. Restos de plantas doentes que ficam na área após a colheita mantêm a doença para o próximo plantio. Mudas de origem desconhecida podem trazer o fungo para uma estufa limpa.",
+      "titulo": "Mancha-de-cladospório do tomateiro (mofo-das-folhas)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mofo_das_folhas"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-mofo-das-folhas"
+    },
+    {
+      "texto": "Mancha-de-cladospório do tomateiro (mofo-das-folhas). Manejo cultural e preventivo; Quando chamar o agrônomo: Evite plantar em áreas sujeitas a neblina e orvalho intenso. Prefira cultivares resistentes, sabendo que novas raças do fungo podem quebrar essa resistência. Use sementes de boa qualidade e confira o estado das mudas, inclusive as compradas. Deixe espaço entre as plantas e, em estufa, mantenha boa ventilação. Evite irrigações frequentes por aspersão; quando usar, regue menos vezes com mais água. Destrua os restos da lavoura logo depois da colheita. Quando chamar o agrônomo: Procure o agrônomo quando encontrar mofo verde-oliva embaixo das folhas em várias plantas, principalmente em estufa, ou quando as folhas de baixo começarem a cair. Ele confirma o diagnóstico, avalia a ventilação da estufa e decide se é preciso algum controle além das práticas culturais, sempre com receita agronômica.",
+      "titulo": "Mancha-de-cladospório do tomateiro (mofo-das-folhas)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_mofo_das_folhas"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo; Quando chamar o agrônomo",
+      "ficha": "tomate-mofo-das-folhas"
+    },
+    {
+      "texto": "Monitoramento da lavoura de tomate e folha saudável. Sintomas: Uma folha de tomate saudável é verde por igual, sem manchas, anéis, pontinhos pretos, mofo na face de baixo, minas, teias ou enrolamento amarelado. O resultado de folha saudável vale só para a parte fotografada; outras plantas da lavoura podem estar diferentes. Folhas de baixo um pouco amareladas podem ser só envelhecimento ou falta de nutriente. Por isso a vistoria da lavoura inteira continua necessária, mesmo quando a foto não mostra problema.",
+      "titulo": "Monitoramento da lavoura de tomate e folha saudável",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_saudavel"
+      ],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em sistema de produção integrada de tomate indústria (Circular Técnica 73), 2009",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/783046/3/ct73.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de tomate e folha saudável. Condições favoráveis: O tomate é atacado por muitas doenças e pragas, e boa parte delas aumenta com folhas molhadas, calor e umidade, ou com tempo quente e seco no caso de tripes e ácaros. Lavouras velhas ou abandonadas por perto, plantios escalonados e restos de cultura mantêm pragas e doenças na região. As mudas e o início da lavoura são as fases mais sensíveis para viroses levadas por insetos.",
+      "titulo": "Monitoramento da lavoura de tomate e folha saudável",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_saudavel"
+      ],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em sistema de produção integrada de tomate indústria (Circular Técnica 73), 2009",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/783046/3/ct73.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de tomate e folha saudável. Disseminação: Pragas e doenças chegam pelo vento, por insetos, pela semente, pelas mudas e pelas mãos e ferramentas. Monitorar é percorrer a lavoura com regularidade, olhando as duas faces das folhas e os frutos, e anotar o que encontrou. Armadilhas com feromônio colocadas ao redor da lavoura mostram quando as mariposas da traça chegam. Ter uma pessoa treinada para reconhecer pragas e danos, o chamado pragueiro, ajuda a decidir a hora certa de agir.",
+      "titulo": "Monitoramento da lavoura de tomate e folha saudável",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_saudavel"
+      ],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em sistema de produção integrada de tomate indústria (Circular Técnica 73), 2009",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/783046/3/ct73.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de tomate e folha saudável. Manejo cultural e preventivo: Use sementes e mudas sadias de fornecedores idôneos. Não plante perto de lavouras velhas e destrua os restos logo após a colheita. Faça rotação de culturas, de preferência com gramíneas. Prefira irrigação por gotejamento e deixe espaço para o ar circular. Mantenha armadilhas e vistorias regulares, registrando o que viu. Lave as mãos e as ferramentas ao passar de uma área para outra. Respeite o vazio sanitário da sua região.",
+      "titulo": "Monitoramento da lavoura de tomate e folha saudável",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_saudavel"
+      ],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em sistema de produção integrada de tomate indústria (Circular Técnica 73), 2009",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/783046/3/ct73.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-monitoramento"
+    },
+    {
+      "texto": "Monitoramento da lavoura de tomate e folha saudável. Quando chamar o agrônomo: Mesmo com a folha saudável, procure o agrônomo se notar plantas murchas, manchas em outras partes da lavoura, aumento de insetos nas armadilhas ou frutos danificados. Ele ajuda a montar o plano de monitoramento e define quando alguma medida de controle se justifica. Aplicações sem monitoramento e sem receita agronômica favorecem pragas resistentes.",
+      "titulo": "Monitoramento da lavoura de tomate e folha saudável",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_saudavel"
+      ],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em sistema de produção integrada de tomate indústria (Circular Técnica 73), 2009",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/783046/3/ct73.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-monitoramento"
+    },
+    {
+      "texto": "Mosaico-do-tomateiro (tobamovírus). Sintomas; Condições favoráveis: As folhas mostram um mosaico, com áreas verde-claras alternando com áreas verde-escuras. Algumas variantes do vírus deixam a planta amarelada ou com mosaico amarelo, parecido com o da begomovirose. As folhas podem ficar alongadas e retorcidas. Nos frutos podem aparecer manchas, bronzeamento, mosaico amarelo, anéis e amadurecimento irregular. Plantas infectadas quando jovens crescem menos e produzem menos, e quando há outro vírus junto as perdas podem ser totais. Condições favoráveis: A maioria das cultivares plantadas hoje é resistente a esses vírus, mas surtos acontecem quando se usam sementes contaminadas de cultivares sensíveis, em cultivo protegido e com muito manuseio das plantas. No Brasil o vírus mais comum é o ToMV. Áreas com histórico da doença ou com restos da lavoura anterior têm mais risco.",
+      "titulo": "Mosaico-do-tomateiro (tobamovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_mosaico"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas; Condições favoráveis",
+      "ficha": "tomate-mosaico"
+    },
+    {
+      "texto": "Mosaico-do-tomateiro (tobamovírus). Disseminação: Esses vírus não têm inseto vetor. Eles passam com muita facilidade pela semente e pelo contato: as mãos e as ferramentas levam o vírus de uma planta para outra durante transplante, amarração e desbrota, e implementos contaminados também. O vírus continua ativo por meses em restos de folhas e raízes secas no solo. O fumo, inclusive o de rolo, pode carregar o vírus para as mãos de quem manuseia as plantas.",
+      "titulo": "Mosaico-do-tomateiro (tobamovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_mosaico"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-mosaico"
+    },
+    {
+      "texto": "Mosaico-do-tomateiro (tobamovírus). Manejo cultural e preventivo: Plante cultivares resistentes e compre sementes e mudas só de empresas idôneas. Não plante em áreas com histórico da doença ou com restos da lavoura anterior e elimine plantas voluntárias de tomate antes e durante a lavoura. Lave as mãos com água e sabão antes de mexer nas plantas e não fume durante desbrota e amarração. Desinfete as ferramentas. Não abandone a lavoura quando o preço cair. Destrua as plantas logo após a colheita e não volte a plantar tomate na mesma área por pelo menos três anos.",
+      "titulo": "Mosaico-do-tomateiro (tobamovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_mosaico"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-mosaico"
+    },
+    {
+      "texto": "Mosaico-do-tomateiro (tobamovírus). Quando chamar o agrônomo: Procure o agrônomo quando aparecer mosaico em várias plantas, principalmente se elas estiverem em sequência na fileira, o que indica transmissão pelas mãos ou ferramentas. Como o mosaico amarelo se confunde com a begomovirose, o diagnóstico seguro precisa de exame. O agrônomo também orienta sobre o tratamento de sementes suspeitas, que não deve ser feito sem orientação técnica.",
+      "titulo": "Mosaico-do-tomateiro (tobamovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_virus_mosaico"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-mosaico"
+    },
+    {
+      "texto": "Mosca-branca como vetora de vírus no tomateiro. Sintomas: Apesar do nome, a mosca-branca não é uma mosca e não é branca: é um inseto sugador pequeno, de cor amarelada, parente das cigarrinhas e dos pulgões, que se alimenta da seiva das folhas. O dano direto vem da sucção de seiva e de toxinas que deixam os frutos com amadurecimento desigual. O dano mais grave é indireto: ela transmite vírus que causam clareamento das nervuras, folhas amarelas, enroladas e enrugadas, e plantas menores, os sintomas da begomovirose.",
+      "titulo": "Mosca-branca como vetora de vírus no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Os geminivírus em sistema de produção integrada de tomate indústria (Circular Técnica 71)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/782610/4/ct71.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-mosca-branca"
+    },
+    {
+      "texto": "Mosca-branca como vetora de vírus no tomateiro. Condições favoráveis: A população de mosca-branca cresce em regiões com grandes áreas de soja, feijão e algodão e com muitas plantas daninhas hospedeiras por perto. A chegada do biótipo B, hoje predominante no Brasil, mudou a situação do tomate: em algumas regiões, como o Submédio do Vale do São Francisco, as perdas foram tão grandes que contribuíram para o fechamento de indústrias. A fase de mudas e o início da lavoura são os momentos em que a infecção pelo vírus causa mais prejuízo.",
+      "titulo": "Mosca-branca como vetora de vírus no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Os geminivírus em sistema de produção integrada de tomate indústria (Circular Técnica 71)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/782610/4/ct71.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-mosca-branca"
+    },
+    {
+      "texto": "Mosca-branca como vetora de vírus no tomateiro. Disseminação: O vírus só chega à lavoura pela mosca-branca, a partir de plantas infectadas que podem estar perto ou longe: tomateiros novos, velhos ou abandonados, plantas daninhas e outras culturas. O inseto adquire o vírus ao se alimentar de uma planta doente e passa a transmiti-lo para as plantas sadias em que se alimenta depois. Plantios escalonados e lavouras abandonadas mantêm o inseto e o vírus circulando na região.",
+      "titulo": "Mosca-branca como vetora de vírus no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Os geminivírus em sistema de produção integrada de tomate indústria (Circular Técnica 71)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/782610/4/ct71.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-mosca-branca"
+    },
+    {
+      "texto": "Mosca-branca como vetora de vírus no tomateiro. Manejo cultural e preventivo: Produza ou compre mudas sadias, feitas em telados fechados com entrada restrita, e dê boa nutrição para que cresçam fortes. Use cultivares com resistência ou tolerância aos vírus quando possível. Elimine plantas daninhas hospedeiras e restos de lavouras. Destrua os restos de cultura logo após a colheita e respeite o vazio sanitário: em áreas de tomate para indústria, o período de dois meses sem tomateiro reduziu muito a incidência do vírus. O manejo funciona melhor quando adotado por toda a região.",
+      "titulo": "Mosca-branca como vetora de vírus no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Os geminivírus em sistema de produção integrada de tomate indústria (Circular Técnica 71)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/782610/4/ct71.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-mosca-branca"
+    },
+    {
+      "texto": "Mosca-branca como vetora de vírus no tomateiro. Quando chamar o agrônomo: Procure o agrônomo ao encontrar muitas moscas-brancas embaixo das folhas, especialmente nas mudas e nas primeiras semanas de lavoura, ou quando surgirem plantas com folhas amareladas e enroladas. Ele confirma se há vírus, avalia a população do inseto e decide o controle, que exige receita agronômica com produto, momento e forma de aplicação adequados. O uso errado de produtos favorece insetos resistentes.",
+      "titulo": "Mosca-branca como vetora de vírus no tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Os geminivírus em sistema de produção integrada de tomate indústria (Circular Técnica 71)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/782610/4/ct71.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-mosca-branca"
+    },
+    {
+      "texto": "Pinta-preta do tomateiro. Sintomas: A pinta-preta começa nas folhas mais velhas, de baixo, com manchas redondas de cor marrom-escura, às vezes com uma borda amarelada em volta. Conforme a mancha cresce, formam-se anéis concêntricos dentro dela, como os de um alvo, que são o sinal mais típico da doença. Com muitas manchas, as folhas secam de baixo para cima e os frutos ficam expostos ao sol. No caule surgem manchas marrons com anéis, e o fruto maduro pode apodrecer perto do cabinho. Em mudas, a doença pode escurecer a base do caule e matar a planta.",
+      "titulo": "Pinta-preta do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_pinta_preta"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta do tomateiro. Condições favoráveis: A doença gosta de calor acima de 25 °C com umidade alta, por isso é mais forte no verão chuvoso. Também aparece no inverno e em períodos quentes quando se irriga demais e o ar fica úmido. Plantas cultivadas em estufa e irrigadas por gotejamento costumam sofrer menos, porque a folha não fica molhada, condição necessária para o fungo infectar. Ainda não existem cultivares comerciais resistentes à pinta-preta.",
+      "titulo": "Pinta-preta do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_pinta_preta"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta do tomateiro. Disseminação: O fungo pode vir no solo, nos restos de plantas doentes e na semente. Lavouras velhas próximas soltam esporos que chegam às plantações novas, e plantios em sequência na mesma área mantêm a doença. Plantas voluntárias de tomate e plantas daninhas da mesma família do tomate, como maria-pretinha e joá, também abrigam o fungo. Orvalho intenso e irrigação por aspersão frequente molham as folhas e facilitam a infecção.",
+      "titulo": "Pinta-preta do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_pinta_preta"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta do tomateiro. Manejo cultural e preventivo: Use sementes de boa qualidade e mudas sadias de viveiristas de confiança. Evite baixadas e locais com muito orvalho, não plante perto de lavouras velhas e não repita tomate na mesma área: faça rotação, de preferência com gramíneas, eliminando plantas voluntárias e daninhas da família do tomate. Deixe espaço para o ar circular entre as plantas. Prefira irrigação por gotejamento; na aspersão, regue menos vezes com mais água. Logo após a colheita, enterre ou destrua os restos de cultura.",
+      "titulo": "Pinta-preta do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_pinta_preta"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-pinta-preta"
+    },
+    {
+      "texto": "Pinta-preta do tomateiro. Quando chamar o agrônomo: Procure o agrônomo quando as manchas com anéis estiverem subindo para as folhas do meio da planta, quando aparecerem manchas no caule ou nos frutos, ou se houver dúvida com a septoriose e a mancha-alvo, que são parecidas no começo. Só o profissional pode confirmar e decidir se é necessário algum controle além das práticas culturais, sempre com receita agronômica. Não aplique produtos por conta própria.",
+      "titulo": "Pinta-preta do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_pinta_preta"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-pinta-preta"
+    },
+    {
+      "texto": "Requeima do tomateiro. Sintomas: A requeima, também chamada de mela, ataca toda a parte de cima da planta, das mudas no viveiro até a planta adulta, e costuma começar na metade superior. Nas folhas aparecem manchas grandes com aspecto de molhado, que ficam marrons ao secar. Com muita umidade, a face de baixo da mancha fica coberta por um mofo esbranquiçado. As manchas são bem maiores que as da pinta-preta e podem secar o folíolo inteiro, dando aparência de queimado. No caule as lesões são quase pretas e quebradiças; os frutos ficam com manchas marrons, mas continuam firmes.",
+      "titulo": "Requeima do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_requeima"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-requeima"
+    },
+    {
+      "texto": "Requeima do tomateiro. Condições favoráveis: É a doença mais temida por quem planta tomate. Com tempo úmido, neblina, chuva fina, orvalho ou irrigação frequente, e temperaturas em torno de 18 a 20 °C, pode destruir a lavoura em poucos dias. É mais forte no Sul e no Sudeste, mas aparece em regiões quentes quando as noites são frias e úmidas. Acima de 30 °C constantes quase não aparece, mas o patógeno continua vivo e volta se o tempo mudar. Não há variedades comerciais resistentes.",
+      "titulo": "Requeima do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_requeima"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-requeima"
+    },
+    {
+      "texto": "Requeima do tomateiro. Disseminação: Os esporos são levados pelo vento a partir de lavouras de tomate vizinhas doentes, de plantas voluntárias de tomate (soqueira ou tiguera) e de plantas daninhas. Para infectar, o esporo precisa de água sobre a folha, por isso orvalho e chuva são decisivos. Há fortes indícios de que a doença não vem pela semente. Lavouras velhas ou abandonadas por perto funcionam como fonte constante de esporos para as plantações novas.",
+      "titulo": "Requeima do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_requeima"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-requeima"
+    },
+    {
+      "texto": "Requeima do tomateiro. Manejo cultural e preventivo: Não plante perto de lavouras velhas ou malcuidadas, nem em baixadas, terrenos úmidos ou sombreados. Prefira áreas onde não se plantou tomate nos últimos anos e elimine soqueiras de tomate nos terrenos vizinhos. Use apenas mudas sadias de produtores especializados. Irrigue por gotejamento; na aspersão, regue menos vezes com mais água. Em estufa, mantenha boa ventilação. Deixe espaço entre plantas para o ar circular e elimine os restos de cultura logo após a colheita.",
+      "titulo": "Requeima do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_requeima"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-requeima"
+    },
+    {
+      "texto": "Requeima do tomateiro. Quando chamar o agrônomo: A requeima avança muito rápido. Procure o agrônomo imediatamente se notar manchas grandes e úmidas no alto das plantas, mofo branco embaixo das folhas ou cheiro de rama podre na lavoura, principalmente em dias frios e úmidos. Ele confirma o diagnóstico e decide as medidas de controle, que exigem receita agronômica. Avise também os vizinhos que plantam tomate ou batata, porque a doença passa de uma lavoura para outra.",
+      "titulo": "Requeima do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_requeima"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-requeima"
+    },
+    {
+      "texto": "Septoriose do tomateiro. Sintomas: A septoriose começa nas folhas de baixo com manchas pequenas, mais ou menos redondas, de borda escura. Poucos dias depois o centro da mancha fica cor de palha e aparecem pontinhos pretos dentro dela, visíveis a olho nu, que são estruturas do fungo. Com muitas manchas, elas se juntam e as folhas secam, expondo os frutos à queimadura do sol. Lesões parecidas podem surgir no caule, mas raramente nos frutos. No começo é fácil confundir com a pinta-preta.",
+      "titulo": "Septoriose do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_septoriose"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-septoriose"
+    },
+    {
+      "texto": "Septoriose do tomateiro. Condições favoráveis: É hoje uma das principais doenças do tomate em todas as regiões produtoras do Brasil. Aparece com mais frequência no início do período quente e chuvoso. A planta pode ser atacada em qualquer fase, desde a sementeira, mas a fase mais sensível é quando se forma o primeiro cacho de frutos. Folhas molhadas por chuva ou irrigação por aspersão favorecem a infecção. Atualmente não existem cultivares com boa resistência.",
+      "titulo": "Septoriose do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_septoriose"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-septoriose"
+    },
+    {
+      "texto": "Septoriose do tomateiro. Disseminação: O fungo sobrevive nos restos de plantas doentes e em outras plantas da família do tomate, cultivadas ou silvestres, como maria-pretinha e joá. A partir delas, os esporos chegam às folhas novas, principalmente com respingos de água. Lavouras velhas e doentes próximas são fonte importante. A transmissão pela semente, que levaria a doença a longas distâncias, ainda não está comprovada.",
+      "titulo": "Septoriose do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_septoriose"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-septoriose"
+    },
+    {
+      "texto": "Septoriose do tomateiro. Manejo cultural e preventivo: Use sementes de boa qualidade e mudas sadias de produtores especializados. Não plante perto de lavouras velhas ou doentes. Faça adubação equilibrada com base na análise de solo. Prefira irrigação por gotejamento; na aspersão, regue menos vezes com mais água. Deixe espaço entre plantas para o ar circular. Controle as plantas daninhas da família do tomate, que também hospedam o fungo. Destrua os restos de cultura logo após a colheita e faça rotação, de preferência com gramíneas.",
+      "titulo": "Septoriose do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_septoriose"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-septoriose"
+    },
+    {
+      "texto": "Septoriose do tomateiro. Quando chamar o agrônomo: Chame o agrônomo quando as manchas com pontinhos pretos estiverem se espalhando das folhas de baixo para o meio da planta, principalmente perto da formação do primeiro cacho, ou se houver dúvida entre septoriose, pinta-preta e mancha-bacteriana. O diagnóstico correto define o manejo. Qualquer controle além das práticas culturais precisa de receita agronômica.",
+      "titulo": "Septoriose do tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [
+        "tomate_septoriose"
+      ],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-septoriose"
+    },
+    {
+      "texto": "Traça-do-tomateiro. Sintomas: As lagartas da traça cavam galerias dentro das folhas, deixando manchas claras e transparentes, as minas, que depois secam. Elas também furam o caule, o broto do ponteiro e os frutos, principalmente na região do cálice, onde encontram apoio para entrar. Os frutos furados perdem valor e, em período de chuva, costumam apodrecer na planta por causa de bactérias que entram pelos furos. A lagarta é pequena, com até 7 milímetros, branca ou verde, com uma mancha preta em forma de meia-lua atrás da cabeça.",
+      "titulo": "Traça-do-tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em ambiente protegido (Circular Técnica 36)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/779134/4/ct36.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-traca-do-tomateiro"
+    },
+    {
+      "texto": "Traça-do-tomateiro. Condições favoráveis: O ciclo completo da traça dura de 26 a 30 dias, por isso várias gerações se sucedem numa mesma lavoura. Os adultos são mariposas pequenas, cinza-prateadas, com cerca de 10 milímetros, que se escondem entre as folhas durante o dia. A praga é uma das mais importantes do tomate na América Latina e ataca tanto em campo aberto quanto em estufa. Restos de lavoura e plantios vizinhos em sequência mantêm a população alta.",
+      "titulo": "Traça-do-tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em ambiente protegido (Circular Técnica 36)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/779134/4/ct36.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-traca-do-tomateiro"
+    },
+    {
+      "texto": "Traça-do-tomateiro. Disseminação: As mariposas colocam ovos pequenos nas folhas, hastes e frutos, principalmente nas folhas novas do alto da planta. Em 3 a 6 dias nascem as lagartas, que se alimentam por cerca de 14 dias. A fase de pupa, de 7 a 10 dias, acontece nas folhas ou no solo. Mudas com ovos ou lagartas levam a praga para lavouras novas, e restos de cultura deixados no campo servem de abrigo para a próxima geração.",
+      "titulo": "Traça-do-tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em ambiente protegido (Circular Técnica 36)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/779134/4/ct36.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-traca-do-tomateiro"
+    },
+    {
+      "texto": "Traça-do-tomateiro. Manejo cultural e preventivo: O manejo integrado combina práticas culturais, monitoramento e controle biológico. Destrua e incorpore os restos de cultura logo após a colheita para quebrar o ciclo. Use mudas vigorosas, sadias e sem ovos ou lagartas, de fornecedor idôneo. Instale armadilhas com feromônio para saber quando os adultos chegam à lavoura. Inimigos naturais, como pequenas vespas que parasitam os ovos da traça, ajudam no controle e devem ser preservados. Em estufa, verifique telas e portas.",
+      "titulo": "Traça-do-tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em ambiente protegido (Circular Técnica 36)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/779134/4/ct36.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-traca-do-tomateiro"
+    },
+    {
+      "texto": "Traça-do-tomateiro. Quando chamar o agrônomo: Procure o agrônomo quando as armadilhas começarem a capturar mariposas, quando encontrar minas nas folhas novas ou furos nos frutos e no ponteiro. Ele define o momento certo de agir e o tipo de controle, inclusive a liberação de inimigos naturais. O uso indiscriminado de inseticidas seleciona traças resistentes, por isso qualquer aplicação deve seguir receita agronômica.",
+      "titulo": "Traça-do-tomateiro",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Manejo integrado da traça-do-tomateiro em ambiente protegido (Circular Técnica 36)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/779134/4/ct36.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-traca-do-tomateiro"
+    },
+    {
+      "texto": "Vira-cabeça do tomateiro (tospovírus). Sintomas: O nome vem do sintoma mais conhecido: o ponteiro da planta se curva para baixo. Quando a infecção é cedo, a planta para de crescer e as folhas ficam arroxeadas ou bronzeadas, às vezes com anéis e forte deformação. É muito comum aparecerem pontinhos mortos nas folhas novas, que se juntam e causam necrose das folhas, do cabinho e do caule, até a morte do ponteiro. Também pode haver mosaico. Às vezes os sintomas, como manchas em anel, aparecem só nos frutos.",
+      "titulo": "Vira-cabeça do tomateiro (tospovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Sintomas",
+      "ficha": "tomate-vira-cabeca"
+    },
+    {
+      "texto": "Vira-cabeça do tomateiro (tospovírus). Condições favoráveis: Os surtos acontecem nos meses mais quentes e secos, quando a população de tripes, insetos que não suportam umidade alta, fica muito grande. Plantas infectadas ainda na sementeira perdem toda a produção e depois espalham o vírus. Lavouras próximas de pimentão, pimenta, amendoim, melancia, alface ou de plantas daninhas hospedeiras correm mais risco. Existem híbridos com resistência, mas plantas resistentes podem eventualmente mostrar sintomas.",
+      "titulo": "Vira-cabeça do tomateiro (tospovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Condições favoráveis",
+      "ficha": "tomate-vira-cabeca"
+    },
+    {
+      "texto": "Vira-cabeça do tomateiro (tospovírus). Disseminação: O vírus é transmitido por tripes, insetos pequenos que raspam e sugam as folhas. A larva adquire o vírus ao se alimentar de uma planta doente, e o vírus se multiplica no corpo do inseto; quem transmite são as larvas mais velhas e os adultos. Não há registro de transmissão pela semente. Os vírus atacam mais de mil espécies de plantas, principalmente da família do tomate e das compostas, o que mantém fontes de vírus em toda a região.",
+      "titulo": "Vira-cabeça do tomateiro (tospovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Disseminação",
+      "ficha": "tomate-vira-cabeca"
+    },
+    {
+      "texto": "Vira-cabeça do tomateiro (tospovírus). Manejo cultural e preventivo: Não plante perto de lavouras velhas ou abandonadas de tomate ou de outras hospedeiras. Elimine plantas voluntárias e daninhas hospedeiras antes do plantio e durante a lavoura. Prefira híbridos com resistência indicados pelas empresas de sementes e plante mudas sadias e vigorosas. Nos primeiros 60 dias, retire as plantas doentes dentro de sacos plásticos, para não espalhar os tripes, e destrua-as longe da lavoura. Não abandone a lavoura quando o preço cair e destrua os restos logo após a colheita.",
+      "titulo": "Vira-cabeça do tomateiro (tospovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Manejo cultural e preventivo",
+      "ficha": "tomate-vira-cabeca"
+    },
+    {
+      "texto": "Vira-cabeça do tomateiro (tospovírus). Quando chamar o agrônomo: Procure o agrônomo quando notar ponteiros curvados, folhas novas com pontos escuros ou bronzeamento em plantas jovens, principalmente em época quente e seca. Os diferentes tospovírus causam sintomas parecidos e só exames identificam qual está presente. O agrônomo orienta o controle dos tripes, que depende de receita agronômica, e a retirada correta das plantas doentes.",
+      "titulo": "Vira-cabeça do tomateiro (tospovírus)",
+      "cultura": [
+        "TOMATE"
+      ],
+      "rotulos": [],
+      "fonte": "Embrapa Hortaliças. Doenças do tomateiro, 3ª edição, 2021",
+      "url": "http://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1135499/1/Livro-Doencas-do-Tomateiro.pdf",
+      "secao": "Quando chamar o agrônomo",
+      "ficha": "tomate-vira-cabeca"
+    }
+  ]
+}

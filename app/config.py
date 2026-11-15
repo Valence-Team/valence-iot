@@ -18,7 +18,7 @@ class Configuracao(BaseSettings):
     portao_modelo: str = "openai/clip-vit-base-patch32"
 
     # RAG
-    embeddings_modelo: str = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    embeddings_modelo: str = "intfloat/multilingual-e5-small"
     indice_path: Path = Path("modelos/indice")
 
     # LLM principal e reserva
