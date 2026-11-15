@@ -9,13 +9,15 @@ from scripts.avaliar_portao import (
     Conjunto,
     Resultado,
     borrar,
+    clarear,
     escurecer,
     ler_argumentos,
     montar_conjuntos,
+    reduzir,
     resumo_conjunto,
     resumo_por_motivo,
 )
-from tests.test_visao_apoio import figura_nitida
+from tests.test_visao_apoio import figura_lisa, figura_nitida
 
 
 def resultado(esperado: str, **contagem: int) -> Resultado:
@@ -56,19 +58,32 @@ def test_resumo_de_conjunto_vazio_nao_divide_por_zero():
 
 
 # Conjuntos e degradações
-def test_degradar_gera_versoes_borrada_e_escurecida(tmp_path):
+def test_degradar_gera_uma_versao_por_motivo_de_qualidade(tmp_path):
     args = ler_argumentos(
-        ["--aceitas", f"pv={tmp_path}", "--nao-planta", f"in={tmp_path}", "--degradar", "pv"]
+        [
+            "--aceitas",
+            f"pv={tmp_path}",
+            "--nao-planta",
+            f"in={tmp_path}",
+            "--degradar",
+            "pv",
+            "--sem-filtro-pessoas",
+            "pv",
+        ]
     )
 
-    conjuntos = {c.nome: c.esperado for c in montar_conjuntos(args)}
+    conjuntos = {c.nome: c for c in montar_conjuntos(args)}
 
-    assert conjuntos == {
+    assert {nome: c.esperado for nome, c in conjuntos.items()} == {
         "pv": ACEITA,
         "in": "NAO_E_PLANTA",
         "pv_borrada": "IMAGEM_BORRADA",
         "pv_escurecida": "IMAGEM_ESCURA",
+        "pv_clareada": "IMAGEM_CLARA",
+        "pv_reduzida": "RESOLUCAO_BAIXA",
     }
+    assert conjuntos["in"].filtrar_pessoas is True
+    assert not any(c.filtrar_pessoas for nome, c in conjuntos.items() if nome.startswith("pv"))
 
 
 def test_degradar_so_aceita_conjunto_que_deve_passar(tmp_path):
@@ -84,3 +99,5 @@ def test_degradacoes_caem_no_motivo_esperado():
     assert avaliar_qualidade(folha) is None
     assert avaliar_qualidade(borrar(folha)).value == "IMAGEM_BORRADA"
     assert avaliar_qualidade(escurecer(folha)).value == "IMAGEM_ESCURA"
+    assert avaliar_qualidade(clarear(figura_lisa((120, 160, 110)))).value == "IMAGEM_CLARA"
+    assert avaliar_qualidade(reduzir(folha)).value == "RESOLUCAO_BAIXA"

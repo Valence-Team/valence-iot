@@ -46,7 +46,9 @@ SEMENTE = 42
 
 # Degradações sintéticas
 FATOR_ESCURECER = 0.15
+FATOR_CLAREAR = 2.8
 DIVISOR_RAIO_BORRAO = 48
+LADO_REDUZIDO = 160
 
 # Filtro de pessoas (detector COCO; limite baixo porque excluir a mais não prejudica a métrica)
 CLASSE_PESSOA_COCO = 1
@@ -73,6 +75,7 @@ class Conjunto:
     esperado: str
     pasta: Path
     transformacao: Transformacao | None = None
+    filtrar_pessoas: bool = True
 
 
 @dataclass
@@ -99,6 +102,24 @@ def escurecer(imagem: Image.Image) -> Image.Image:
     return ImageEnhance.Brightness(imagem).enhance(FATOR_ESCURECER)
 
 
+def clarear(imagem: Image.Image) -> Image.Image:
+    return ImageEnhance.Brightness(imagem).enhance(FATOR_CLAREAR)
+
+
+def reduzir(imagem: Image.Image) -> Image.Image:
+    escala = LADO_REDUZIDO / min(imagem.size)
+    novo = (round(imagem.width * escala), round(imagem.height * escala))
+    return imagem.resize(novo, Image.Resampling.LANCZOS)
+
+
+DEGRADACOES: dict[str, tuple[str, Transformacao]] = {
+    "borrada": (MotivoRecusa.IMAGEM_BORRADA.value, borrar),
+    "escurecida": (MotivoRecusa.IMAGEM_ESCURA.value, escurecer),
+    "clareada": (MotivoRecusa.IMAGEM_CLARA.value, clarear),
+    "reduzida": (MotivoRecusa.RESOLUCAO_BAIXA.value, reduzir),
+}
+
+
 # Leitura das pastas
 def listar(pasta: Path, maximo: int | None) -> list[Path]:
     arquivos = sorted(p for p in pasta.rglob("*") if p.suffix.lower() in EXTENSOES)
@@ -120,13 +141,16 @@ class FiltroPessoas:
         self.detector = detection.fasterrcnn_mobilenet_v3_large_fpn(
             weights=pesos, box_score_thresh=LIMITE_PESSOA
         ).eval()
+        self.cache: dict[Path, bool] = {}
 
     @torch.inference_mode()
     def tem_pessoa(self, caminho: Path, imagem: Image.Image) -> bool:
         if caminho.name.split("__")[-1] in EXCLUIDAS_NA_REVISAO:
             return True
-        saida = self.detector([to_tensor(imagem)])[0]
-        return bool((saida["labels"] == CLASSE_PESSOA_COCO).any())
+        if caminho not in self.cache:
+            saida = self.detector([to_tensor(imagem)])[0]
+            self.cache[caminho] = bool((saida["labels"] == CLASSE_PESSOA_COCO).any())
+        return self.cache[caminho]
 
 
 def avaliar_conjunto(
@@ -134,6 +158,7 @@ def avaliar_conjunto(
     arquivos: list[Path],
     portao: PortaoClip,
     filtro: FiltroPessoas | None,
+    medidas_por_imagem: list[dict] | None = None,
 ) -> Resultado:
     resultado = Resultado(conjunto, grupos={g: [] for g in portao.grupos})
     for caminho in arquivos:
@@ -141,7 +166,7 @@ def avaliar_conjunto(
         if imagem is None:
             resultado.ilegiveis += 1
             continue
-        if filtro and filtro.tem_pessoa(caminho, imagem):
+        if filtro and conjunto.filtrar_pessoas and filtro.tem_pessoa(caminho, imagem):
             resultado.excluidas_por_pessoas.append(caminho.name)
             continue
         resultado.avaliadas.append(caminho)
@@ -155,14 +180,28 @@ def avaliar_conjunto(
         resultado.brilho.append(medidas.brilho)
         resultado.nitidez.append(medidas.nitidez)
 
-        if motivo is None:
+        probabilidades = None
+        if motivo is None or medidas_por_imagem is not None:
             inicio = perf_counter()
             probabilidades = portao.probabilidades(imagem)
-            motivo = modulo_portao.decidir(probabilidades).motivo
-            resultado.ms_portao.append((perf_counter() - inicio) * 1000)
-            for grupo, valor in probabilidades.items():
-                resultado.grupos[grupo].append(valor)
+            if motivo is None:
+                motivo = modulo_portao.decidir(probabilidades).motivo
+                resultado.ms_portao.append((perf_counter() - inicio) * 1000)
+                for grupo, valor in probabilidades.items():
+                    resultado.grupos[grupo].append(valor)
 
+        if medidas_por_imagem is not None:
+            medidas_por_imagem.append(
+                {
+                    "conjunto": conjunto.nome,
+                    "esperado": conjunto.esperado,
+                    "arquivo": caminho.name,
+                    "menorLado": medidas.menor_lado,
+                    "brilho": round(medidas.brilho, 3),
+                    "nitidez": round(medidas.nitidez, 3),
+                    "probabilidades": {g: round(v, 5) for g, v in probabilidades.items()},
+                }
+            )
         resultado.contagem[motivo.value if motivo else ACEITA] += 1
     return resultado
 
@@ -272,7 +311,9 @@ def limites_usados() -> dict:
         },
         "degradacoes": {
             "fatorEscurecer": FATOR_ESCURECER,
+            "fatorClarear": FATOR_CLAREAR,
             "raioBorrao": f"max(2, menor lado / {DIVISOR_RAIO_BORRAO})",
+            "ladoReduzido": LADO_REDUZIDO,
         },
         "filtroPessoas": {
             "detector": "fasterrcnn_mobilenet_v3_large_fpn (COCO_V1)",
@@ -307,15 +348,16 @@ def montar_conjuntos(args: argparse.Namespace) -> list[Conjunto]:
     for nome in args.degradar or []:
         if nome not in aceitas:
             raise SystemExit(f"--degradar aceita só conjuntos de --aceitas: {nome}")
-        pasta = aceitas[nome].pasta
-        conjuntos.append(
-            Conjunto(f"{nome}_borrada", MotivoRecusa.IMAGEM_BORRADA.value, pasta, borrar)
-        )
-        conjuntos.append(
-            Conjunto(f"{nome}_escurecida", MotivoRecusa.IMAGEM_ESCURA.value, pasta, escurecer)
-        )
+        for sufixo, (esperado, transformacao) in DEGRADACOES.items():
+            conjuntos.append(
+                Conjunto(f"{nome}_{sufixo}", esperado, aceitas[nome].pasta, transformacao)
+            )
     if not conjuntos:
         raise SystemExit("Informe ao menos um conjunto.")
+    sem_filtro = set(args.sem_filtro_pessoas or [])
+    for conjunto in conjuntos:
+        origem = next((n for n in sem_filtro if conjunto.nome.startswith(n)), None)
+        conjunto.filtrar_pessoas = origem is None
     return conjuntos
 
 
@@ -328,6 +370,15 @@ def ler_argumentos(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--maximo", type=int, help="Máximo de imagens por conjunto (amostra fixa)")
     parser.add_argument("--modelo", default=Configuracao().portao_modelo)
     parser.add_argument("--revisao", type=Path, help="Pasta para as folhas de revisão visual")
+    parser.add_argument(
+        "--sem-filtro-pessoas",
+        nargs="+",
+        metavar="NOME",
+        help="Conjuntos já revisados sem pessoas (fotos de laboratório); pula o detector",
+    )
+    parser.add_argument(
+        "--medidas", type=Path, help="JSONL com brilho, nitidez e probabilidades de cada imagem"
+    )
     parser.add_argument("--saida", type=Path, default=Path("avaliacao/portao/metricas.json"))
     return parser.parse_args(argv)
 
@@ -339,10 +390,11 @@ def main(argv: list[str] | None = None) -> None:
     filtro = FiltroPessoas()
 
     resultados = []
+    medidas = [] if args.medidas else None
     for conjunto in conjuntos:
         arquivos = listar(conjunto.pasta, args.maximo)
         inicio = perf_counter()
-        resultado = avaliar_conjunto(conjunto, arquivos, portao, filtro)
+        resultado = avaliar_conjunto(conjunto, arquivos, portao, filtro, medidas)
         resultados.append(resultado)
         resumo = resumo_conjunto(resultado)
         print(
@@ -364,8 +416,15 @@ def main(argv: list[str] | None = None) -> None:
         "conjuntos": {r.conjunto.nome: resumo_conjunto(r) for r in resultados},
     }
     args.saida.parent.mkdir(parents=True, exist_ok=True)
-    args.saida.write_text(json.dumps(metricas, ensure_ascii=False, indent=2), encoding="utf-8")
+    args.saida.write_text(
+        json.dumps(metricas, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     print(f"Métricas gravadas em {args.saida}", file=sys.stderr)
+    if medidas is not None:
+        args.medidas.parent.mkdir(parents=True, exist_ok=True)
+        linhas = (json.dumps(m, ensure_ascii=False) for m in medidas)
+        args.medidas.write_text("\n".join(linhas) + "\n", encoding="utf-8")
+        print(f"Medidas por imagem gravadas em {args.medidas}", file=sys.stderr)
 
 
 if __name__ == "__main__":
