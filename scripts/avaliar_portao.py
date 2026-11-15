@@ -53,7 +53,12 @@ CLASSE_PESSOA_COCO = 1
 LIMITE_PESSOA = 0.3
 
 # Revisão manual: pessoas que o detector não encontrou
-EXCLUIDAS_NA_REVISAO = frozenset({"ILSVRC2012_val_00020781.JPEG"})
+EXCLUIDAS_NA_REVISAO = frozenset(
+    {
+        "ILSVRC2012_val_00020781.JPEG",
+        "ILSVRC2012_val_00034001.JPEG",
+    }
+)
 
 # Folha de revisão
 LADO_MINIATURA = 160
