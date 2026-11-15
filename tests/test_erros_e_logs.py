@@ -2,7 +2,7 @@ import logging
 
 from app.rotulos import carregar_rotulos
 from app.schemas import Cultura
-from tests.conftest import gerar_imagem
+from tests.test_visao_apoio import figura_nitida, para_bytes
 
 
 class ClassificadorQuebrado:
@@ -26,7 +26,7 @@ def test_500_no_formato_padrao_sem_vazar_detalhes(criar_cliente, componentes_fal
     componentes_falsos["visao"] = ClassificadorQuebrado()
     resposta = criar_cliente(componentes_falsos).post(
         "/api/v1/visao/classificar",
-        files={"imagem": ("f.png", gerar_imagem(), "image/png")},
+        files={"imagem": ("f.png", para_bytes(figura_nitida()), "image/png")},
         data={"cultura": "MILHO"},
     )
 
