@@ -1,5 +1,5 @@
 import io
-from collections.abc import Callable, Iterator
+from collections.abc import Callable, Iterator, Sequence
 
 import pytest
 from fastapi.testclient import TestClient
@@ -44,7 +44,9 @@ class IndiceFalso:
     def __init__(self) -> None:
         self.consultas: list[str] = []
 
-    def buscar(self, consulta: str, cultura: Cultura, k: int) -> list[Trecho]:
+    def buscar(
+        self, consulta: str, cultura: Cultura, k: int, rotulos: Sequence[str] = ()
+    ) -> list[Trecho]:
         self.consultas.append(consulta)
         return [
             Trecho(
