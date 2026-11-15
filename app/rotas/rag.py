@@ -1,22 +1,17 @@
-import logging
-
 from fastapi import APIRouter, Depends
 from fastapi.concurrency import run_in_threadpool
 
 from app.dependencias import ComponentesDep, RotulosDep, respostas_erro
 from app.erros import ErroApi
+from app.rag.consulta import consultar as executar_consulta
 from app.schemas import ConsultaRagRequest, ConsultaRagResponse
 from app.seguranca import exigir_chave_api
-
-logger = logging.getLogger("valence_ia.rag")
 
 router = APIRouter(
     prefix="/api/v1/rag",
     tags=["RAG e explicação"],
     dependencies=[Depends(exigir_chave_api)],
 )
-
-TRECHOS_POR_CONSULTA = 3
 
 
 @router.post(
@@ -49,22 +44,11 @@ async def consultar(
     if componentes.indice is None:
         raise ErroApi(503, "O índice de fichas técnicas não está carregado.")
 
-    texto_busca = " ".join([consulta.sintomas, *(c.nome for c in classes)])
-    trechos = await run_in_threadpool(
-        componentes.indice.buscar, texto_busca, consulta.cultura, TRECHOS_POR_CONSULTA
-    )
-
-    explicacao = None
-    if componentes.llm is not None:
-        try:
-            explicacao = await run_in_threadpool(
-                componentes.llm.explicar, consulta.cultura, consulta.sintomas, classes, trechos
-            )
-        except Exception as exc:
-            logger.warning("falha no LLM tipo=%s", type(exc).__name__)
-
-    return ConsultaRagResponse(
-        trechos=trechos,
-        explicacao=explicacao.texto if explicacao else None,
-        modelo_llm=explicacao.modelo if explicacao else None,
+    return await run_in_threadpool(
+        executar_consulta,
+        consulta.cultura,
+        consulta.sintomas,
+        classes,
+        componentes.indice,
+        componentes.llm,
     )

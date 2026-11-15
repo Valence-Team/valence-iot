@@ -1,3 +1,4 @@
+from collections.abc import Sequence
 from dataclasses import dataclass
 from typing import Protocol
 
@@ -8,11 +9,14 @@ from app.schemas import Cultura, Trecho
 @dataclass(frozen=True)
 class Explicacao:
     texto: str
-    modelo: str
+    modelo: str | None
+    bloqueio: str | None = None
 
 
 class Indice(Protocol):
-    def buscar(self, consulta: str, cultura: Cultura, k: int) -> list[Trecho]: ...
+    def buscar(
+        self, consulta: str, cultura: Cultura, k: int, rotulos: Sequence[str] = ()
+    ) -> list[Trecho]: ...
 
 
 class ClienteLlm(Protocol):
