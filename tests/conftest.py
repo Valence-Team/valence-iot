@@ -82,7 +82,12 @@ def indisponivel(config: Configuracao) -> None:
 
 
 # Fixtures
-AJUSTES_PADRAO = {"ia_api_key": "", "llm_api_key": "", "tamanho_maximo_mb": 1}
+AJUSTES_PADRAO = {
+    "ia_api_key": "",
+    "llm_api_key": "",
+    "tamanho_maximo_mb": 1,
+    "demo_habilitada": False,
+}
 
 
 def montar_config(**ajustes: object) -> Configuracao:

@@ -43,6 +43,12 @@ def criar_app(
     app.include_router(saude.router)
     app.include_router(visao.router)
     app.include_router(rag.router)
+
+    # Demo Gradio em /demo
+    if config.demo_habilitada:
+        from app.demo import montar_demo
+
+        app = montar_demo(app)
     return app
 
 
