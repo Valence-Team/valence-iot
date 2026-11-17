@@ -1,0 +1,484 @@
+{
+  "geradoEm": "2026-11-17T20:15:41Z",
+  "modeloPortao": "openai/clip-vit-base-patch32",
+  "torchThreads": 4,
+  "maximoPorConjunto": 150,
+  "limites": {
+    "qualidade": {
+      "ladoMinimo": 224,
+      "brilhoMinimo": 30.0,
+      "brilhoMaximo": 195.0,
+      "nitidezMinima": 2.6,
+      "ladoAnalise": 512
+    },
+    "portao": {
+      "limites": {
+        "outra_planta": 0.55,
+        "nao_e_planta": 0.34
+      },
+      "prompts": {
+        "culturas_do_escopo": [
+          "a photo of a corn leaf",
+          "a photo of a maize leaf",
+          "a close-up photo of a diseased corn leaf",
+          "a photo of a tomato leaf",
+          "a close-up photo of a diseased tomato leaf",
+          "a photo of a tomato plant leaf with spots",
+          "a photo of a potato leaf",
+          "a close-up photo of a diseased potato leaf"
+        ],
+        "outra_planta": [
+          "a photo of a leaf of another plant",
+          "a photo of a soybean leaf",
+          "a photo of a grape leaf",
+          "a photo of an apple leaf",
+          "a photo of a strawberry leaf",
+          "a photo of a bell pepper leaf",
+          "a photo of a squash leaf",
+          "a photo of a citrus leaf",
+          "a photo of a houseplant",
+          "a photo of a flower"
+        ],
+        "nao_e_planta": [
+          "a photo of an object",
+          "a photo of a machine",
+          "a photo of a vehicle",
+          "a photo of an animal",
+          "a photo of a person",
+          "a photo of a document",
+          "a photo of a text page",
+          "a photo of a landscape",
+          "a photo of a building"
+        ]
+      }
+    },
+    "degradacoes": {
+      "fatorEscurecer": 0.15,
+      "fatorClarear": 2.8,
+      "raioBorrao": "max(2, menor lado / 48)",
+      "ladoReduzido": 160
+    },
+    "filtroPessoas": {
+      "detector": "fasterrcnn_mobilenet_v3_large_fpn (COCO_V1)",
+      "limite": 0.3,
+      "excluidasNaRevisao": [
+        "ILSVRC2012_val_00020781.JPEG",
+        "ILSVRC2012_val_00034001.JPEG"
+      ]
+    }
+  },
+  "geral": {
+    "imagensQueDevemPassar": 282,
+    "taxaAceitacaoCorreta": 0.9007,
+    "porMotivo": {
+      "RESOLUCAO_BAIXA": {
+        "imagensEsperadas": 150,
+        "rejeicaoCorreta": 1.0,
+        "rejeicaoPorOutroMotivo": 0.0,
+        "aceitaIndevidamente": 0.0,
+        "falsaRejeicao": 0.0319
+      },
+      "IMAGEM_ESCURA": {
+        "imagensEsperadas": 150,
+        "rejeicaoCorreta": 1.0,
+        "rejeicaoPorOutroMotivo": 0.0,
+        "aceitaIndevidamente": 0.0,
+        "falsaRejeicao": 0.0
+      },
+      "IMAGEM_CLARA": {
+        "imagensEsperadas": 150,
+        "rejeicaoCorreta": 0.9333,
+        "rejeicaoPorOutroMotivo": 0.0333,
+        "aceitaIndevidamente": 0.0333,
+        "falsaRejeicao": 0.0
+      },
+      "IMAGEM_BORRADA": {
+        "imagensEsperadas": 150,
+        "rejeicaoCorreta": 1.0,
+        "rejeicaoPorOutroMotivo": 0.0,
+        "aceitaIndevidamente": 0.0,
+        "falsaRejeicao": 0.0
+      },
+      "NAO_E_PLANTA": {
+        "imagensEsperadas": 114,
+        "rejeicaoCorreta": 0.9737,
+        "rejeicaoPorOutroMotivo": 0.0088,
+        "aceitaIndevidamente": 0.0175,
+        "falsaRejeicao": 0.0
+      },
+      "CULTURA_FORA_DO_ESCOPO": {
+        "imagensEsperadas": 285,
+        "rejeicaoCorreta": 0.2947,
+        "rejeicaoPorOutroMotivo": 0.1579,
+        "aceitaIndevidamente": 0.5474,
+        "falsaRejeicao": 0.0674
+      }
+    }
+  },
+  "conjuntos": {
+    "plantvillage_escopo": {
+      "esperado": "ACEITA",
+      "avaliadas": 150,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 0,
+      "arquivosExcluidosPorPessoas": [],
+      "resultados": {
+        "ACEITA": 136,
+        "CULTURA_FORA_DO_ESCOPO": 14
+      },
+      "taxaAcerto": 0.9067,
+      "taxaRejeicao": 0.0933,
+      "brilho": {
+        "p5": 91.55,
+        "p50": 118.64,
+        "p95": 146.95
+      },
+      "nitidez": {
+        "p5": 85.28,
+        "p50": 3432.85,
+        "p95": 10426.57
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": 0.6802,
+        "outra_planta": 0.3197,
+        "nao_e_planta": 0.0002
+      },
+      "latenciaMediaMs": {
+        "qualidade": 1.1289,
+        "portao": 264.6765
+      }
+    },
+    "plantdoc_escopo": {
+      "esperado": "ACEITA",
+      "avaliadas": 132,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 18,
+      "arquivosExcluidosPorPessoas": [
+        "Corn_Gray_leaf_spot__01934.jpg",
+        "Corn_leaf_blight__00399.jpg",
+        "Corn_leaf_blight__00533.jpg",
+        "Corn_leaf_blight__00541.jpg",
+        "Corn_leaf_blight__00549.jpg",
+        "Corn_leaf_blight__00572.jpg",
+        "Corn_rust_leaf__01955.jpg",
+        "Corn_rust_leaf__01983.jpg",
+        "Corn_rust_leaf__01985.jpg",
+        "Corn_rust_leaf__02008.jpg",
+        "Corn_rust_leaf__02044.jpg",
+        "Tomato_Early_blight_leaf__00666.jpg",
+        "Tomato_leaf_bacterial_spot__00299.jpg",
+        "Tomato_leaf_late_blight__00081.jpg",
+        "Tomato_mold_leaf__00740.jpg",
+        "Tomato_mold_leaf__00753.jpg",
+        "Tomato_Septoria_leaf_spot__02336.jpg",
+        "Tomato_Septoria_leaf_spot__02359.jpg"
+      ],
+      "resultados": {
+        "ACEITA": 118,
+        "CULTURA_FORA_DO_ESCOPO": 5,
+        "RESOLUCAO_BAIXA": 9
+      },
+      "taxaAcerto": 0.8939,
+      "taxaRejeicao": 0.1061,
+      "brilho": {
+        "p5": 83.6,
+        "p50": 117.39,
+        "p95": 155.51
+      },
+      "nitidez": {
+        "p5": 103.9,
+        "p50": 633.4,
+        "p95": 2962.97
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": 0.7995,
+        "outra_planta": 0.1983,
+        "nao_e_planta": 0.0022
+      },
+      "latenciaMediaMs": {
+        "qualidade": 20.4091,
+        "portao": 371.1782
+      }
+    },
+    "plantvillage_outras": {
+      "esperado": "CULTURA_FORA_DO_ESCOPO",
+      "avaliadas": 150,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 0,
+      "arquivosExcluidosPorPessoas": [],
+      "resultados": {
+        "ACEITA": 110,
+        "CULTURA_FORA_DO_ESCOPO": 39,
+        "IMAGEM_CLARA": 1
+      },
+      "taxaAcerto": 0.26,
+      "taxaRejeicao": 0.2667,
+      "brilho": {
+        "p5": 86.36,
+        "p50": 122.44,
+        "p95": 158.76
+      },
+      "nitidez": {
+        "p5": 87.81,
+        "p50": 2566.24,
+        "p95": 7838.15
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": 0.5674,
+        "outra_planta": 0.4324,
+        "nao_e_planta": 0.0002
+      },
+      "latenciaMediaMs": {
+        "qualidade": 1.0688,
+        "portao": 262.002
+      }
+    },
+    "plantdoc_outras": {
+      "esperado": "CULTURA_FORA_DO_ESCOPO",
+      "avaliadas": 135,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 15,
+      "arquivosExcluidosPorPessoas": [
+        "Apple_leaf__01041.jpg",
+        "Apple_leaf__01077.jpg",
+        "Apple_rust_leaf__01684.jpg",
+        "Apple_rust_leaf__01737.jpg",
+        "Apple_rust_leaf__01751.jpg",
+        "Apple_Scab_Leaf__01482.jpg",
+        "Bell_pepper_leaf__01336.jpg",
+        "Bell_pepper_leaf__01347.jpg",
+        "Bell_pepper_leaf_spot__02504.jpg",
+        "Bell_pepper_leaf_spot__02549.jpg",
+        "Blueberry_leaf__01276.jpg",
+        "Blueberry_leaf__01332.jpg",
+        "Raspberry_leaf__00814.jpg",
+        "Squash_Powdery_mildew_leaf__01792.jpg",
+        "Squash_Powdery_mildew_leaf__01800.jpg"
+      ],
+      "resultados": {
+        "ACEITA": 46,
+        "CULTURA_FORA_DO_ESCOPO": 45,
+        "IMAGEM_CLARA": 40,
+        "NAO_E_PLANTA": 1,
+        "RESOLUCAO_BAIXA": 3
+      },
+      "taxaAcerto": 0.3333,
+      "taxaRejeicao": 0.6593,
+      "brilho": {
+        "p5": 84.09,
+        "p50": 138.3,
+        "p95": 230.13
+      },
+      "nitidez": {
+        "p5": 95.42,
+        "p50": 663.64,
+        "p95": 2728.06
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": 0.4503,
+        "outra_planta": 0.519,
+        "nao_e_planta": 0.0307
+      },
+      "latenciaMediaMs": {
+        "qualidade": 22.0204,
+        "portao": 305.5763
+      }
+    },
+    "imagenette": {
+      "esperado": "NAO_E_PLANTA",
+      "avaliadas": 114,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 36,
+      "arquivosExcluidosPorPessoas": [
+        "n02979186__n02979186_12122.JPEG",
+        "n02979186__n02979186_15441.JPEG",
+        "n02979186__n02979186_22681.JPEG",
+        "n02979186__n02979186_22992.JPEG",
+        "n02979186__n02979186_3530.JPEG",
+        "n03028079__n03028079_10032.JPEG",
+        "n03028079__n03028079_10040.JPEG",
+        "n03028079__n03028079_14181.JPEG",
+        "n03028079__n03028079_17461.JPEG",
+        "n03028079__n03028079_20910.JPEG",
+        "n03028079__n03028079_7171.JPEG",
+        "n03028079__n03028079_8360.JPEG",
+        "n03417042__n03417042_12050.JPEG",
+        "n03417042__n03417042_1282.JPEG",
+        "n03417042__n03417042_1991.JPEG",
+        "n03417042__n03417042_2241.JPEG",
+        "n03417042__n03417042_23802.JPEG",
+        "n03417042__n03417042_24980.JPEG",
+        "n03417042__n03417042_2812.JPEG",
+        "n03417042__n03417042_29342.JPEG",
+        "n03417042__n03417042_3390.JPEG",
+        "n03417042__n03417042_5670.JPEG",
+        "n03417042__n03417042_7530.JPEG",
+        "n03417042__n03417042_7682.JPEG",
+        "n03417042__n03417042_8192.JPEG",
+        "n03417042__n03417042_8630.JPEG",
+        "n03417042__n03417042_8912.JPEG",
+        "n03417042__n03417042_9152.JPEG",
+        "n03417042__n03417042_9170.JPEG",
+        "n03425413__n03425413_1400.JPEG",
+        "n03425413__n03425413_14682.JPEG",
+        "n03425413__n03425413_15000.JPEG",
+        "n03425413__n03425413_6490.JPEG",
+        "n03425413__n03425413_8660.JPEG",
+        "n03445777__n03445777_20352.JPEG",
+        "n03445777__n03445777_8541.JPEG"
+      ],
+      "resultados": {
+        "ACEITA": 2,
+        "IMAGEM_ESCURA": 1,
+        "NAO_E_PLANTA": 111
+      },
+      "taxaAcerto": 0.9737,
+      "taxaRejeicao": 0.9825,
+      "brilho": {
+        "p5": 56.82,
+        "p50": 114.17,
+        "p95": 171.89
+      },
+      "nitidez": {
+        "p5": 71.72,
+        "p50": 1543.39,
+        "p95": 6588.14
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": 0.0191,
+        "outra_planta": 0.0321,
+        "nao_e_planta": 0.9487
+      },
+      "latenciaMediaMs": {
+        "qualidade": 2.0195,
+        "portao": 257.6397
+      }
+    },
+    "plantvillage_escopo_borrada": {
+      "esperado": "IMAGEM_BORRADA",
+      "avaliadas": 150,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 0,
+      "arquivosExcluidosPorPessoas": [],
+      "resultados": {
+        "IMAGEM_BORRADA": 150
+      },
+      "taxaAcerto": 1.0,
+      "taxaRejeicao": 1.0,
+      "brilho": {
+        "p5": 91.58,
+        "p50": 118.66,
+        "p95": 146.95
+      },
+      "nitidez": {
+        "p5": 1.53,
+        "p50": 1.9,
+        "p95": 2.21
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": null,
+        "outra_planta": null,
+        "nao_e_planta": null
+      },
+      "latenciaMediaMs": {
+        "qualidade": 0.6862,
+        "portao": null
+      }
+    },
+    "plantvillage_escopo_escurecida": {
+      "esperado": "IMAGEM_ESCURA",
+      "avaliadas": 150,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 0,
+      "arquivosExcluidosPorPessoas": [],
+      "resultados": {
+        "IMAGEM_ESCURA": 150
+      },
+      "taxaAcerto": 1.0,
+      "taxaRejeicao": 1.0,
+      "brilho": {
+        "p5": 13.27,
+        "p50": 17.26,
+        "p95": 21.55
+      },
+      "nitidez": {
+        "p5": 3.45,
+        "p50": 78.7,
+        "p95": 236.27
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": null,
+        "outra_planta": null,
+        "nao_e_planta": null
+      },
+      "latenciaMediaMs": {
+        "qualidade": 0.6595,
+        "portao": null
+      }
+    },
+    "plantvillage_escopo_clareada": {
+      "esperado": "IMAGEM_CLARA",
+      "avaliadas": 150,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 0,
+      "arquivosExcluidosPorPessoas": [],
+      "resultados": {
+        "ACEITA": 5,
+        "CULTURA_FORA_DO_ESCOPO": 5,
+        "IMAGEM_CLARA": 140
+      },
+      "taxaAcerto": 0.9333,
+      "taxaRejeicao": 0.9667,
+      "brilho": {
+        "p5": 185.92,
+        "p50": 231.79,
+        "p95": 250.84
+      },
+      "nitidez": {
+        "p5": 61.77,
+        "p50": 3593.39,
+        "p95": 13172.38
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": 0.4446,
+        "outra_planta": 0.5278,
+        "nao_e_planta": 0.0275
+      },
+      "latenciaMediaMs": {
+        "qualidade": 0.7636,
+        "portao": 202.4507
+      }
+    },
+    "plantvillage_escopo_reduzida": {
+      "esperado": "RESOLUCAO_BAIXA",
+      "avaliadas": 150,
+      "ilegiveis": 0,
+      "excluidasPorPessoas": 0,
+      "arquivosExcluidosPorPessoas": [],
+      "resultados": {
+        "RESOLUCAO_BAIXA": 150
+      },
+      "taxaAcerto": 1.0,
+      "taxaRejeicao": 1.0,
+      "brilho": {
+        "p5": 91.55,
+        "p50": 118.65,
+        "p95": 146.95
+      },
+      "nitidez": {
+        "p5": 186.56,
+        "p50": 1438.74,
+        "p95": 3587.18
+      },
+      "probabilidadeMediaPorGrupo": {
+        "culturas_do_escopo": null,
+        "outra_planta": null,
+        "nao_e_planta": null
+      },
+      "latenciaMediaMs": {
+        "qualidade": 0.37,
+        "portao": null
+      }
+    }
+  }
+}
