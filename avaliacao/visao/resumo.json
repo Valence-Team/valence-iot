@@ -1,0 +1,45 @@
+{
+  "arquiteturaEscolhida": "mobilenet_v3_large",
+  "motivoEscolha": "A mobilenet_v3_large teve F1 macro 0.9763 contra 0.9643 da efficientnet_b0, com latência em CPU de 32.6 ms x 42.4 ms.",
+  "ajusteCampo": true,
+  "decisao": "Vai para produção o modelo com ajuste fino: o F1 macro na cultura no PlantDoc subiu de 0.2505 para 0.5340 e no PlantVillage foi de 0.9778 para 0.9682.",
+  "divisao": {
+    "plantvillage": {
+      "origem": "GitHub spMohanty/PlantVillage-Dataset (raw/color)",
+      "colunaGrupo": null,
+      "teste": "estratificada por classe",
+      "validacao": "estratificada por classe"
+    },
+    "plantdoc": {
+      "origem": "Hugging Face Project-AgML/plant_doc_classification",
+      "teste": "estratificada por classe",
+      "validacao": "estratificada por classe"
+    }
+  },
+  "razaoDesbalanceamento": 35.24342105263158,
+  "metricas": {
+    "plantvillageF1MacroNaCultura": 0.968197204019905,
+    "plantvillageAcuracia": 0.9724808607490172,
+    "plantdocF1MacroNaCultura": 0.5339523870083801,
+    "plantdocAcuraciaNaCultura": 0.5485074626865671,
+    "eceDepois": 0.01266249690198314,
+    "latenciaCpuMs": 32.5773464399208
+  },
+  "calibracao": {
+    "temperatura": 0.4804143011569977,
+    "eceAntes": 0.22045467713818598,
+    "eceDepois": 0.01266249690198314,
+    "nllAntes": 0.4155444800853729,
+    "nllDepois": 0.2068885713815689,
+    "noLimite": {
+      "global": {
+        "cobertura": 0.9633405208587646,
+        "acuracia": 0.9656084775924683
+      },
+      "dentroDaCultura": {
+        "cobertura": 0.9780434966087341,
+        "acuracia": 0.9635197520256042
+      }
+    }
+  }
+}
