@@ -15,11 +15,11 @@ MENSAGEM_FORMATO = "Envie uma imagem JPEG, PNG ou WebP."
 MENSAGEM_ILEGIVEL = "Não foi possível ler a imagem enviada."
 MEGAPIXELS_MAXIMOS = 50
 
-# Limites de qualidade
+# Limites de qualidade (avaliacao/portao/calibracao.md)
 LADO_MINIMO = 224
-BRILHO_MINIMO = 40.0
-BRILHO_MAXIMO = 220.0
-NITIDEZ_MINIMA = 60.0
+BRILHO_MINIMO = 30.0
+BRILHO_MAXIMO = 195.0
+NITIDEZ_MINIMA = 2.6
 LADO_ANALISE = 512
 
 

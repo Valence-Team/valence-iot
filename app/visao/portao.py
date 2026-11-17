@@ -49,8 +49,8 @@ PROMPTS: dict[str, tuple[str, ...]] = {
     ),
 }
 
-# Limites de decisão
-LIMITES = {OUTRA_PLANTA: 0.60, NAO_E_PLANTA: 0.50}
+# Limites de decisão (avaliacao/portao/calibracao.md)
+LIMITES = {OUTRA_PLANTA: 0.55, NAO_E_PLANTA: 0.34}
 MOTIVOS = {
     OUTRA_PLANTA: MotivoRecusa.CULTURA_FORA_DO_ESCOPO,
     NAO_E_PLANTA: MotivoRecusa.NAO_E_PLANTA,
