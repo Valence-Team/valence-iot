@@ -1,0 +1,220 @@
+{
+  "temperatura": 0.4804143011569977,
+  "plantvillageTeste": {
+    "imagens": 4833,
+    "global": {
+      "acuracia": 0.9724808607490172,
+      "precisaoMacro": 0.9563613313278109,
+      "recallMacro": 0.9723747180889049,
+      "f1Macro": 0.9620384994852257
+    },
+    "dentroDaCultura": {
+      "acuracia": 0.9743430581419408,
+      "acuraciaTop3": 0.9989654421806335,
+      "f1Macro": 0.968197204019905,
+      "acertoDaCultura": 0.9977239966392517,
+      "taxaCulturaDivergente": 0.0010345540940761566
+    },
+    "porClasse": {
+      "milho_cercosporiose": {
+        "precisao": 0.9009009009009009,
+        "recall": 0.970873786407767,
+        "f1": 0.9345794392523364,
+        "suporte": 103
+      },
+      "milho_ferrugem_comum": {
+        "precisao": 1.0,
+        "recall": 0.9915966386554622,
+        "f1": 0.9957805907172996,
+        "suporte": 238
+      },
+      "milho_helmintosporiose": {
+        "precisao": 0.9736842105263158,
+        "recall": 0.9390862944162437,
+        "f1": 0.9560723514211886,
+        "suporte": 197
+      },
+      "milho_saudavel": {
+        "precisao": 0.9872340425531915,
+        "recall": 1.0,
+        "f1": 0.9935760171306209,
+        "suporte": 232
+      },
+      "batata_pinta_preta": {
+        "precisao": 0.9900990099009901,
+        "recall": 1.0,
+        "f1": 0.9950248756218906,
+        "suporte": 200
+      },
+      "batata_requeima": {
+        "precisao": 1.0,
+        "recall": 0.955,
+        "f1": 0.9769820971867008,
+        "suporte": 200
+      },
+      "batata_saudavel": {
+        "precisao": 0.6976744186046512,
+        "recall": 1.0,
+        "f1": 0.821917808219178,
+        "suporte": 30
+      },
+      "tomate_mancha_bacteriana": {
+        "precisao": 0.9402654867256637,
+        "recall": 0.9976525821596244,
+        "f1": 0.9681093394077449,
+        "suporte": 426
+      },
+      "tomate_pinta_preta": {
+        "precisao": 0.9836956521739131,
+        "recall": 0.905,
+        "f1": 0.9427083333333334,
+        "suporte": 200
+      },
+      "tomate_requeima": {
+        "precisao": 0.9659685863874345,
+        "recall": 0.9659685863874345,
+        "f1": 0.9659685863874345,
+        "suporte": 382
+      },
+      "tomate_mofo_das_folhas": {
+        "precisao": 0.9792746113989638,
+        "recall": 0.9947368421052631,
+        "f1": 0.9869451697127938,
+        "suporte": 190
+      },
+      "tomate_septoriose": {
+        "precisao": 0.9913544668587896,
+        "recall": 0.9717514124293786,
+        "f1": 0.9814550641940085,
+        "suporte": 354
+      },
+      "tomate_acaro_rajado": {
+        "precisao": 0.9899665551839465,
+        "recall": 0.8835820895522388,
+        "f1": 0.9337539432176656,
+        "suporte": 335
+      },
+      "tomate_mancha_alvo": {
+        "precisao": 0.8580246913580247,
+        "recall": 0.9893238434163701,
+        "f1": 0.9190082644628099,
+        "suporte": 281
+      },
+      "tomate_virus_enrolamento_amarelo": {
+        "precisao": 1.0,
+        "recall": 0.9822761194029851,
+        "f1": 0.9910588235294118,
+        "suporte": 1072
+      },
+      "tomate_virus_mosaico": {
+        "precisao": 1.0,
+        "recall": 0.9866666666666667,
+        "f1": 0.9932885906040269,
+        "suporte": 75
+      },
+      "tomate_saudavel": {
+        "precisao": 1.0,
+        "recall": 0.9968553459119497,
+        "f1": 0.9984251968503937,
+        "suporte": 318
+      }
+    }
+  },
+  "plantdocTeste": {
+    "imagens": 268,
+    "global": {
+      "acuracia": 0.5,
+      "precisaoMacro": 0.5049373527370359,
+      "recallMacro": 0.49506322072771636,
+      "f1Macro": 0.48334810921689875
+    },
+    "dentroDaCultura": {
+      "acuracia": 0.5485074626865671,
+      "acuraciaTop3": 0.9216417670249939,
+      "f1Macro": 0.5339523870083801,
+      "acertoDaCultura": 0.89552241563797,
+      "taxaCulturaDivergente": 0.07089552283287048
+    },
+    "porClasse": {
+      "milho_cercosporiose": {
+        "precisao": 0.42105263157894735,
+        "recall": 0.5714285714285714,
+        "f1": 0.48484848484848486,
+        "suporte": 14
+      },
+      "milho_ferrugem_comum": {
+        "precisao": 1.0,
+        "recall": 0.6521739130434783,
+        "f1": 0.7894736842105263,
+        "suporte": 23
+      },
+      "milho_helmintosporiose": {
+        "precisao": 0.7,
+        "recall": 0.7368421052631579,
+        "f1": 0.717948717948718,
+        "suporte": 38
+      },
+      "batata_pinta_preta": {
+        "precisao": 0.3333333333333333,
+        "recall": 0.2608695652173913,
+        "f1": 0.2926829268292683,
+        "suporte": 23
+      },
+      "batata_requeima": {
+        "precisao": 0.4090909090909091,
+        "recall": 0.42857142857142855,
+        "f1": 0.4186046511627907,
+        "suporte": 21
+      },
+      "tomate_mancha_bacteriana": {
+        "precisao": 0.3,
+        "recall": 0.13636363636363635,
+        "f1": 0.1875,
+        "suporte": 22
+      },
+      "tomate_pinta_preta": {
+        "precisao": 0.25,
+        "recall": 0.2222222222222222,
+        "f1": 0.23529411764705882,
+        "suporte": 18
+      },
+      "tomate_requeima": {
+        "precisao": 0.6521739130434783,
+        "recall": 0.6818181818181818,
+        "f1": 0.6666666666666666,
+        "suporte": 22
+      },
+      "tomate_mofo_das_folhas": {
+        "precisao": 0.26666666666666666,
+        "recall": 0.2222222222222222,
+        "f1": 0.24242424242424243,
+        "suporte": 18
+      },
+      "tomate_septoriose": {
+        "precisao": 0.4857142857142857,
+        "recall": 0.5666666666666667,
+        "f1": 0.5230769230769231,
+        "suporte": 30
+      },
+      "tomate_virus_enrolamento_amarelo": {
+        "precisao": 0.9,
+        "recall": 0.6,
+        "f1": 0.72,
+        "suporte": 15
+      },
+      "tomate_virus_mosaico": {
+        "precisao": 0.34615384615384615,
+        "recall": 0.8181818181818182,
+        "f1": 0.4864864864864865,
+        "suporte": 11
+      },
+      "tomate_saudavel": {
+        "precisao": 0.5,
+        "recall": 0.5384615384615384,
+        "f1": 0.5185185185185185,
+        "suporte": 13
+      }
+    }
+  },
+  "repeticoesPlantDoc": 6
+}

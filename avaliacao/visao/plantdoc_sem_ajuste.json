@@ -1,0 +1,194 @@
+{
+  "teste": {
+    "imagens": 268,
+    "global": {
+      "acuracia": 0.23880597014925373,
+      "precisaoMacro": 0.2558536235006823,
+      "recallMacro": 0.22794484945514693,
+      "f1Macro": 0.18417285789648666
+    },
+    "dentroDaCultura": {
+      "acuracia": 0.2835820895522388,
+      "acuraciaTop3": 0.75,
+      "f1Macro": 0.2504792309759437,
+      "acertoDaCultura": 0.7910447716712952,
+      "taxaCulturaDivergente": 0.13432836532592773
+    },
+    "porClasse": {
+      "milho_cercosporiose": {
+        "precisao": 0.23529411764705882,
+        "recall": 0.8571428571428571,
+        "f1": 0.36923076923076925,
+        "suporte": 14
+      },
+      "milho_ferrugem_comum": {
+        "precisao": 0.8333333333333334,
+        "recall": 0.21739130434782608,
+        "f1": 0.3448275862068966,
+        "suporte": 23
+      },
+      "milho_helmintosporiose": {
+        "precisao": 0.7058823529411765,
+        "recall": 0.3157894736842105,
+        "f1": 0.43636363636363634,
+        "suporte": 38
+      },
+      "batata_pinta_preta": {
+        "precisao": 0.16666666666666666,
+        "recall": 0.08695652173913043,
+        "f1": 0.11428571428571428,
+        "suporte": 23
+      },
+      "batata_requeima": {
+        "precisao": 0.16666666666666666,
+        "recall": 0.047619047619047616,
+        "f1": 0.07407407407407407,
+        "suporte": 21
+      },
+      "tomate_mancha_bacteriana": {
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "suporte": 22
+      },
+      "tomate_pinta_preta": {
+        "precisao": 0.08928571428571429,
+        "recall": 0.2777777777777778,
+        "f1": 0.13513513513513514,
+        "suporte": 18
+      },
+      "tomate_requeima": {
+        "precisao": 0.25396825396825395,
+        "recall": 0.7272727272727273,
+        "f1": 0.3764705882352941,
+        "suporte": 22
+      },
+      "tomate_mofo_das_folhas": {
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "suporte": 18
+      },
+      "tomate_septoriose": {
+        "precisao": 0.375,
+        "recall": 0.3,
+        "f1": 0.3333333333333333,
+        "suporte": 30
+      },
+      "tomate_virus_enrolamento_amarelo": {
+        "precisao": 0.5,
+        "recall": 0.13333333333333333,
+        "f1": 0.21052631578947367,
+        "suporte": 15
+      },
+      "tomate_virus_mosaico": {
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "suporte": 11
+      },
+      "tomate_saudavel": {
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "suporte": 13
+      }
+    }
+  },
+  "todasAsImagens": {
+    "imagens": 1338,
+    "global": {
+      "acuracia": 0.2593423019431988,
+      "precisaoMacro": 0.356658640511671,
+      "recallMacro": 0.25013495659374446,
+      "f1Macro": 0.21870239520970106
+    },
+    "dentroDaCultura": {
+      "acuracia": 0.3071748878923767,
+      "acuraciaTop3": 0.7354260087013245,
+      "f1Macro": 0.27667560759638526,
+      "acertoDaCultura": 0.7892376780509949,
+      "taxaCulturaDivergente": 0.1367713063955307
+    },
+    "porClasse": {
+      "milho_cercosporiose": {
+        "precisao": 0.21551724137931033,
+        "recall": 0.7352941176470589,
+        "f1": 0.3333333333333333,
+        "suporte": 68
+      },
+      "milho_ferrugem_comum": {
+        "precisao": 0.5652173913043478,
+        "recall": 0.11206896551724138,
+        "f1": 0.18705035971223022,
+        "suporte": 116
+      },
+      "milho_helmintosporiose": {
+        "precisao": 0.6625,
+        "recall": 0.2774869109947644,
+        "f1": 0.39114391143911437,
+        "suporte": 191
+      },
+      "batata_pinta_preta": {
+        "precisao": 0.37254901960784315,
+        "recall": 0.16379310344827586,
+        "f1": 0.2275449101796407,
+        "suporte": 116
+      },
+      "batata_requeima": {
+        "precisao": 0.4117647058823529,
+        "recall": 0.2,
+        "f1": 0.2692307692307692,
+        "suporte": 105
+      },
+      "tomate_mancha_bacteriana": {
+        "precisao": 0.25,
+        "recall": 0.00909090909090909,
+        "f1": 0.017543859649122806,
+        "suporte": 110
+      },
+      "tomate_pinta_preta": {
+        "precisao": 0.14381270903010032,
+        "recall": 0.48863636363636365,
+        "f1": 0.2222222222222222,
+        "suporte": 88
+      },
+      "tomate_requeima": {
+        "precisao": 0.23880597014925373,
+        "recall": 0.5765765765765766,
+        "f1": 0.33773087071240104,
+        "suporte": 111
+      },
+      "tomate_mofo_das_folhas": {
+        "precisao": 0.2777777777777778,
+        "recall": 0.054945054945054944,
+        "f1": 0.09174311926605505,
+        "suporte": 91
+      },
+      "tomate_septoriose": {
+        "precisao": 0.4129032258064516,
+        "recall": 0.4266666666666667,
+        "f1": 0.419672131147541,
+        "suporte": 150
+      },
+      "tomate_virus_enrolamento_amarelo": {
+        "precisao": 0.5333333333333333,
+        "recall": 0.10666666666666667,
+        "f1": 0.17777777777777778,
+        "suporte": 75
+      },
+      "tomate_virus_mosaico": {
+        "precisao": 0.2857142857142857,
+        "recall": 0.037037037037037035,
+        "f1": 0.06557377049180328,
+        "suporte": 54
+      },
+      "tomate_saudavel": {
+        "precisao": 0.26666666666666666,
+        "recall": 0.06349206349206349,
+        "f1": 0.10256410256410256,
+        "suporte": 63
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "temperatura": 0.4804143011569977,
+  "eceAntes": 0.22045467713818598,
+  "eceDepois": 0.01266249690198314,
+  "nllAntes": 0.4155444800853729,
+  "nllDepois": 0.2068885713815689,
+  "noLimite": {
+    "global": {
+      "cobertura": 0.9633405208587646,
+      "acuracia": 0.9656084775924683
+    },
+    "dentroDaCultura": {
+      "cobertura": 0.9780434966087341,
+      "acuracia": 0.9635197520256042
+    }
+  },
+  "cobertura": [
+    {
+      "modo": "global",
+      "limite": 0.3,
+      "cobertura": 0.9970594048500061,
+      "acuracia": 0.9500589966773987
+    },
+    {
+      "modo": "global",
+      "limite": 0.35,
+      "cobertura": 0.995491087436676,
+      "acuracia": 0.9509649276733398
+    },
+    {
+      "modo": "global",
+      "limite": 0.4,
+      "cobertura": 0.9923544526100159,
+      "acuracia": 0.952587902545929
+    },
+    {
+      "modo": "global",
+      "limite": 0.45,
+      "cobertura": 0.9882376194000244,
+      "acuracia": 0.9545724987983704
+    },
+    {
+      "modo": "global",
+      "limite": 0.5,
+      "cobertura": 0.9815722703933716,
+      "acuracia": 0.9580587148666382
+    },
+    {
+      "modo": "global",
+      "limite": 0.55,
+      "cobertura": 0.9731425046920776,
+      "acuracia": 0.9617244005203247
+    },
+    {
+      "modo": "global",
+      "limite": 0.6,
+      "cobertura": 0.9633405208587646,
+      "acuracia": 0.9656084775924683
+    },
+    {
+      "modo": "global",
+      "limite": 0.65,
+      "cobertura": 0.9535385370254517,
+      "acuracia": 0.9693667888641357
+    },
+    {
+      "modo": "global",
+      "limite": 0.7,
+      "cobertura": 0.9419721364974976,
+      "acuracia": 0.973361074924469
+    },
+    {
+      "modo": "global",
+      "limite": 0.75,
+      "cobertura": 0.9329543113708496,
+      "acuracia": 0.9756251573562622
+    },
+    {
+      "modo": "global",
+      "limite": 0.8,
+      "cobertura": 0.9200156927108765,
+      "acuracia": 0.9784786105155945
+    },
+    {
+      "modo": "global",
+      "limite": 0.85,
+      "cobertura": 0.8962948322296143,
+      "acuracia": 0.9827209115028381
+    },
+    {
+      "modo": "global",
+      "limite": 0.9,
+      "cobertura": 0.8384630680084229,
+      "acuracia": 0.9869067072868347
+    },
+    {
+      "modo": "global",
+      "limite": 0.95,
+      "cobertura": 0.6875122785568237,
+      "acuracia": 0.9883090853691101
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.3,
+      "cobertura": 1.0,
+      "acuracia": 0.9519702196121216
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.35,
+      "cobertura": 0.9990198016166687,
+      "acuracia": 0.952904224395752
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.4,
+      "cobertura": 0.9976475238800049,
+      "acuracia": 0.9538219571113586
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.45,
+      "cobertura": 0.9952950477600098,
+      "acuracia": 0.9556825160980225
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.5,
+      "cobertura": 0.9917663335800171,
+      "acuracia": 0.9575014710426331
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.55,
+      "cobertura": 0.984904944896698,
+      "acuracia": 0.9607881903648376
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.6,
+      "cobertura": 0.9780434966087341,
+      "acuracia": 0.9635197520256042
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.65,
+      "cobertura": 0.9684375524520874,
+      "acuracia": 0.9678137898445129
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.7,
+      "cobertura": 0.9590276479721069,
+      "acuracia": 0.9713818430900574
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.75,
+      "cobertura": 0.9496177434921265,
+      "acuracia": 0.97398841381073
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.8,
+      "cobertura": 0.9404038190841675,
+      "acuracia": 0.9776943922042847
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.85,
+      "cobertura": 0.9288374781608582,
+      "acuracia": 0.9803714752197266
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.9,
+      "cobertura": 0.9096255898475647,
+      "acuracia": 0.9846982955932617
+    },
+    {
+      "modo": "dentroDaCultura",
+      "limite": 0.95,
+      "cobertura": 0.8798274993896484,
+      "acuracia": 0.9881907105445862
+    }
+  ]
+}
