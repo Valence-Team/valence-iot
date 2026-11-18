@@ -38,9 +38,18 @@ PADROES_DADOS_PESSOAIS = {
     ),
     "cep": re.compile(r"(?<!\d)\d{2}\.?\d{3}-?\d{3}(?!\d)"),
 }
+PADRAO_NOME = re.compile(
+    r"(?i:\b(?:meu nome [ée]|me chamo|eu sou|sou|aqui [ée]|quem fala [ée])\s+(?:[oa]\s+)?)"
+    r"([A-ZÀ-Ý][a-zà-ÿ]+(?:\s+(?:d[aeo]s?\s+)?[A-ZÀ-Ý][a-zà-ÿ]+)*)"
+)
+
+
+def _trocar_nome(encontrado: re.Match[str]) -> str:
+    inicio = encontrado.start(1) - encontrado.start(0)
+    return encontrado.group(0)[:inicio] + MARCADOR
 
 
 def mascarar_dados_pessoais(texto: str) -> str:
     for padrao in PADROES_DADOS_PESSOAIS.values():
         texto = padrao.sub(MARCADOR, texto)
-    return texto
+    return PADRAO_NOME.sub(_trocar_nome, texto)

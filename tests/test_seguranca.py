@@ -84,3 +84,28 @@ def test_mascara_dado_pessoal(dado):
 )
 def test_preserva_texto_sem_dado_pessoal(texto):
     assert mascarar_dados_pessoais(texto) == texto
+
+
+@pytest.mark.parametrize(
+    ("texto", "esperado"),
+    [
+        ("Sou o José da Silva, meu tomate tem mancha.", "Sou o [removido], meu tomate tem mancha."),
+        ("Meu nome é Maria Aparecida e o milho secou.", "Meu nome é [removido] e o milho secou."),
+        ("Bom dia, me chamo Antônio. Folha com pó.", "Bom dia, me chamo [removido]. Folha com pó."),
+        ("Aqui é a Ana dos Santos, batata murcha.", "Aqui é a [removido], batata murcha."),
+    ],
+)
+def test_mascara_nome_de_quem_se_identifica(texto, esperado):
+    assert mascarar_dados_pessoais(texto) == esperado
+
+
+@pytest.mark.parametrize(
+    "texto",
+    [
+        "Sou produtor de Goiás e a folha amarelou.",
+        "Sou de Minas, o tomate tem mancha.",
+        "A Embrapa recomenda rotação de culturas.",
+    ],
+)
+def test_nao_mascara_texto_sem_nome_de_pessoa(texto):
+    assert mascarar_dados_pessoais(texto) == texto
