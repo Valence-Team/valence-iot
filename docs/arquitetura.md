@@ -73,7 +73,7 @@ sequenceDiagram
     Note over Visao: qualidade → portão → classificador<br/>imagem só em memória, EXIF descartado
     Visao-->>Java: imagemValida, motivo, culturaDetectada, top 3
     Java->>Rag: cultura, sintomas, classes (vazias se a foto foi recusada)
-    Note over Rag: mascara e-mail, telefone, CPF, CEP e coordenadas<br/>busca local no índice
+    Note over Rag: mascara e-mail, telefone, CPF, CEP, coordenadas e nome<br/>busca local no índice
     alt há trecho acima do score mínimo
         Rag->>LLM: prompt com trechos numerados e relato mascarado
         LLM-->>Rag: explicação
@@ -92,11 +92,11 @@ sequenceDiagram
 | Foto da folha | Lida só em memória, nunca gravada em disco e nunca enviada a serviço externo. Qualidade, CLIP e classificador rodam localmente |
 | Metadados da foto (EXIF, GPS, câmera, ICC) | Descartados ao abrir a imagem; só os pixels seguem |
 | Embeddings e índice | Calculados localmente com o e5-small; nenhuma consulta vai a API de embeddings |
-| E-mail, telefone, CPF, CEP e coordenadas no relato | Trocados por `[removido]` antes da busca e antes do prompt |
+| E-mail, telefone, CPF, CEP, coordenadas e nome de quem se identifica no relato | Trocados por `[removido]` antes da busca e antes do prompt |
 | Chaves (`IA_API_KEY`, `LLM_API_KEY`, `LLM_FALLBACK_API_KEY`) | Só no `.env` ou nas variáveis do ambiente; nunca no código, no log ou na resposta |
 | Conteúdo das requisições | Os logs guardam id, rota, status, latência por camada e motivo; nunca imagem, relato ou cabeçalhos |
 
-Sai do serviço apenas o prompt enviado ao LLM: cultura, nomes das suspeitas, relato já mascarado e os trechos das fichas. Limitação conhecida: o mascaramento não reconhece nomes de pessoas (caso l09 de `avaliacao/llm/resultados.json`); por isso a API Java não deve incluir o nome do produtor no campo `sintomas`.
+Sai do serviço apenas o prompt enviado ao LLM: cultura, nomes das suspeitas, relato já mascarado e os trechos das fichas. Limitação conhecida: o mascaramento usa padrões e pega o nome de quem se identifica ("sou o...", "meu nome é..."), como no caso l09 de `avaliacao/llm/resultados.json`, mas não um nome solto no meio do texto; por isso a API Java não deve incluir o nome do produtor no campo `sintomas`.
 
 ## Decisões
 
