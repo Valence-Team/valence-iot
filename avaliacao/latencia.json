@@ -1,0 +1,53 @@
+{
+  "geradoEm": "2026-11-17T20:16:45Z",
+  "ambiente": {
+    "processador": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "sistema": "Windows-10-10.0.26200-SP0",
+    "torchThreads": 4,
+    "dispositivo": "cpu"
+  },
+  "fotos": [
+    "batata_pinta_preta.jpg",
+    "milho_ferrugem_campo.jpg",
+    "milho_ferrugem_comum.jpg",
+    "tomate_borrada.jpg",
+    "tomate_requeima.jpg"
+  ],
+  "modelosLlmQueResponderam": [
+    "openai/gpt-oss-20b",
+    "openai/gpt-oss-20b",
+    "openai/gpt-oss-20b"
+  ],
+  "etapas": {
+    "abertura": {
+      "amostras": 100,
+      "medianaMs": 1.1,
+      "p95Ms": 7.2
+    },
+    "qualidade": {
+      "amostras": 100,
+      "medianaMs": 0.6,
+      "p95Ms": 7.1
+    },
+    "portao": {
+      "amostras": 100,
+      "medianaMs": 196.6,
+      "p95Ms": 276.8
+    },
+    "classificador": {
+      "amostras": 100,
+      "medianaMs": 38.2,
+      "p95Ms": 54.9
+    },
+    "busca": {
+      "amostras": 100,
+      "medianaMs": 47.7,
+      "p95Ms": 64.8
+    },
+    "llm": {
+      "amostras": 3,
+      "medianaMs": 572.8,
+      "p95Ms": 764.9
+    }
+  }
+}

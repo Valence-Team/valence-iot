@@ -1,0 +1,100 @@
+{
+  "arquitetura": "mobilenet_v3_large",
+  "versaoPesos": "IMAGENET1K_V2",
+  "classes": [
+    "milho_cercosporiose",
+    "milho_ferrugem_comum",
+    "milho_helmintosporiose",
+    "milho_saudavel",
+    "batata_pinta_preta",
+    "batata_requeima",
+    "batata_saudavel",
+    "tomate_mancha_bacteriana",
+    "tomate_pinta_preta",
+    "tomate_requeima",
+    "tomate_mofo_das_folhas",
+    "tomate_septoriose",
+    "tomate_acaro_rajado",
+    "tomate_mancha_alvo",
+    "tomate_virus_enrolamento_amarelo",
+    "tomate_virus_mosaico",
+    "tomate_saudavel"
+  ],
+  "culturas": [
+    "MILHO",
+    "MILHO",
+    "MILHO",
+    "MILHO",
+    "BATATA",
+    "BATATA",
+    "BATATA",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE",
+    "TOMATE"
+  ],
+  "classesPlantVillage": [
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "Corn_(maize)___Common_rust_",
+    "Corn_(maize)___Northern_Leaf_Blight",
+    "Corn_(maize)___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Spider_mites Two-spotted_spider_mite",
+    "Tomato___Target_Spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy"
+  ],
+  "media": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "desvio": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "tamanhoEntrada": 224,
+  "redimensionar": 256,
+  "temperatura": 0.4804143011569977,
+  "ajusteCampo": true,
+  "geradoEm": "2026-11-17T01:48:41+00:00",
+  "seed": 42,
+  "modoRapido": false,
+  "divisao": {
+    "plantvillage": {
+      "origem": "GitHub spMohanty/PlantVillage-Dataset (raw/color)",
+      "colunaGrupo": null,
+      "teste": "estratificada por classe",
+      "validacao": "estratificada por classe"
+    },
+    "plantdoc": {
+      "origem": "Hugging Face Project-AgML/plant_doc_classification",
+      "teste": "estratificada por classe",
+      "validacao": "estratificada por classe"
+    }
+  },
+  "metricas": {
+    "plantvillageF1MacroNaCultura": 0.968197204019905,
+    "plantvillageAcuracia": 0.9724808607490172,
+    "plantdocF1MacroNaCultura": 0.5339523870083801,
+    "plantdocAcuraciaNaCultura": 0.5485074626865671,
+    "eceDepois": 0.01266249690198314,
+    "latenciaCpuMs": 32.5773464399208
+  },
+  "sha256": "7dadb9b51f8f1937d8c4b921c8aebaf750e1cffd3dc8e1ecb58d3714a39ffc28"
+}

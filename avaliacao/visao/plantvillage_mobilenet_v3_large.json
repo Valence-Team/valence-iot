@@ -1,0 +1,127 @@
+{
+  "imagens": 4833,
+  "global": {
+    "acuracia": 0.9803434719635837,
+    "precisaoMacro": 0.9724878943557544,
+    "recallMacro": 0.9812352750237657,
+    "f1Macro": 0.9763173490304683
+  },
+  "dentroDaCultura": {
+    "acuracia": 0.9811711152493275,
+    "acuraciaTop3": 0.9993792772293091,
+    "f1Macro": 0.9778080781786921,
+    "acertoDaCultura": 0.9991723299026489,
+    "taxaCulturaDivergente": 0.00020691081590484828
+  },
+  "porClasse": {
+    "milho_cercosporiose": {
+      "precisao": 0.8695652173913043,
+      "recall": 0.970873786407767,
+      "f1": 0.9174311926605505,
+      "suporte": 103
+    },
+    "milho_ferrugem_comum": {
+      "precisao": 1.0,
+      "recall": 0.9873949579831933,
+      "f1": 0.9936575052854123,
+      "suporte": 238
+    },
+    "milho_helmintosporiose": {
+      "precisao": 0.9786096256684492,
+      "recall": 0.9289340101522843,
+      "f1": 0.953125,
+      "suporte": 197
+    },
+    "milho_saudavel": {
+      "precisao": 0.9957081545064378,
+      "recall": 1.0,
+      "f1": 0.9978494623655914,
+      "suporte": 232
+    },
+    "batata_pinta_preta": {
+      "precisao": 0.9900990099009901,
+      "recall": 1.0,
+      "f1": 0.9950248756218906,
+      "suporte": 200
+    },
+    "batata_requeima": {
+      "precisao": 0.9898477157360406,
+      "recall": 0.975,
+      "f1": 0.982367758186398,
+      "suporte": 200
+    },
+    "batata_saudavel": {
+      "precisao": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523,
+      "suporte": 30
+    },
+    "tomate_mancha_bacteriana": {
+      "precisao": 0.9530201342281879,
+      "recall": 1.0,
+      "f1": 0.9759450171821306,
+      "suporte": 426
+    },
+    "tomate_pinta_preta": {
+      "precisao": 0.9844559585492227,
+      "recall": 0.95,
+      "f1": 0.9669211195928753,
+      "suporte": 200
+    },
+    "tomate_requeima": {
+      "precisao": 0.9740932642487047,
+      "recall": 0.9842931937172775,
+      "f1": 0.9791666666666666,
+      "suporte": 382
+    },
+    "tomate_mofo_das_folhas": {
+      "precisao": 0.9947643979057592,
+      "recall": 1.0,
+      "f1": 0.9973753280839895,
+      "suporte": 190
+    },
+    "tomate_septoriose": {
+      "precisao": 1.0,
+      "recall": 0.9774011299435028,
+      "f1": 0.9885714285714285,
+      "suporte": 354
+    },
+    "tomate_acaro_rajado": {
+      "precisao": 0.9842767295597484,
+      "recall": 0.9343283582089552,
+      "f1": 0.9586523736600306,
+      "suporte": 335
+    },
+    "tomate_mancha_alvo": {
+      "precisao": 0.9150326797385621,
+      "recall": 0.99644128113879,
+      "f1": 0.9540034071550255,
+      "suporte": 281
+    },
+    "tomate_virus_enrolamento_amarelo": {
+      "precisao": 1.0,
+      "recall": 0.9794776119402985,
+      "f1": 0.9896324222431668,
+      "suporte": 1072
+    },
+    "tomate_virus_mosaico": {
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "suporte": 75
+    },
+    "tomate_saudavel": {
+      "precisao": 0.9937304075235109,
+      "recall": 0.9968553459119497,
+      "f1": 0.9952904238618524,
+      "suporte": 318
+    }
+  },
+  "tamanhoMb": 17.084623,
+  "latenciaCpu": {
+    "mediaMs": 32.5773464399208,
+    "p95Ms": 36.807653150299295,
+    "threads": 2
+  },
+  "melhorF1Validacao": 0.9736629272835022
+}

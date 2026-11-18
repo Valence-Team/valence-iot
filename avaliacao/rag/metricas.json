@@ -1,0 +1,3045 @@
+{
+  "geradoEm": "2026-11-15T16:11:31Z",
+  "consultas": 40,
+  "foraDoModelo": 10,
+  "trechos": 117,
+  "bonusClasse": 0.1,
+  "modelos": {
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+      "semBonus": {
+        "resumo": {
+          "geral": {
+            "consultas": 40,
+            "hit@1": 0.375,
+            "hit@3": 0.6,
+            "mrr": 0.5377
+          },
+          "pragasForaDoModelo": {
+            "consultas": 10,
+            "hit@1": 0.2,
+            "hit@3": 0.4,
+            "mrr": 0.3571
+          },
+          "comClasses": {
+            "consultas": 22,
+            "hit@1": 0.4545,
+            "hit@3": 0.7273,
+            "mrr": 0.6165
+          },
+          "semClasses": {
+            "consultas": 18,
+            "hit@1": 0.2778,
+            "hit@3": 0.4444,
+            "mrr": 0.4413
+          }
+        },
+        "porConsulta": [
+          {
+            "id": "c01",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.6821,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c02",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.6466,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c03",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.7443,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c04",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-monitoramento",
+            "posicao": 6,
+            "scoreTopo": 0.6024,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c05",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-cercosporiose",
+            "posicao": 2,
+            "scoreTopo": 0.6791,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c06",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.7464,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c07",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.6375,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c08",
+            "esperada": "milho-monitoramento",
+            "primeira": "milho-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.6913,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c09",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 2,
+            "scoreTopo": 0.702,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c10",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-monitoramento",
+            "posicao": 5,
+            "scoreTopo": 0.7417,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c11",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.6975,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c12",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.677,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c13",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 4,
+            "scoreTopo": 0.7669,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c14",
+            "esperada": "tomate-septoriose",
+            "primeira": "murcha-bacteriana",
+            "posicao": 7,
+            "scoreTopo": 0.682,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c15",
+            "esperada": "tomate-mofo-das-folhas",
+            "primeira": "tomate-monitoramento",
+            "posicao": 6,
+            "scoreTopo": 0.7158,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c16",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 0.6814,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c17",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.6768,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c18",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 2,
+            "scoreTopo": 0.6966,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c19",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 10,
+            "scoreTopo": 0.7053,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c20",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 8,
+            "scoreTopo": 0.7376,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c21",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-monitoramento",
+            "posicao": 9,
+            "scoreTopo": 0.71,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c22",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-monitoramento",
+            "posicao": 4,
+            "scoreTopo": 0.6843,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c23",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-monitoramento",
+            "posicao": 11,
+            "scoreTopo": 0.7077,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c24",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.8212,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c25",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.6514,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c26",
+            "esperada": "tomate-monitoramento",
+            "primeira": "tomate-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.7183,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c27",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.6126,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c28",
+            "esperada": "batata-requeima",
+            "primeira": "murcha-bacteriana",
+            "posicao": 2,
+            "scoreTopo": 0.6868,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c29",
+            "esperada": "batata-pinta-preta",
+            "primeira": "murcha-bacteriana",
+            "posicao": 3,
+            "scoreTopo": 0.6722,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c30",
+            "esperada": "batata-monitoramento",
+            "primeira": "batata-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.8041,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c31",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-monitoramento",
+            "posicao": 5,
+            "scoreTopo": 0.6908,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c32",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-cercosporiose",
+            "posicao": 6,
+            "scoreTopo": 0.6281,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c33",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.7353,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c34",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-monitoramento",
+            "posicao": 3,
+            "scoreTopo": 0.7214,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c35",
+            "esperada": "tomate-traca-do-tomateiro",
+            "primeira": "tomate-monitoramento",
+            "posicao": 8,
+            "scoreTopo": 0.7389,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c36",
+            "esperada": "tomate-mosca-branca",
+            "primeira": "tomate-monitoramento",
+            "posicao": 14,
+            "scoreTopo": 0.8191,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c37",
+            "esperada": "tomate-vira-cabeca",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 11,
+            "scoreTopo": 0.7167,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c38",
+            "esperada": "batata-canela-preta",
+            "primeira": "murcha-bacteriana",
+            "posicao": 4,
+            "scoreTopo": 0.723,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c39",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.7374,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c40",
+            "esperada": "murcha-bacteriana",
+            "primeira": "batata-monitoramento",
+            "posicao": 3,
+            "scoreTopo": 0.5085,
+            "foraDoModelo": true,
+            "comClasses": true
+          }
+        ]
+      },
+      "bonusTodasAsClasses": {
+        "resumo": {
+          "geral": {
+            "consultas": 40,
+            "hit@1": 0.45,
+            "hit@3": 0.7,
+            "mrr": 0.6096
+          },
+          "pragasForaDoModelo": {
+            "consultas": 10,
+            "hit@1": 0.2,
+            "hit@3": 0.4,
+            "mrr": 0.3571
+          },
+          "comClasses": {
+            "consultas": 22,
+            "hit@1": 0.5909,
+            "hit@3": 0.9091,
+            "mrr": 0.7472
+          },
+          "semClasses": {
+            "consultas": 18,
+            "hit@1": 0.2778,
+            "hit@3": 0.4444,
+            "mrr": 0.4413
+          }
+        },
+        "porConsulta": [
+          {
+            "id": "c01",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.7821,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c02",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.6466,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c03",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.8443,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c04",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-monitoramento",
+            "posicao": 6,
+            "scoreTopo": 0.6024,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c05",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-cercosporiose",
+            "posicao": 2,
+            "scoreTopo": 0.7791,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c06",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.8464,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c07",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.6375,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c08",
+            "esperada": "milho-monitoramento",
+            "primeira": "milho-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.7913,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c09",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 2,
+            "scoreTopo": 0.802,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c10",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-monitoramento",
+            "posicao": 5,
+            "scoreTopo": 0.7417,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c11",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.7975,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c12",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.677,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c13",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 2,
+            "scoreTopo": 0.8284,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c14",
+            "esperada": "tomate-septoriose",
+            "primeira": "murcha-bacteriana",
+            "posicao": 7,
+            "scoreTopo": 0.682,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c15",
+            "esperada": "tomate-mofo-das-folhas",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 1,
+            "scoreTopo": 0.7194,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c16",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 0.7814,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c17",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.6768,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c18",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.79,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c19",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 10,
+            "scoreTopo": 0.7053,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c20",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-mosaico",
+            "posicao": 2,
+            "scoreTopo": 0.7674,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c21",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-monitoramento",
+            "posicao": 9,
+            "scoreTopo": 0.71,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c22",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-mosaico",
+            "posicao": 1,
+            "scoreTopo": 0.756,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c23",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-monitoramento",
+            "posicao": 11,
+            "scoreTopo": 0.7077,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c24",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.9212,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c25",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.6514,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c26",
+            "esperada": "tomate-monitoramento",
+            "primeira": "tomate-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.8183,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c27",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.7126,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c28",
+            "esperada": "batata-requeima",
+            "primeira": "murcha-bacteriana",
+            "posicao": 2,
+            "scoreTopo": 0.6868,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c29",
+            "esperada": "batata-pinta-preta",
+            "primeira": "murcha-bacteriana",
+            "posicao": 2,
+            "scoreTopo": 0.6722,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c30",
+            "esperada": "batata-monitoramento",
+            "primeira": "batata-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.9041,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c31",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-monitoramento",
+            "posicao": 5,
+            "scoreTopo": 0.7908,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c32",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-cercosporiose",
+            "posicao": 6,
+            "scoreTopo": 0.6281,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c33",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.7353,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c34",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-monitoramento",
+            "posicao": 3,
+            "scoreTopo": 0.8214,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c35",
+            "esperada": "tomate-traca-do-tomateiro",
+            "primeira": "tomate-monitoramento",
+            "posicao": 8,
+            "scoreTopo": 0.7389,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c36",
+            "esperada": "tomate-mosca-branca",
+            "primeira": "tomate-monitoramento",
+            "posicao": 14,
+            "scoreTopo": 0.9191,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c37",
+            "esperada": "tomate-vira-cabeca",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 11,
+            "scoreTopo": 0.7167,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c38",
+            "esperada": "batata-canela-preta",
+            "primeira": "murcha-bacteriana",
+            "posicao": 4,
+            "scoreTopo": 0.723,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c39",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.7374,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c40",
+            "esperada": "murcha-bacteriana",
+            "primeira": "batata-monitoramento",
+            "posicao": 3,
+            "scoreTopo": 0.6085,
+            "foraDoModelo": true,
+            "comClasses": true
+          }
+        ]
+      },
+      "bonusSemSaudavel": {
+        "resumo": {
+          "geral": {
+            "consultas": 40,
+            "hit@1": 0.45,
+            "hit@3": 0.7,
+            "mrr": 0.6096
+          },
+          "pragasForaDoModelo": {
+            "consultas": 10,
+            "hit@1": 0.2,
+            "hit@3": 0.4,
+            "mrr": 0.3571
+          },
+          "comClasses": {
+            "consultas": 22,
+            "hit@1": 0.5909,
+            "hit@3": 0.9091,
+            "mrr": 0.7472
+          },
+          "semClasses": {
+            "consultas": 18,
+            "hit@1": 0.2778,
+            "hit@3": 0.4444,
+            "mrr": 0.4413
+          }
+        },
+        "porConsulta": [
+          {
+            "id": "c01",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.7821,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c02",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.6466,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c03",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.8443,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c04",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-monitoramento",
+            "posicao": 6,
+            "scoreTopo": 0.6024,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c05",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-cercosporiose",
+            "posicao": 2,
+            "scoreTopo": 0.7791,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c06",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.8464,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c07",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.6375,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c08",
+            "esperada": "milho-monitoramento",
+            "primeira": "milho-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.6913,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c09",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 2,
+            "scoreTopo": 0.802,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c10",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-monitoramento",
+            "posicao": 5,
+            "scoreTopo": 0.7417,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c11",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.7975,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c12",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.677,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c13",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 2,
+            "scoreTopo": 0.8284,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c14",
+            "esperada": "tomate-septoriose",
+            "primeira": "murcha-bacteriana",
+            "posicao": 7,
+            "scoreTopo": 0.682,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c15",
+            "esperada": "tomate-mofo-das-folhas",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 1,
+            "scoreTopo": 0.7194,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c16",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 0.7814,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c17",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.6768,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c18",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.79,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c19",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 10,
+            "scoreTopo": 0.7053,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c20",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-mosaico",
+            "posicao": 2,
+            "scoreTopo": 0.7674,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c21",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-monitoramento",
+            "posicao": 9,
+            "scoreTopo": 0.71,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c22",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-mosaico",
+            "posicao": 1,
+            "scoreTopo": 0.756,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c23",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-monitoramento",
+            "posicao": 11,
+            "scoreTopo": 0.7077,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c24",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.9212,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c25",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.6514,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c26",
+            "esperada": "tomate-monitoramento",
+            "primeira": "tomate-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.7183,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c27",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.7126,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c28",
+            "esperada": "batata-requeima",
+            "primeira": "murcha-bacteriana",
+            "posicao": 2,
+            "scoreTopo": 0.6868,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c29",
+            "esperada": "batata-pinta-preta",
+            "primeira": "murcha-bacteriana",
+            "posicao": 2,
+            "scoreTopo": 0.6722,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c30",
+            "esperada": "batata-monitoramento",
+            "primeira": "batata-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.8041,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c31",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-monitoramento",
+            "posicao": 5,
+            "scoreTopo": 0.6908,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c32",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-cercosporiose",
+            "posicao": 6,
+            "scoreTopo": 0.6281,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c33",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.7353,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c34",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-monitoramento",
+            "posicao": 3,
+            "scoreTopo": 0.7214,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c35",
+            "esperada": "tomate-traca-do-tomateiro",
+            "primeira": "tomate-monitoramento",
+            "posicao": 8,
+            "scoreTopo": 0.7389,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c36",
+            "esperada": "tomate-mosca-branca",
+            "primeira": "tomate-monitoramento",
+            "posicao": 14,
+            "scoreTopo": 0.8191,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c37",
+            "esperada": "tomate-vira-cabeca",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 11,
+            "scoreTopo": 0.7167,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c38",
+            "esperada": "batata-canela-preta",
+            "primeira": "murcha-bacteriana",
+            "posicao": 4,
+            "scoreTopo": 0.723,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c39",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.7374,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c40",
+            "esperada": "murcha-bacteriana",
+            "primeira": "batata-monitoramento",
+            "posicao": 3,
+            "scoreTopo": 0.5085,
+            "foraDoModelo": true,
+            "comClasses": true
+          }
+        ]
+      },
+      "corte": {
+        "varredura": [
+          {
+            "limiar": 0.3,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.31,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.32,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.33,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.34,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.35,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.36,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.37,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.38,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.39,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.4,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.41,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.42,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.43,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.44,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.45,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.46,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.47,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.48,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.49,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.4
+          },
+          {
+            "limiar": 0.5,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.4
+          },
+          {
+            "limiar": 0.51,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.6
+          },
+          {
+            "limiar": 0.52,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.6
+          },
+          {
+            "limiar": 0.53,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.54,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.55,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.56,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.57,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.58,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.59,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.6,
+            "relevantesAcima": 0.975,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.61,
+            "relevantesAcima": 0.95,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.62,
+            "relevantesAcima": 0.95,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.63,
+            "relevantesAcima": 0.925,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.64,
+            "relevantesAcima": 0.9,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.65,
+            "relevantesAcima": 0.875,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.66,
+            "relevantesAcima": 0.85,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.67,
+            "relevantesAcima": 0.85,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.68,
+            "relevantesAcima": 0.775,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.69,
+            "relevantesAcima": 0.725,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.7,
+            "relevantesAcima": 0.675,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.71,
+            "relevantesAcima": 0.625,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.72,
+            "relevantesAcima": 0.5,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.73,
+            "relevantesAcima": 0.45,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.74,
+            "relevantesAcima": 0.375,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.75,
+            "relevantesAcima": 0.35,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.76,
+            "relevantesAcima": 0.325,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.77,
+            "relevantesAcima": 0.3,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.78,
+            "relevantesAcima": 0.275,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.79,
+            "relevantesAcima": 0.2,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.8,
+            "relevantesAcima": 0.175,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.81,
+            "relevantesAcima": 0.125,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.82,
+            "relevantesAcima": 0.1,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.83,
+            "relevantesAcima": 0.075,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.84,
+            "relevantesAcima": 0.075,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.85,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.86,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.87,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.88,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.89,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.9,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.91,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.92,
+            "relevantesAcima": 0.025,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.93,
+            "relevantesAcima": 0.0,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.94,
+            "relevantesAcima": 0.0,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.95,
+            "relevantesAcima": 0.0,
+            "semRespostaCortadas": 1.0
+          }
+        ],
+        "scoreMinimo": 0.5,
+        "consultasRelevantesAcimaDoMinimo": 1.0,
+        "consultasSemRespostaCortadas": 0.4,
+        "scoreTopoRelevantes": {
+          "min": 0.5085,
+          "p10": 0.6457,
+          "mediana": 0.7204
+        },
+        "scoreTopoSemResposta": {
+          "max": 0.6223,
+          "mediana": 0.5092
+        }
+      }
+    },
+    "intfloat/multilingual-e5-small": {
+      "semBonus": {
+        "resumo": {
+          "geral": {
+            "consultas": 40,
+            "hit@1": 0.875,
+            "hit@3": 0.95,
+            "mrr": 0.9135
+          },
+          "pragasForaDoModelo": {
+            "consultas": 10,
+            "hit@1": 0.8,
+            "hit@3": 0.9,
+            "mrr": 0.875
+          },
+          "comClasses": {
+            "consultas": 22,
+            "hit@1": 0.8636,
+            "hit@3": 0.9545,
+            "mrr": 0.9129
+          },
+          "semClasses": {
+            "consultas": 18,
+            "hit@1": 0.8889,
+            "hit@3": 0.9444,
+            "mrr": 0.9144
+          }
+        },
+        "porConsulta": [
+          {
+            "id": "c01",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.9013,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c02",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.8777,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c03",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.8997,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c04",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.8766,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c05",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.8876,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c06",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.8998,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c07",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.866,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c08",
+            "esperada": "milho-monitoramento",
+            "primeira": "milho-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.8902,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c09",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.8903,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c10",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.8856,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c11",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.9055,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c12",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.8688,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c13",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-septoriose",
+            "posicao": 1,
+            "scoreTopo": 0.8981,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c14",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-septoriose",
+            "posicao": 1,
+            "scoreTopo": 0.8747,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c15",
+            "esperada": "tomate-mofo-das-folhas",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 1,
+            "scoreTopo": 0.8977,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c16",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 0.9091,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c17",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 0.8789,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c18",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.8886,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c19",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.8826,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c20",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-begomovirose",
+            "posicao": 1,
+            "scoreTopo": 0.9018,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c21",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-begomovirose",
+            "posicao": 1,
+            "scoreTopo": 0.8795,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c22",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-begomovirose",
+            "posicao": 3,
+            "scoreTopo": 0.8649,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c23",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 8,
+            "scoreTopo": 0.8884,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c24",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.8762,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c25",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 3,
+            "scoreTopo": 0.8804,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c26",
+            "esperada": "tomate-monitoramento",
+            "primeira": "tomate-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.8863,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c27",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.8969,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c28",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.8795,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c29",
+            "esperada": "batata-pinta-preta",
+            "primeira": "batata-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.889,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c30",
+            "esperada": "batata-monitoramento",
+            "primeira": "batata-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.9063,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c31",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.8738,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c32",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-cigarrinha-enfezamentos",
+            "posicao": 1,
+            "scoreTopo": 0.8644,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c33",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.9037,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c34",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.8824,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c35",
+            "esperada": "tomate-traca-do-tomateiro",
+            "primeira": "tomate-traca-do-tomateiro",
+            "posicao": 1,
+            "scoreTopo": 0.88,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c36",
+            "esperada": "tomate-mosca-branca",
+            "primeira": "tomate-begomovirose",
+            "posicao": 4,
+            "scoreTopo": 0.8728,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c37",
+            "esperada": "tomate-vira-cabeca",
+            "primeira": "tomate-vira-cabeca",
+            "posicao": 1,
+            "scoreTopo": 0.8793,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c38",
+            "esperada": "batata-canela-preta",
+            "primeira": "batata-canela-preta",
+            "posicao": 1,
+            "scoreTopo": 0.898,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c39",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.9038,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c40",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.8829,
+            "foraDoModelo": true,
+            "comClasses": true
+          }
+        ]
+      },
+      "bonusTodasAsClasses": {
+        "resumo": {
+          "geral": {
+            "consultas": 40,
+            "hit@1": 0.85,
+            "hit@3": 0.95,
+            "mrr": 0.9052
+          },
+          "pragasForaDoModelo": {
+            "consultas": 10,
+            "hit@1": 0.6,
+            "hit@3": 0.9,
+            "mrr": 0.775
+          },
+          "comClasses": {
+            "consultas": 22,
+            "hit@1": 0.8182,
+            "hit@3": 0.9545,
+            "mrr": 0.8977
+          },
+          "semClasses": {
+            "consultas": 18,
+            "hit@1": 0.8889,
+            "hit@3": 0.9444,
+            "mrr": 0.9144
+          }
+        },
+        "porConsulta": [
+          {
+            "id": "c01",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 1.0013,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c02",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.8777,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c03",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.9997,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c04",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.8766,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c05",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.9876,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c06",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.9998,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c07",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.866,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c08",
+            "esperada": "milho-monitoramento",
+            "primeira": "milho-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.9902,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c09",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.9903,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c10",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.8856,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c11",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 1.0055,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c12",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.8688,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c13",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-septoriose",
+            "posicao": 1,
+            "scoreTopo": 0.9981,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c14",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-septoriose",
+            "posicao": 1,
+            "scoreTopo": 0.8747,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c15",
+            "esperada": "tomate-mofo-das-folhas",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 1,
+            "scoreTopo": 0.9977,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c16",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 1.0091,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c17",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 0.8789,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c18",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.9886,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c19",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.8826,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c20",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-begomovirose",
+            "posicao": 1,
+            "scoreTopo": 1.0018,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c21",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-begomovirose",
+            "posicao": 1,
+            "scoreTopo": 0.8795,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c22",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-mosaico",
+            "posicao": 1,
+            "scoreTopo": 0.9631,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c23",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 8,
+            "scoreTopo": 0.8884,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c24",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.9762,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c25",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 3,
+            "scoreTopo": 0.8804,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c26",
+            "esperada": "tomate-monitoramento",
+            "primeira": "tomate-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.9863,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c27",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.9969,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c28",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.8795,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c29",
+            "esperada": "batata-pinta-preta",
+            "primeira": "batata-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.989,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c30",
+            "esperada": "batata-monitoramento",
+            "primeira": "batata-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 1.0063,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c31",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.9738,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c32",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-cigarrinha-enfezamentos",
+            "posicao": 1,
+            "scoreTopo": 0.8644,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c33",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.9037,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c34",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.9674,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c35",
+            "esperada": "tomate-traca-do-tomateiro",
+            "primeira": "tomate-traca-do-tomateiro",
+            "posicao": 1,
+            "scoreTopo": 0.88,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c36",
+            "esperada": "tomate-mosca-branca",
+            "primeira": "tomate-monitoramento",
+            "posicao": 4,
+            "scoreTopo": 0.9721,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c37",
+            "esperada": "tomate-vira-cabeca",
+            "primeira": "tomate-vira-cabeca",
+            "posicao": 1,
+            "scoreTopo": 0.8793,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c38",
+            "esperada": "batata-canela-preta",
+            "primeira": "batata-canela-preta",
+            "posicao": 1,
+            "scoreTopo": 0.898,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c39",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.9038,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c40",
+            "esperada": "murcha-bacteriana",
+            "primeira": "batata-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.9729,
+            "foraDoModelo": true,
+            "comClasses": true
+          }
+        ]
+      },
+      "bonusSemSaudavel": {
+        "resumo": {
+          "geral": {
+            "consultas": 40,
+            "hit@1": 0.9,
+            "hit@3": 0.95,
+            "mrr": 0.9302
+          },
+          "pragasForaDoModelo": {
+            "consultas": 10,
+            "hit@1": 0.8,
+            "hit@3": 0.9,
+            "mrr": 0.875
+          },
+          "comClasses": {
+            "consultas": 22,
+            "hit@1": 0.9091,
+            "hit@3": 0.9545,
+            "mrr": 0.9432
+          },
+          "semClasses": {
+            "consultas": 18,
+            "hit@1": 0.8889,
+            "hit@3": 0.9444,
+            "mrr": 0.9144
+          }
+        },
+        "porConsulta": [
+          {
+            "id": "c01",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 1.0013,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c02",
+            "esperada": "milho-cercosporiose",
+            "primeira": "milho-cercosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.8777,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c03",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.9997,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c04",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.8766,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c05",
+            "esperada": "milho-ferrugem-comum",
+            "primeira": "milho-ferrugem-comum",
+            "posicao": 1,
+            "scoreTopo": 0.9876,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c06",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.9998,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c07",
+            "esperada": "milho-helmintosporiose",
+            "primeira": "milho-helmintosporiose",
+            "posicao": 1,
+            "scoreTopo": 0.866,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c08",
+            "esperada": "milho-monitoramento",
+            "primeira": "milho-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.8902,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c09",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.9903,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c10",
+            "esperada": "tomate-pinta-preta",
+            "primeira": "tomate-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.8856,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c11",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 1.0055,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c12",
+            "esperada": "tomate-requeima",
+            "primeira": "tomate-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.8688,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c13",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-septoriose",
+            "posicao": 1,
+            "scoreTopo": 0.9981,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c14",
+            "esperada": "tomate-septoriose",
+            "primeira": "tomate-septoriose",
+            "posicao": 1,
+            "scoreTopo": 0.8747,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c15",
+            "esperada": "tomate-mofo-das-folhas",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 1,
+            "scoreTopo": 0.9977,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c16",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 1.0091,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c17",
+            "esperada": "tomate-mancha-alvo",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 1,
+            "scoreTopo": 0.8789,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c18",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.9886,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c19",
+            "esperada": "tomate-mancha-bacteriana",
+            "primeira": "tomate-mancha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.8826,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c20",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-begomovirose",
+            "posicao": 1,
+            "scoreTopo": 1.0018,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c21",
+            "esperada": "tomate-begomovirose",
+            "primeira": "tomate-begomovirose",
+            "posicao": 1,
+            "scoreTopo": 0.8795,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c22",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-mosaico",
+            "posicao": 1,
+            "scoreTopo": 0.9631,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c23",
+            "esperada": "tomate-mosaico",
+            "primeira": "tomate-mofo-das-folhas",
+            "posicao": 8,
+            "scoreTopo": 0.8884,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c24",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-acaro-rajado",
+            "posicao": 1,
+            "scoreTopo": 0.9762,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c25",
+            "esperada": "tomate-acaro-rajado",
+            "primeira": "tomate-mancha-alvo",
+            "posicao": 3,
+            "scoreTopo": 0.8804,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c26",
+            "esperada": "tomate-monitoramento",
+            "primeira": "tomate-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.8863,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c27",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.9969,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c28",
+            "esperada": "batata-requeima",
+            "primeira": "batata-requeima",
+            "posicao": 1,
+            "scoreTopo": 0.8795,
+            "foraDoModelo": false,
+            "comClasses": false
+          },
+          {
+            "id": "c29",
+            "esperada": "batata-pinta-preta",
+            "primeira": "batata-pinta-preta",
+            "posicao": 1,
+            "scoreTopo": 0.989,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c30",
+            "esperada": "batata-monitoramento",
+            "primeira": "batata-monitoramento",
+            "posicao": 1,
+            "scoreTopo": 0.9063,
+            "foraDoModelo": false,
+            "comClasses": true
+          },
+          {
+            "id": "c31",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-monitoramento",
+            "posicao": 2,
+            "scoreTopo": 0.8738,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c32",
+            "esperada": "milho-cigarrinha-enfezamentos",
+            "primeira": "milho-cigarrinha-enfezamentos",
+            "posicao": 1,
+            "scoreTopo": 0.8644,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c33",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.9037,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c34",
+            "esperada": "milho-lagarta-do-cartucho",
+            "primeira": "milho-lagarta-do-cartucho",
+            "posicao": 1,
+            "scoreTopo": 0.8824,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c35",
+            "esperada": "tomate-traca-do-tomateiro",
+            "primeira": "tomate-traca-do-tomateiro",
+            "posicao": 1,
+            "scoreTopo": 0.88,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c36",
+            "esperada": "tomate-mosca-branca",
+            "primeira": "tomate-begomovirose",
+            "posicao": 4,
+            "scoreTopo": 0.8728,
+            "foraDoModelo": true,
+            "comClasses": true
+          },
+          {
+            "id": "c37",
+            "esperada": "tomate-vira-cabeca",
+            "primeira": "tomate-vira-cabeca",
+            "posicao": 1,
+            "scoreTopo": 0.8793,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c38",
+            "esperada": "batata-canela-preta",
+            "primeira": "batata-canela-preta",
+            "posicao": 1,
+            "scoreTopo": 0.898,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c39",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.9038,
+            "foraDoModelo": true,
+            "comClasses": false
+          },
+          {
+            "id": "c40",
+            "esperada": "murcha-bacteriana",
+            "primeira": "murcha-bacteriana",
+            "posicao": 1,
+            "scoreTopo": 0.8829,
+            "foraDoModelo": true,
+            "comClasses": true
+          }
+        ]
+      },
+      "corte": {
+        "varredura": [
+          {
+            "limiar": 0.3,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.31,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.32,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.33,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.34,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.35,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.36,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.37,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.38,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.39,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.4,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.41,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.42,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.43,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.44,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.45,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.46,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.47,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.48,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.49,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.5,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.51,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.52,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.53,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.54,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.55,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.56,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.57,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.58,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.59,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.6,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.61,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.62,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.63,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.64,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.65,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.66,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.67,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.68,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.69,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.7,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.71,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.72,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.73,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.74,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.75,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.76,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.77,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.78,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.79,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.8,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.81,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.82,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.83,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.84,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.0
+          },
+          {
+            "limiar": 0.85,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.2
+          },
+          {
+            "limiar": 0.86,
+            "relevantesAcima": 1.0,
+            "semRespostaCortadas": 0.4
+          },
+          {
+            "limiar": 0.87,
+            "relevantesAcima": 0.925,
+            "semRespostaCortadas": 0.8
+          },
+          {
+            "limiar": 0.88,
+            "relevantesAcima": 0.7,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.89,
+            "relevantesAcima": 0.5,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.9,
+            "relevantesAcima": 0.45,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.91,
+            "relevantesAcima": 0.375,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.92,
+            "relevantesAcima": 0.375,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.93,
+            "relevantesAcima": 0.375,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.94,
+            "relevantesAcima": 0.375,
+            "semRespostaCortadas": 1.0
+          },
+          {
+            "limiar": 0.95,
+            "relevantesAcima": 0.375,
+            "semRespostaCortadas": 1.0
+          }
+        ],
+        "scoreMinimo": 0.85,
+        "consultasRelevantesAcimaDoMinimo": 1.0,
+        "consultasSemRespostaCortadas": 0.2,
+        "scoreTopoRelevantes": {
+          "min": 0.8644,
+          "p10": 0.8737,
+          "mediana": 0.8893
+        },
+        "scoreTopoSemResposta": {
+          "max": 0.8794,
+          "mediana": 0.8614
+        }
+      }
+    }
+  }
+}
