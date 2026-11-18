@@ -1,5 +1,5 @@
 {
-  "geradoEm": "2026-11-15T16:13:29Z",
+  "geradoEm": "2026-11-17T21:53:04Z",
   "modeloPrincipal": "openai/gpt-oss-20b",
   "modeloReserva": "gemini-3.5-flash-lite",
   "casos": 12,
@@ -10,7 +10,7 @@
     "citaFonte": 12,
     "semDoseNemProduto": 12,
     "mencionaAgronomo": 12,
-    "dadoPessoalAusenteDoPrompt": 11
+    "dadoPessoalAusenteDoPrompt": 12
   },
   "escalaNotaHumana": "1 = sem base nos trechos; 2 = parcialmente fundamentada; 3 = toda afirmação apoiada nos trechos citados",
   "resultados": [
@@ -44,9 +44,9 @@
       "provedoresTentados": [
         "openai/gpt-oss-20b"
       ],
-      "explicacao": "A suspeita de ferrugem‑comum se confirma pelos sintomas descritos: pequenas pústulas marrom‑ferrugem nas duas faces das folhas que se rompem, liberando um pó cor de ferrugem que suja os dedos ao tocar a planta [1]. A disseminação rápida por esporos leves, especialmente em clima fresco e úmido, pode levar a um aumento rápido da doença na lavoura [4]. Para prevenir, mantenha a plantação bem espaçada, retire e destrua folhas doentes, evite o acúmulo de umidade e garanta boa circulação de ar. Se as manchas forem cinzentas e alongadas, pode ser cercosporiose; nesse caso, procure o agrônomo para confirmação e orientação específica [2][3]. Só o profissional pode confirmar o diagnóstico e indicar medidas adicionais.",
+      "explicacao": "Parece que a sua plantação pode estar com ferrugem‑comum. As bolinhas marrom‑ferrugem que aparecem nas folhas, que se rompem e deixam um pó cor de ferrugem nos dedos, são características típicas dessa doença [1]. Os esporos são leves e se espalham pelo vento, podendo chegar a outras plantas e lavouras, principalmente em clima fresco e úmido [4]. Para prevenir, mantenha a plantação bem espaçada, retire folhas doentes e evite o acúmulo de detritos. Se as manchas forem cinzentas e alongadas, pode ser cercosporiose; nesse caso, procure o agrônomo para confirmar o diagnóstico e decidir o manejo adequado [2], [3]. Só o profissional pode confirmar e indicar medidas específicas.",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 1946,
+      "duracaoMs": 848,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -88,9 +88,9 @@
       "provedoresTentados": [
         "openai/gpt-oss-20b"
       ],
-      "explicacao": "A mancha cinza comprida que segue as nervuras pode ser cercosporiose, pois a doença apresenta manchas retangulares ou irregulares que crescem no sentido das nervuras e podem levar à secura da folha [1]. Também pode ser helmintosporiose, que causa manchas compridas em forma de charuto ou elipse, de cor cinza ou marrom, que se espalham das folhas de baixo para as de cima [2]. Para prevenir, plante cultivares resistentes à helmintosporiose e faça rotação de culturas, evitando plantar milho sobre milho doente [3]. Observe as folhas de baixo primeiro e visite a lavoura com frequência para detectar o início da doença [3]. Se as manchas se multiplicarem ou houver dúvida, procure o agrônomo ou a assistência técnica para confirmação e orientação [4].",
+      "explicacao": "A mancha cinza longa, seguindo as nervuras, pode ser cercosporiose ou helmintosporiose. A cercosporiose causa manchas retangulares que crescem ao longo das nervuras e podem levar a perda de folhagem e queda da planta [1]. A helmintosporiose apresenta manchas compridas, de cor cinza ou marrom, que se espalham das folhas de baixo para as de cima e podem reduzir a produção se forte [2]. Para prevenir, plante cultivares resistentes à helmintosporiose, faça rotação de culturas e controle de capins hospedeiros [3]. Se as manchas aparecerem nas folhas do meio para cima ou houver dúvida, procure o agrônomo ou técnico de assistência rural; só o profissional pode confirmar o diagnóstico e indicar medidas adicionais [4].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 500,
+      "duracaoMs": 635,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -125,9 +125,9 @@
       "provedoresTentados": [
         "openai/gpt-oss-20b"
       ],
-      "explicacao": "Pode estar ocorrendo enfezamento causado pela cigarrinha-do‑milho. O inseto, de cor palha, fica no cartucho e traz microrganismos que provocam manchas vermelhas e folhas baixas, além de espigas pequenas e grãos frouxos [1][3]. A doença se agrava em noites acima de 17 °C e dias acima de 27 °C, especialmente quando há milho plantado em várias épocas na mesma região [1]. Para prevenir, mantenha o cartucho limpo, evite plantio em áreas com milho tiguera ou em estradas, e monitore a lavoura regularmente, pois folhas saudáveis em uma foto não garantem que todas as plantas estejam bem [2]. A suspeita deve ser confirmada por um agrônomo ou assistência técnica.",
+      "explicacao": "A suspeita é de enfezamento causado pela cigarrinha‑do‑milho. O inseto, de cor palha, fica no cartucho e transmite microrganismos que geram manchas e listras nas folhas. Quando o enfezamento é vermelho, as folhas ficam avermelhadas, a planta fica baixa, com espigas pequenas ou sem grão, e pode secar antes do tempo [3]. A presença de bichinhos cor de palha no cartucho indica a infestação [1]. Para prevenir, mantenha a plantação limpa, evite plantio repetido na mesma área e controle a cigarrinha, pois o problema cresce com calor e plantio em épocas consecutivas [1]. A situação é apenas uma suspeita; procure o agrônomo ou assistência técnica para confirmação e manejo adequado.",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 621,
+      "duracaoMs": 586,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -169,9 +169,9 @@
       "provedoresTentados": [
         "openai/gpt-oss-20b"
       ],
-      "explicacao": "A suspeita é de requeima (mela). A doença ataca a parte superior da planta, causando manchas grandes, molhadas e marrons que secam, com mofo esbranquiçado na face inferior [1]. O relato de “mela no tomate depois da neblina, mancha grande molhada e mofo branco embaixo da folha” corresponde exatamente a esses sintomas. A pinta‑preta costuma aparecer nas folhas mais velhas, com manchas redondas e anéis concêntricos, não se encaixando no seu caso [2]. Para prevenir, evite períodos de alta umidade e orvalho intenso, mantenha a plantação limpa de restos de plantas doentes e evite plantio em áreas já infectadas [3]. Se notar manchas grandes e úmidas, procure o agrônomo imediatamente; ele confirmará o diagnóstico e orientará as medidas adequadas [4].",
+      "explicacao": "A suspeita é de requeima, pois a mancha grande, molhada e com mofo branco na parte inferior da folha corresponde a esse sintoma [1]. A requeima costuma aparecer na metade superior da planta e pode deixar a folha parecendo queimada, com manchas marrons ao secar [1]. Se a doença avançar rapidamente, é importante chamar o agrônomo imediatamente, pois ele confirma o diagnóstico e orienta as medidas de controle [4]. Para prevenir, evite condições de alta umidade e mantenha a plantação bem ventilada, pois a requeima se agrava em dias frios e úmidos [4]. Também é útil avisar vizinhos que cultivam tomate ou batata, pois a doença pode se espalhar entre lavouras [4].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 561,
+      "duracaoMs": 625,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -214,9 +214,9 @@
       "provedoresTentados": [
         "openai/gpt-oss-20b"
       ],
-      "explicacao": "A suspeita mais provável é a septoriose, pois a mancha começa nas folhas de baixo, é redonda, com centro claro e pontinhos pretos visíveis a olho nu, exatamente como descrito no relato e nos trechos [1] e [4]. A pinta‑preta e a mancha‑alvo também apresentam manchas redondas, mas costumam ter bordas amareladas ou anéis concêntricos mais marcados, e não pontinhos pretos [2][3]. Para prevenir, mantenha a plantação bem ventilada, evite excesso de umidade e faça a rotação de culturas. Remova folhas e restos vegetais infectados para reduzir a propagação. Se as manchas se espalharem ou houver dúvida, procure o agrônomo para confirmação e orientação específica.",
+      "explicacao": "A suspeita é de septoriose, pois a descrição indica manchas redondas nas folhas de baixo, com centro claro e pontos pretos no centro, que aparecem após chuva [1]. A pinta‑preta e a mancha‑alvo também têm manchas redondas, mas a septoriose costuma ter pontinhos pretos visíveis a olho nu, enquanto a pinta‑preta apresenta anéis concêntricos e a mancha‑alvo tem halos amarelos [2][3]. Para prevenir, mantenha a plantação bem ventilada, evite o acúmulo de água nas folhas, retire folhas doentes e use sementes certificadas. Se as manchas se espalharem ou houver dúvida, procure o agrônomo para confirmação e orientação específica [4].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 662,
+      "duracaoMs": 668,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -258,9 +258,9 @@
       "provedoresTentados": [
         "openai/gpt-oss-20b"
       ],
-      "explicacao": "A folha nova amarela, enrugada e enrolando, com muitas moscas‑brancas embaixo, indica uma possível begomovirose do tomateiro, que causa mosaico amarelo e enrolamento das folhas [1]. Esses sintomas podem ser confundidos com falta de nutrientes ou com outros vírus, e a confirmação exige exame de laboratório; procure o agrônomo ao observar folhas amareladas e enrugadas, especialmente em mudas e logo após o transplante [2]. Para prevenir, plante cultivares resistentes, use mudas saudáveis, evite plantios perto de lavouras velhas de tomate, soja e feijão, elimine plantas daninhas hospedeiras e destrua restos após a colheita, rotacionando com gramíneas e respeitando o vazio sanitário da região [3]. O controle do vetor, a mosca‑branca, deve seguir orientação agronômica [4].",
+      "explicacao": "A folha nova amarela, enrugada e enrolando, com muitas moscas‑brancas, indica suspeita de begomovirose do tomateiro, que causa mosaico amarelo ou dourado e enrolamento das folhas [1]. Os sintomas podem ser confundidos com falta de nutrientes, mas a presença de moscas‑brancas e a ocorrência em mudas ou logo após o transplante reforçam a suspeita; a confirmação exige exame de laboratório e o agrônomo deve ser chamado [2]. Para prevenir, plante cultivares resistentes, use mudas saudáveis, evite plantio próximo a lavouras velhas de tomate, soja ou feijão, elimine plantas daninhas hospedeiras, destrua restos após a colheita e faça rotação com gramíneas, respeitando o vazio sanitário da região [3]. O controle do vetor deve seguir orientação agronômica [4].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 1196,
+      "duracaoMs": 769,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -303,9 +303,9 @@
         "openai/gpt-oss-20b",
         "gemini-3.5-flash-lite"
       ],
-      "explicacao": "Existe uma suspeita de pinta-preta na sua lavoura de batata, baseada nos sintomas de manchas pequenas e escuras nas folhas de baixo que crescem, ficam redondas com anéis concêntricos e fazem a folha cair [1]. Como os trechos mostram que a irrigação em excesso e a permanência de restos de cultura na área ajudam o fungo a se espalhar e acumular, evite o excesso de água e elimine restos de cultivos anteriores [4]. Ressaltamos que esta é apenas uma suspeita e que somente o engenheiro agrônomo pode confirmar o diagnóstico correto [2]. Procure a assistência técnica ou um agrônomo para avaliar a situação e indicar a melhor proteção [2].",
+      "explicacao": "Há uma suspeita de pinta-preta na batata, cujos sintomas iniciais são manchas pequenas e escuras nas folhas de baixo mais velhas, que crescem, ficam redondas e com anéis concêntricos, podendo juntar-se e fazer a folha queimar e cair [1]. O fungo sobrevive em restos de cultura e se espalha para folhas novas, sendo favorecido por irrigação em excesso que mantém a lavoura úmida e pelo plantio continuado no mesmo lugar [4]. Como trata-se apenas de uma suspeita e só o agrônomo pode confirmar o diagnóstico, é fundamental procurar a assistência técnica ou o agrônomo para ter a indicação adequada [2]. Para manejo preventivo, evite o excesso de irrigação e não plante batata seguidamente no mesmo local [4].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 1371,
+      "duracaoMs": 1562,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -344,9 +344,9 @@
       "provedoresTentados": [
         "openai/gpt-oss-20b"
       ],
-      "explicacao": "A suspeita é de canela‑preta e podridão‑mole da batata, pois a haste ficou preta, mole e a planta murchou após chuva e calor [1]. A doença costuma aparecer de outubro a março, quando calor e umidade alta se combinam, e solos encharcados, compactados e argilosos favorecem a bactéria [2]. A murcha pode evoluir rapidamente, deixando a planta morta, e tubérculos podem apodrecer antes ou depois da colheita [1]. Se notar plantas murchas com a base escura e mole, procure o agrônomo; ele pode diferenciar a canela‑preta de outras causas e orientar o manejo futuro [3].",
+      "explicacao": "A suspeita é de canela‑preta e podridão‑mole da batata. A planta murcha, a haste fica escura e mole na base e a planta pode morrer, especialmente quando há solo úmido e quente, chuva intensa e calor [1]. A doença costuma aparecer de outubro a março, quando calor e umidade combinam, e solos encharcados, compactados e argilosos favorecem a bactéria, além de adubação excessiva que deixa a folhagem densa e úmida [2]. Se notar plantas murchas com a base escura e mole, falhas de nascimento ou tubérculos apodrecendo, procure o agrônomo para confirmar o diagnóstico e orientar o manejo adequado [3].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 850,
+      "duracaoMs": 625,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -368,19 +368,19 @@
       "trechos": [
         {
           "titulo": "Mancha-bacteriana do tomateiro",
-          "score": 0.9819
+          "score": 0.9882
         },
         {
           "titulo": "Mancha-bacteriana do tomateiro",
-          "score": 0.9793
+          "score": 0.9875
         },
         {
           "titulo": "Mancha-bacteriana do tomateiro",
-          "score": 0.9705
+          "score": 0.9777
         },
         {
           "titulo": "Mancha-bacteriana do tomateiro",
-          "score": 0.9666
+          "score": 0.9721
         }
       ],
       "modeloLlm": "gemini-3.5-flash-lite",
@@ -388,9 +388,9 @@
         "openai/gpt-oss-20b",
         "gemini-3.5-flash-lite"
       ],
-      "explicacao": "Existe uma suspeita de mancha-bacteriana, cujos sintomas incluem manchas marrons de formato irregular nas bordas das folhas, com aspecto encharcado quando há umidade alta [2]. Como os sintomas iniciais se confundem com os de outras doenças, o diagnóstico seguro pede exame de laboratório e a confirmação é feita apenas pelo agrônomo, sendo recomendado procurar a assistência técnica [1]. A doença é favorecida por períodos de chuva e irrigação por aspersão [3]. Para o manejo cultural e preventivo, deve-se usar sementes de boa qualidade, plantar mudas sadias, evitar plantio perto de lavouras velhas, preferir irrigação por gotejamento e não realizar tratos culturais com as plantas molhadas [4]. Também é importante evitar ferimentos, desinfetar ferramentas, incorporar restos culturais após a colheita e fazer rotação com gramíneas [4].",
+      "explicacao": "Existe uma suspeita de mancha-bacteriana no seu tomateiro, mas lembre-se de que é apenas uma suspeita e só o agrônomo pode confirmar o diagnóstico, sendo recomendado procurar a assistência técnica [1]. Na planta adulta, podem aparecer manchas marrons de formato irregular nas bordas das folhas, que ficam com aspecto encharcado com orvalho ou umidade alta [2]. A doença é favorecida por períodos de chuva e irrigação por aspersão, pois a folha molhada ajuda a bactéria a entrar na planta e se espalhar [3]. Como cuidados preventivos, use sementes de boa qualidade, plante mudas sadias, evite regas por aspersão excessiva e não faça tratos culturais com as plantas molhadas [4]. Também é importante não plantar perto de lavouras velhas, desinfetar ferramentas, incorporar restos de cultura após a colheita e fazer rotação com gramíneas [4].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 1372,
+      "duracaoMs": 3899,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -398,7 +398,7 @@
         "citaFonte": true,
         "semDoseNemProduto": true,
         "mencionaAgronomo": true,
-        "dadoPessoalAusenteDoPrompt": false
+        "dadoPessoalAusenteDoPrompt": true
       },
       "notaHumanaFundamentacao": null
     },
@@ -432,9 +432,9 @@
         "openai/gpt-oss-20b",
         "gemini-3.5-flash-lite"
       ],
-      "explicacao": "Há uma suspeita de helmintosporiose no milho, mas lembre-se de que isso é apenas uma suspeita e só um agrônomo pode confirmar o diagnóstico. Procure a assistência técnica ou um agrônomo. A doença causa manchas compridas, em forma de charuto ou elipse, de cor cinza ou marrom, começando nas folhas de baixo [1]. O fungo sobrevive em restos de plantas da colheita e em capins hospedeiros [4]. Para o manejo, plante cultivares com resistência genética, faça rotação de culturas para evitar milho sobre palha doente, redobre a atenção na safrinha e controle capins nas bordas, além de visitar a lavoura com frequência para ver o início dos sintomas nas folhas inferiores [2].",
+      "explicacao": "O sintoma de manchas compridas nas folhas de baixo do milho indica uma suspeita de helmintosporiose, mas lembre-se de que isso é apenas uma suspeita e que só o agrônomo pode confirmar o diagnóstico [1]. A doença causa lesões em forma de charuto ou elipse que começam embaixo e podem subir para as folhas de cima [1]. Como manejo cultural e preventivo, recomenda-se plantar cultivares com resistência genética, fazer rotação de culturas para evitar milho sobre palha doente, ter atenção redobrada no milho de safrinha, controlar sorgo e capins hospedeiros nas bordas e visitar a lavoura com frequência para monitorar as folhas inferiores [2]. Procure a assistência técnica ou um engenheiro agrônomo para avaliar a lavoura de forma segura [3].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 1469,
+      "duracaoMs": 3228,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -476,9 +476,9 @@
         "openai/gpt-oss-20b",
         "gemini-3.5-flash-lite"
       ],
-      "explicacao": "Há uma suspeita de requeima na sua lavoura, doença que causa manchas grandes com aspecto de molhado nas folhas e frutos [3], favorecida por tempo úmido e noites frias [4]. Lembre-se de que esta é apenas uma suspeita e somente o agrônomo pode confirmar o diagnóstico [1]. Procure imediatamente a assistência técnica ou um agrônomo, pois o problema avança muito rápido e exige medidas que dependem de receita agronômica [1]. Como manejo cultural e preventivo, evite plantar em áreas úmidas ou sombreadas, use apenas mudas sadias, faça irrigação por gotejamento ou regue menos vezes com mais água, garanta boa ventilação e elimine os restos de cultura após a colheita [2]. Avise também os vizinhos que plantam tomate ou batata [1].",
+      "explicacao": "Existe uma suspeita de requeima, doença que ataca a parte superior da planta com manchas grandes e úmidas que ficam marrons, podendo apresentar mofo esbranquiçado embaixo das folhas [3]. Como a doença avança muito rápido e é favorecida por tempo úmido e noites frias, procure um agrônomo ou a assistência técnica imediatamente, pois só ele pode confirmar o diagnóstico e decidir as medidas de controle [1, 4]. Como medida de manejo cultural e preventivo, evite plantar perto de lavouras velhas, em baixadas ou locais úmidos, use mudas sadias, faça irrigação por gotejamento, mantenha boa ventilação e elimine os restos de cultura após a colheita [2]. Avise também os vizinhos que plantam tomate ou batata, pois a doença passa de uma lavoura para outra [1].",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 3074,
+      "duracaoMs": 1915,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
@@ -515,14 +515,13 @@
           "score": 0.9698
         }
       ],
-      "modeloLlm": "gemini-3.5-flash-lite",
+      "modeloLlm": "openai/gpt-oss-20b",
       "provedoresTentados": [
-        "openai/gpt-oss-20b",
-        "gemini-3.5-flash-lite"
+        "openai/gpt-oss-20b"
       ],
-      "explicacao": "Há uma suspeita de requeima na lavoura, doença que causa manchas escuras com mofo branco nas bordas e pode destruir a plantação rapidamente [1, 2]. Só o agrônomo pode confirmar o diagnóstico, sendo recomendado procurá-lo imediatamente [1]. Como cuidados preventivos, deve-se plantar cultivares resistentes, evitar baixadas com neblina, escolher épocas de plantio menos favoráveis e eliminar plantas hospedeiras ao redor e batatas que rebrotam de tubérculos esquecidos [3]. Também é importante manter o monitoramento frequente após dias frios e úmidos, vento forte ou granizo, além de avisar os vizinhos que cultivam batata ou tomate [1, 3].",
+      "explicacao": "A suspeita de requeima na batata se confirma quando aparecem manchas escuras com mofo branco nas bordas, especialmente em clima frio e úmido [1]. O patógeno pode atacar folhas, hastes e tubérculos, causando manchas pardo‑esverdeadas e, em casos graves, podridão seca e perda total da lavoura em até 72 horas [2]. Para prevenir, plante cultivares resistentes, evite baixadas com neblina, escolha épocas de plantio menos favoráveis, elimine plantas hospedeiras ao redor e mantenha o monitoramento frequente após dias frios e úmidos [3]. Se houver risco de disseminação, verifique a presença de outras culturas da família da batata nas proximidades, pois elas podem aumentar o risco [4]. Esta é apenas uma suspeita; procure o agrônomo para confirmação e orientação específica.",
       "respostaBrutaBloqueada": null,
-      "duracaoMs": 1255,
+      "duracaoMs": 819,
       "checagens": {
         "explicacaoGerada": true,
         "portugues": true,
