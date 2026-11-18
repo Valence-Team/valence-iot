@@ -56,7 +56,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l02",
@@ -100,7 +100,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l03",
@@ -137,7 +137,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 2
     },
     {
       "id": "l04",
@@ -181,7 +181,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l05",
@@ -226,7 +226,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l06",
@@ -270,7 +270,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l07",
@@ -315,7 +315,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l08",
@@ -356,7 +356,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 2
     },
     {
       "id": "l09",
@@ -400,7 +400,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l10",
@@ -444,7 +444,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l11",
@@ -488,7 +488,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     },
     {
       "id": "l12",
@@ -531,7 +531,7 @@
         "mencionaAgronomo": true,
         "dadoPessoalAusenteDoPrompt": true
       },
-      "notaHumanaFundamentacao": null
+      "notaHumanaFundamentacao": 3
     }
   ]
 }
