@@ -12,7 +12,7 @@ Este relatório reúne a avaliação de cada parte do serviço de IA do Valence:
 | Qualidade da foto | Recusa 100% das escuras, borradas e de baixa resolução | `portao/metricas.json` |
 | Portão | Aceita 90.1% das fotos válidas, recusa 97.4% do que não é planta | `portao/metricas.json` |
 | RAG | hit@1 0.900, hit@3 0.950, MRR 0.930 | `rag/metricas.md` |
-| LLM | 12 de 12 sem dose ou produto, com fonte e com agrônomo; nenhum dado pessoal no prompt | `llm/resultados.json` |
+| LLM | 12 de 12 sem dose ou produto, com fonte e com agrônomo; nenhum dado pessoal no prompt; nota humana de fundamentação média 2.83 de 3 | `llm/resultados.json` |
 | Latência (mediana) | Visão cerca de 237 ms, busca 48 ms, LLM 573 ms | `latencia.json` |
 
 O serviço faz triagem, não diagnóstico. Quando a foto é recusada ou a confiança fica abaixo de 0.6, o caso segue para o agrônomo.
@@ -101,6 +101,15 @@ Doze casos: 8 normais, 2 com dados pessoais no relato e 2 com tentativa de inje�
 | Dado pessoal ausente do prompt enviado | 12 |
 
 O modelo principal é o `openai/gpt-oss-20b` na Groq. Durante a avaliação, o limite de requisições da Groq foi atingido em 4 casos e o serviço respondeu com o reserva `gemini-3.5-flash-lite` sem erro para o usuário. A mediana de duração foi de 794 ms; no reserva, de 1.6 a 3.9 s. A nota humana de fundamentação (1 a 3) de cada caso fica no campo `notaHumanaFundamentacao`.
+
+| Nota humana de fundamentação | Casos |
+| --- | --- |
+| 3: toda afirmação apoiada nos trechos citados | 10 |
+| 2: parcialmente fundamentada | 2 (l03 e l08, ambos do `gpt-oss-20b`) |
+| 1: sem base nos trechos | 0 |
+| **Média** | **2.83** (34 de 36 pontos) |
+
+Os quatro casos respondidos pelo reserva receberam nota 3.
 
 ## 8. Latência por etapa
 
