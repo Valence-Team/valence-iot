@@ -26,7 +26,9 @@ from app.main import criar_app
 
 ROTA_VISAO = "/api/v1/visao/classificar"
 ROTA_RAG = "/api/v1/rag/consultar"
-FOTO_PADRAO = Path("dados/exemplos/tomate_requeima.jpg")
+FOTO_PADRAO = Path("dados/exemplos/milho_ferrugem_comum.jpg")
+CULTURA_PADRAO = "MILHO"
+SINTOMAS_PADRAO = "Pó cor de ferrugem nas duas faces da folha, que suja o dedo."
 TIPOS = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp"}
 
 
@@ -85,10 +87,8 @@ def executar_fluxo(cliente: TestClient, foto: Path, cultura: str, sintomas: str)
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--foto", type=Path, default=FOTO_PADRAO)
-    parser.add_argument("--cultura", default="TOMATE")
-    parser.add_argument(
-        "--sintomas", default="Mancha grande molhada e mofo branco embaixo da folha."
-    )
+    parser.add_argument("--cultura", default=CULTURA_PADRAO)
+    parser.add_argument("--sintomas", default=SINTOMAS_PADRAO)
     parser.add_argument("--sem-llm", action="store_true")
     args = parser.parse_args(argv)
 

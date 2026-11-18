@@ -67,7 +67,7 @@ def portao() -> PortaoClip:
             "CULTURA_FORA_DO_ESCOPO",
         ),
         ({CULTURAS_DO_ESCOPO: 0.35, OUTRA_PLANTA: 0.55, NAO_E_PLANTA: 0.1}, None),
-        ({CULTURAS_DO_ESCOPO: 0.3, OUTRA_PLANTA: 0.25, NAO_E_PLANTA: 0.45}, None),
+        ({CULTURAS_DO_ESCOPO: 0.33, OUTRA_PLANTA: 0.33, NAO_E_PLANTA: 0.34}, None),
     ],
 )
 def test_decide_pelo_grupo_vencedor_e_pelo_limite(probabilidades, motivo):
